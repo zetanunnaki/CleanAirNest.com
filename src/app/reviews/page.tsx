@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Product Reviews - In-Depth Air Quality Product Reviews",
   description:
     "Detailed, hands-on reviews of air purifiers, air quality monitors, humidifiers, and dehumidifiers with real-world testing data.",
+  alternates: { canonical: "https://airqualitynest.com/reviews" },
 };
 
 export default function ReviewsPage() {

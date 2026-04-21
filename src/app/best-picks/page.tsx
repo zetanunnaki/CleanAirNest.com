@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Best Picks - Top Air Quality Products",
   description:
     "Our expert-tested roundups of the best air purifiers, monitors, humidifiers, and dehumidifiers for every budget and room size.",
+  alternates: { canonical: "https://airqualitynest.com/best-picks" },
 };
 
 export default function BestPicksPage() {

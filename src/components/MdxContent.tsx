@@ -10,6 +10,9 @@ import { TableOfContents } from "./TableOfContents";
 import { FAQ } from "./FAQ";
 import { InternalLinks } from "./InternalLinks";
 import { Source } from "./Source";
+import { KeyTakeaways } from "./KeyTakeaways";
+import { QuickAnswer } from "./QuickAnswer";
+import { SourceCitation } from "./SourceCitation";
 
 function MdxTable(props: React.HTMLAttributes<HTMLTableElement>) {
   return (
@@ -30,6 +33,9 @@ const components = {
   FAQ,
   InternalLinks,
   Source,
+  KeyTakeaways,
+  QuickAnswer,
+  SourceCitation,
   table: MdxTable,
 };
 

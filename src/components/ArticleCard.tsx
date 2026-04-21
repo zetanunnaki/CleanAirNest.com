@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Calendar, ArrowUpRight } from "lucide-react";
+import { Calendar, ArrowUpRight, RefreshCw } from "lucide-react";
 import type { ArticleFrontmatter } from "@/types";
 
 interface ArticleCardProps {
@@ -66,15 +66,23 @@ export function ArticleCard({ slug, type, frontmatter, featured }: ArticleCardPr
             {frontmatter.description}
           </p>
           <div className="flex items-center justify-between text-sm">
-            <div className="flex items-center gap-1.5 text-slate-500">
-              <Calendar className="w-3.5 h-3.5" />
-              <time dateTime={frontmatter.date} className="font-light">
-                {new Date(frontmatter.date).toLocaleDateString("en-US", {
-                  month: "short",
-                  day: "numeric",
-                  year: "numeric",
-                })}
-              </time>
+            <div className="flex items-center gap-3 text-slate-500">
+              <span className="flex items-center gap-1.5">
+                <Calendar className="w-3.5 h-3.5" />
+                <time dateTime={frontmatter.date} className="font-light">
+                  {new Date(frontmatter.date).toLocaleDateString("en-US", {
+                    month: "short",
+                    day: "numeric",
+                    year: "numeric",
+                  })}
+                </time>
+              </span>
+              {frontmatter.updatedDate && (
+                <span className="flex items-center gap-1 text-accent text-xs font-medium">
+                  <RefreshCw className="w-3 h-3" />
+                  Updated
+                </span>
+              )}
             </div>
             <span className="flex items-center gap-1 text-accent font-semibold group-hover:gap-2 transition-all">
               Read <ArrowUpRight className="w-3.5 h-3.5" />

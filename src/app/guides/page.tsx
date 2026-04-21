@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Air Quality Guides - Learn About Indoor Air Quality",
   description:
     "Science-backed guides on indoor air quality, filtration technology, testing methods, and practical tips for healthier air at home.",
+  alternates: { canonical: "https://airqualitynest.com/guides" },
 };
 
 export default function GuidesPage() {

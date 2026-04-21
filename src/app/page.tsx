@@ -64,6 +64,11 @@ export default function HomePage() {
     "publisher": {
       "@type": "Organization",
       "name": "AirQualityNest"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://airqualitynest.com/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
     }
   };
 
@@ -117,7 +122,7 @@ export default function HomePage() {
               <div className="flex flex-wrap gap-6 mt-12 text-sm text-slate-500">
                 <span className="flex items-center gap-1.5">
                   <CheckCircle2 className="w-4 h-4 text-accent" />
-                  28 products tested
+                  50+ products tested
                 </span>
                 <span className="flex items-center gap-1.5">
                   <CheckCircle2 className="w-4 h-4 text-accent" />
@@ -391,7 +396,7 @@ export default function HomePage() {
                 <div className="flex items-center justify-center w-12 h-12 bg-accent/10 rounded-2xl mx-auto mb-3">
                   <Wind className="w-6 h-6 text-accent" />
                 </div>
-                <p className="text-3xl font-display font-bold text-primary">28</p>
+                <p className="text-3xl font-display font-bold text-primary">50+</p>
                 <p className="text-sm text-slate-500 mt-1">Products Tested</p>
               </div>
               <div className="card-elevated p-6 text-center">

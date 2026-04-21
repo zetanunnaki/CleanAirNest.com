@@ -1,11 +1,11 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Link from "next/link";
-import { Calendar, User, Clock } from "lucide-react";
+import Image from "next/image";
 import { getArticle, getArticleSlugs, getAllArticles } from "@/lib/articles";
 import { getReadingTime, extractFaqItems } from "@/lib/utils";
 import { MdxContent } from "@/components/MdxContent";
 import { AffiliateDisclosure } from "@/components/AffiliateDisclosure";
+import { AuthorByline } from "@/components/AuthorByline";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import { NewsletterSignup } from "@/components/NewsletterSignup";
@@ -122,24 +122,12 @@ export default async function BestPicksArticlePage({ params }: PageProps) {
             <p className="text-xl md:text-2xl text-slate-500 font-light leading-relaxed mb-10 max-w-3xl">
               {article.frontmatter.description}
             </p>
-            <div className="flex flex-wrap items-center gap-6 text-sm text-slate-500">
-              <Link href="/about/editorial-team" className="flex items-center gap-2 hover:text-accent transition-colors">
-                <User className="w-4 h-4" />
-                <span className="font-medium text-slate-600 hover:text-accent transition-colors">{article.frontmatter.author}</span>
-              </Link>
-              <span className="flex items-center gap-2">
-                <Calendar className="w-4 h-4" />
-                <time dateTime={article.frontmatter.date}>
-                  {new Date(article.frontmatter.date).toLocaleDateString("en-US", {
-                    month: "long", day: "numeric", year: "numeric",
-                  })}
-                </time>
-              </span>
-              <span className="flex items-center gap-2">
-                <Clock className="w-4 h-4" />
-                {getReadingTime(article.content)} min read
-              </span>
-            </div>
+            <AuthorByline
+              author={article.frontmatter.author}
+              date={article.frontmatter.date}
+              updatedDate={article.frontmatter.updatedDate}
+              readingTime={getReadingTime(article.content)}
+            />
             <SocialShare
               title={article.frontmatter.title}
               url={`https://airqualitynest.com/best-picks/${slug}`}
@@ -151,6 +139,16 @@ export default async function BestPicksArticlePage({ params }: PageProps) {
 
       <article className="fluid-container pb-24">
         <div className="max-w-4xl mx-auto">
+          <div className="relative aspect-[21/9] rounded-[32px] overflow-hidden mb-10">
+            <Image
+              src={article.frontmatter.featuredImage}
+              alt={article.frontmatter.title}
+              fill
+              sizes="(max-width: 768px) 100vw, 896px"
+              className="object-cover"
+              priority
+            />
+          </div>
           <AffiliateDisclosure />
           <MdxContent source={article.content} />
           <NewsletterSignup />

@@ -122,7 +122,8 @@
       "Bash(curl -s -H \"Authorization: Bearer a34ec7e113fd3f211e45fc9c44ecaabb\" \"https://api.kie.ai/api/v1/flux/kontext/status?taskId=fluxkontext_6a57dec5b3e74a8f8e86e133d181281b\")",
       "Bash(curl -s -H \"Authorization: Bearer a34ec7e113fd3f211e45fc9c44ecaabb\" \"https://api.kie.ai/api/v1/flux/kontext/result?taskId=fluxkontext_6a57dec5b3e74a8f8e86e133d181281b\")",
       "Bash(curl -s -H \"Authorization: Bearer a34ec7e113fd3f211e45fc9c44ecaabb\" \"https://api.kie.ai/api/v1/flux/kontext/task/fluxkontext_6a57dec5b3e74a8f8e86e133d181281b\")",
-      "Bash(curl -s -H \"Authorization: Bearer a34ec7e113fd3f211e45fc9c44ecaabb\" \"https://api.kie.ai/api/v1/flux/kontext/record-info?taskId=fluxkontext_6a57dec5b3e74a8f8e86e133d181281b\")"
+      "Bash(curl -s -H \"Authorization: Bearer a34ec7e113fd3f211e45fc9c44ecaabb\" \"https://api.kie.ai/api/v1/flux/kontext/record-info?taskId=fluxkontext_6a57dec5b3e74a8f8e86e133d181281b\")",
+      "Bash(git config *)"
     ],
     "additionalDirectories": [
       "c:\\Users\\Issam\\CleanAirNest.com\\src\\app\\best-picks"
