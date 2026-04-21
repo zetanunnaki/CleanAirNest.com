@@ -78,7 +78,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${outfit.variable} ${playfairDisplay.variable}`}>
-      <head>
+      <body className="min-h-screen flex flex-col">
         {GA_MEASUREMENT_ID && (
           <>
             <Script
@@ -95,8 +95,6 @@ export default function RootLayout({
             </Script>
           </>
         )}
-      </head>
-      <body className="min-h-screen flex flex-col">
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:z-[200] focus:top-4 focus:left-4 focus:px-6 focus:py-3 focus:bg-accent focus:text-white focus:rounded-xl focus:text-sm focus:font-semibold focus:shadow-lg focus:outline-none"

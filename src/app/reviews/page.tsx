@@ -71,18 +71,18 @@ export default function ReviewsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-    <div className="fluid-container py-16 md:py-24">
-      <header className="max-w-3xl mb-16">
-        <div className="flex items-center gap-3 mb-6">
-          <div className="w-12 h-12 bg-accent/10 rounded-2xl flex items-center justify-center">
-            <Search className="w-6 h-6 text-accent" />
+    <div className="fluid-container py-14 md:py-20">
+      <header className="max-w-3xl mb-14">
+        <div className="flex items-center gap-2.5 mb-5">
+          <div className="w-10 h-10 bg-accent/8 rounded-xl flex items-center justify-center">
+            <Search className="w-5 h-5 text-accent" />
           </div>
-          <span className="text-sm font-bold uppercase tracking-widest text-accent">In-Depth</span>
+          <span className="text-xs font-bold uppercase tracking-[0.15em] text-accent">In-Depth</span>
         </div>
-        <h1 className="text-4xl md:text-5xl font-display font-bold tracking-tighter text-primary mb-4">
+        <h1 className="text-[clamp(1.75rem,4vw,3rem)] font-display font-bold tracking-tight text-primary mb-4">
           Product Reviews
         </h1>
-        <p className="text-xl text-slate-500 font-light leading-relaxed">
+        <p className="text-lg text-slate-500 font-light leading-relaxed">
           Hands-on reviews with real-world testing data. We measure
           actual performance so you know exactly what you&apos;re getting.
         </p>

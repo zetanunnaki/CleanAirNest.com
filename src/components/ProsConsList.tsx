@@ -1,5 +1,5 @@
 import { getProduct } from "@/lib/products";
-import { ThumbsUp, ThumbsDown } from "lucide-react";
+import { Check, X } from "lucide-react";
 
 interface ProsConsListProps {
   productId: string;
@@ -10,36 +10,36 @@ export function ProsConsList({ productId }: ProsConsListProps) {
   if (!product) return null;
 
   return (
-    <div className="my-10 grid grid-cols-1 md:grid-cols-2 gap-5">
-      <div className="bg-emerald-50/60 border border-emerald-100 rounded-[24px] p-8">
-        <div className="flex items-center gap-3 mb-5">
-          <div className="w-10 h-10 bg-emerald-500 rounded-xl flex items-center justify-center">
-            <ThumbsUp className="w-5 h-5 text-white" />
+    <div className="my-10 grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="bg-emerald-50/50 border border-emerald-100/80 rounded-2xl p-6">
+        <div className="flex items-center gap-2.5 mb-4">
+          <div className="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center">
+            <Check className="w-4 h-4 text-white" strokeWidth={3} />
           </div>
-          <h4 className="font-display font-bold text-lg text-emerald-900">What We Like</h4>
+          <h4 className="font-display font-bold text-base text-emerald-900">What We Like</h4>
         </div>
-        <ul className="space-y-3">
+        <ul className="space-y-2.5">
           {product.pros.map((pro, i) => (
-            <li key={i} className="flex items-start gap-3 text-base">
-              <span className="text-emerald-500 mt-1 font-bold">+</span>
-              <span className="text-slate-700 font-light">{pro}</span>
+            <li key={i} className="flex items-start gap-2.5 text-sm">
+              <span className="text-emerald-500 mt-0.5 font-bold text-xs">+</span>
+              <span className="text-slate-700 font-light leading-relaxed">{pro}</span>
             </li>
           ))}
         </ul>
       </div>
 
-      <div className="bg-red-50/60 border border-red-100 rounded-[24px] p-8">
-        <div className="flex items-center gap-3 mb-5">
-          <div className="w-10 h-10 bg-red-500 rounded-xl flex items-center justify-center">
-            <ThumbsDown className="w-5 h-5 text-white" />
+      <div className="bg-red-50/50 border border-red-100/80 rounded-2xl p-6">
+        <div className="flex items-center gap-2.5 mb-4">
+          <div className="w-8 h-8 bg-red-500 rounded-lg flex items-center justify-center">
+            <X className="w-4 h-4 text-white" strokeWidth={3} />
           </div>
-          <h4 className="font-display font-bold text-lg text-red-900">Could Be Better</h4>
+          <h4 className="font-display font-bold text-base text-red-900">Could Be Better</h4>
         </div>
-        <ul className="space-y-3">
+        <ul className="space-y-2.5">
           {product.cons.map((con, i) => (
-            <li key={i} className="flex items-start gap-3 text-base">
-              <span className="text-red-500 mt-1 font-bold">&minus;</span>
-              <span className="text-slate-700 font-light">{con}</span>
+            <li key={i} className="flex items-start gap-2.5 text-sm">
+              <span className="text-red-500 mt-0.5 font-bold text-xs">&minus;</span>
+              <span className="text-slate-700 font-light leading-relaxed">{con}</span>
             </li>
           ))}
         </ul>

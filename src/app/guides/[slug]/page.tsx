@@ -100,23 +100,26 @@ export default async function GuideArticlePage({ params }: PageProps) {
       )}
 
       <header className="relative overflow-hidden">
-        <div className="absolute inset-0 air-glow"></div>
-        <div className="fluid-container py-16 md:py-24 relative z-10">
+        <div className="absolute inset-0 gradient-mesh-hero" />
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute top-1/3 right-[15%] w-72 h-72 bg-emerald-400/8 rounded-full blur-[80px]" />
+        </div>
+        <div className="fluid-container py-14 md:py-20 relative z-10">
           <div className="max-w-4xl mx-auto">
             <Breadcrumbs items={[
               { label: "Guides", href: "/guides" },
               { label: article.frontmatter.title },
             ]} />
-            <div className="flex items-center gap-3 mb-8">
-              <span className="bg-accent/10 text-accent text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full flex items-center gap-2">
-                <BookOpen className="w-3.5 h-3.5" />
+            <div className="flex items-center gap-2 mb-6">
+              <span className="badge-accent flex items-center gap-1.5">
+                <BookOpen className="w-3 h-3" />
                 Guide
               </span>
             </div>
-            <h1 className="text-4xl md:text-6xl font-display font-bold tracking-tighter text-primary mb-6 leading-[1.05]">
+            <h1 className="text-[clamp(1.75rem,4vw,3.25rem)] font-display font-bold tracking-tight text-primary mb-5 leading-[1.08]">
               {article.frontmatter.title}
             </h1>
-            <p className="text-xl md:text-2xl text-slate-500 font-light leading-relaxed mb-10 max-w-3xl">
+            <p className="text-lg md:text-xl text-slate-500 font-light leading-relaxed mb-8 max-w-3xl">
               {article.frontmatter.description}
             </p>
             <AuthorByline
@@ -136,7 +139,7 @@ export default async function GuideArticlePage({ params }: PageProps) {
 
       <article className="fluid-container pb-24">
         <div className="max-w-4xl mx-auto">
-          <div className="relative aspect-[21/9] rounded-[32px] overflow-hidden mb-10">
+          <div className="relative aspect-[21/9] rounded-3xl overflow-hidden mb-10 shadow-lg">
             <Image
               src={article.frontmatter.featuredImage}
               alt={article.frontmatter.title}

@@ -2,9 +2,9 @@ import { Info } from "lucide-react";
 
 export function AffiliateDisclosure() {
   return (
-    <div className="bg-accent/[0.04] border border-accent/20 rounded-[24px] p-6 my-10 flex items-start gap-4">
-      <div className="w-10 h-10 bg-accent/10 rounded-xl flex items-center justify-center flex-shrink-0">
-        <Info className="w-5 h-5 text-accent" />
+    <div className="bg-accent/[0.04] border border-accent/12 rounded-2xl p-5 my-10 flex items-start gap-3.5">
+      <div className="w-8 h-8 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+        <Info className="w-4 h-4 text-accent" />
       </div>
       <p className="text-sm text-slate-600 leading-relaxed">
         <strong className="text-slate-800 font-semibold">Affiliate Disclosure:</strong>{" "}
