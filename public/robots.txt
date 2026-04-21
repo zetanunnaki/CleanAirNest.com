@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://airqualitynest.com/sitemap.xml
+Feed: https://airqualitynest.com/feed.xml
