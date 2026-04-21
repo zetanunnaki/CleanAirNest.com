@@ -4,7 +4,7 @@
     "brand": "Coway",
     "category": "Air Purifiers",
     "price": "$229.00",
-    "image": "/images/products/coway-airmega-ap1512hh.jpg",
+    "image": "/images/products/coway-airmega-ap1512hh.webp",
     "specs": {
       "coverage": "361 sq. ft.",
       "filterType": "True HEPA + Carbon",
@@ -25,7 +25,7 @@
     "brand": "Levoit",
     "category": "Air Purifiers",
     "price": "$219.99",
-    "image": "/images/products/levoit-core-400s.jpg",
+    "image": "/images/products/levoit-core-400s.webp",
     "specs": {
       "coverage": "403 sq. ft.",
       "filterType": "True HEPA H13 + Carbon",
@@ -46,7 +46,7 @@
     "brand": "Blueair",
     "category": "Air Purifiers",
     "price": "$299.99",
-    "image": "/images/products/blueair-blue-pure-211.jpg",
+    "image": "/images/products/blueair-blue-pure-211.webp",
     "specs": {
       "coverage": "540 sq. ft.",
       "filterType": "HEPASilent + Carbon",
@@ -66,7 +66,7 @@
     "brand": "Dyson",
     "category": "Air Purifiers",
     "price": "$579.99",
-    "image": "/images/products/dyson-purifier-big-quiet.jpg",
+    "image": "/images/products/dyson-purifier-big-quiet.webp",
     "specs": {
       "coverage": "1076 sq. ft.",
       "filterType": "HEPA H13 + Catalytic Oxidation",
@@ -86,7 +86,7 @@
     "brand": "Winix",
     "category": "Air Purifiers",
     "price": "$159.99",
-    "image": "/images/products/winix-5500-2.jpg",
+    "image": "/images/products/winix-5500-2.webp",
     "specs": {
       "coverage": "360 sq. ft.",
       "filterType": "True HEPA + PlasmaWave + Carbon",
@@ -106,7 +106,7 @@
     "brand": "Levoit",
     "category": "Air Purifiers",
     "price": "$99.99",
-    "image": "/images/products/levoit-core-300.jpg",
+    "image": "/images/products/levoit-core-300.webp",
     "specs": {
       "coverage": "219 sq. ft.",
       "filterType": "True HEPA H13 + Carbon",
@@ -126,7 +126,7 @@
     "brand": "Honeywell",
     "category": "Air Purifiers",
     "price": "$249.99",
-    "image": "/images/products/honeywell-hpa300.jpg",
+    "image": "/images/products/honeywell-hpa300.webp",
     "specs": {
       "coverage": "465 sq. ft.",
       "filterType": "True HEPA + Carbon Pre-filter",
@@ -146,7 +146,7 @@
     "brand": "Airthings",
     "category": "Air Quality Monitors",
     "price": "$299.00",
-    "image": "/images/products/airthings-view-plus.jpg",
+    "image": "/images/products/airthings-view-plus.webp",
     "specs": {
       "coverage": "Whole home",
       "sensors": "Radon, PM2.5, CO2, VOCs, Humidity, Temp, Pressure",
@@ -164,7 +164,7 @@
     "brand": "Amazon",
     "category": "Air Quality Monitors",
     "price": "$69.99",
-    "image": "/images/products/amazon-air-quality-monitor.jpg",
+    "image": "/images/products/amazon-air-quality-monitor.webp",
     "specs": {
       "coverage": "Single room",
       "sensors": "PM2.5, VOCs, CO, Humidity, Temp",
@@ -182,7 +182,7 @@
     "brand": "Awair",
     "category": "Air Quality Monitors",
     "price": "$189.00",
-    "image": "/images/products/awair-element.jpg",
+    "image": "/images/products/awair-element.webp",
     "specs": {
       "coverage": "Single room",
       "sensors": "PM2.5, CO2, VOCs, Humidity, Temp",
@@ -200,7 +200,7 @@
     "brand": "Levoit",
     "category": "Humidifiers",
     "price": "$89.99",
-    "image": "/images/products/levoit-lv600s.jpg",
+    "image": "/images/products/levoit-lv600s.webp",
     "specs": {
       "coverage": "753 sq. ft.",
       "tankSize": "1.5 gallons",
@@ -218,7 +218,7 @@
     "brand": "Honeywell",
     "category": "Humidifiers",
     "price": "$84.99",
-    "image": "/images/products/honeywell-hev685w.jpg",
+    "image": "/images/products/honeywell-hev685w.webp",
     "specs": {
       "coverage": "500 sq. ft.",
       "tankSize": "1.5 gallons",
@@ -238,7 +238,7 @@
     "brand": "Dreo",
     "category": "Humidifiers",
     "price": "$79.99",
-    "image": "/images/products/dreo-oversized-6l.jpg",
+    "image": "/images/products/dreo-oversized-6l.webp",
     "specs": {
       "coverage": "560 sq. ft.",
       "tankSize": "1.6 gallons",
@@ -256,7 +256,7 @@
     "brand": "Frigidaire",
     "category": "Dehumidifiers",
     "price": "$249.99",
-    "image": "/images/products/frigidaire-ffad5033w1.jpg",
+    "image": "/images/products/frigidaire-ffad5033w1.webp",
     "specs": {
       "coverage": "1,500 sq. ft.",
       "capacity": "50 pints/day",
@@ -274,7 +274,7 @@
     "brand": "Midea",
     "category": "Dehumidifiers",
     "price": "$159.99",
-    "image": "/images/products/midea-20-pint.jpg",
+    "image": "/images/products/midea-20-pint.webp",
     "specs": {
       "coverage": "1,500 sq. ft.",
       "capacity": "20 pints/day",
@@ -292,7 +292,7 @@
     "brand": "GE",
     "category": "Dehumidifiers",
     "price": "$279.00",
-    "image": "/images/products/ge-adel45ly.jpg",
+    "image": "/images/products/ge-adel45ly.webp",
     "specs": {
       "coverage": "2,500 sq. ft.",
       "capacity": "45 pints/day",
@@ -310,7 +310,7 @@
     "brand": "IQAir",
     "category": "Air Purifiers",
     "price": "$899.00",
-    "image": "/images/products/iqair-healthpro-plus.jpg",
+    "image": "/images/products/iqair-healthpro-plus.webp",
     "specs": {
       "coverage": "1,125 sq. ft.",
       "filterType": "HyperHEPA (H12/H13) + V5-Cell Gas & Odor",
@@ -330,7 +330,7 @@
     "brand": "Molekule",
     "category": "Air Purifiers",
     "price": "$399.99",
-    "image": "/images/products/molekule-air-mini-plus.jpg",
+    "image": "/images/products/molekule-air-mini-plus.webp",
     "specs": {
       "coverage": "250 sq. ft.",
       "filterType": "PECO + HEPA Tri-Power",
@@ -350,7 +350,7 @@
     "brand": "Rabbit Air",
     "category": "Air Purifiers",
     "price": "$549.95",
-    "image": "/images/products/rabbit-air-minusa2.jpg",
+    "image": "/images/products/rabbit-air-minusa2.webp",
     "specs": {
       "coverage": "815 sq. ft.",
       "filterType": "True HEPA + Customizable Filter",
@@ -370,7 +370,7 @@
     "brand": "Medify",
     "category": "Air Purifiers",
     "price": "$349.99",
-    "image": "/images/products/medify-ma40.jpg",
+    "image": "/images/products/medify-ma40.webp",
     "specs": {
       "coverage": "840 sq. ft.",
       "filterType": "True HEPA H13 + Carbon + Pre-filter",
@@ -390,7 +390,7 @@
     "brand": "hOmeLabs",
     "category": "Dehumidifiers",
     "price": "$259.97",
-    "image": "/images/products/homelabs-4500.jpg",
+    "image": "/images/products/homelabs-4500.webp",
     "specs": {
       "coverage": "4,500 sq. ft.",
       "capacity": "50 pints/day",
@@ -408,7 +408,7 @@
     "brand": "Canopy",
     "category": "Humidifiers",
     "price": "$149.99",
-    "image": "/images/products/canopy-humidifier.jpg",
+    "image": "/images/products/canopy-humidifier.webp",
     "specs": {
       "coverage": "500 sq. ft.",
       "tankSize": "2.5 liters",
@@ -428,7 +428,7 @@
     "brand": "Alen",
     "category": "Air Purifiers",
     "price": "$329.00",
-    "image": "/images/products/alen-breathesmart-45i.jpg",
+    "image": "/images/products/alen-breathesmart-45i.webp",
     "specs": {
       "coverage": "800 sq. ft.",
       "filterType": "True HEPA + Fresh (antimicrobial) or Heavy Odor",
@@ -448,7 +448,7 @@
     "brand": "Coway",
     "category": "Air Purifiers",
     "price": "$499.99",
-    "image": "/images/products/coway-airmega-400.jpg",
+    "image": "/images/products/coway-airmega-400.webp",
     "specs": {
       "coverage": "1,560 sq. ft.",
       "filterType": "Dual True HEPA + Carbon",
@@ -469,7 +469,7 @@
     "brand": "Hathaspace",
     "category": "Air Purifiers",
     "price": "$129.99",
-    "image": "/images/products/hathaspace-hsp001.jpg",
+    "image": "/images/products/hathaspace-hsp001.webp",
     "specs": {
       "coverage": "350 sq. ft.",
       "filterType": "True HEPA H11 + Carbon + Ionizer",
@@ -489,7 +489,7 @@
     "brand": "Temtop",
     "category": "Air Quality Monitors",
     "price": "$89.99",
-    "image": "/images/products/temtop-m10.jpg",
+    "image": "/images/products/temtop-m10.webp",
     "specs": {
       "coverage": "Single room",
       "sensors": "PM2.5, AQI, HCHO (Formaldehyde)",
@@ -507,7 +507,7 @@
     "brand": "Vornado",
     "category": "Humidifiers",
     "price": "$99.99",
-    "image": "/images/products/vornado-evdc300.jpg",
+    "image": "/images/products/vornado-evdc300.webp",
     "specs": {
       "coverage": "600 sq. ft.",
       "tankSize": "1 gallon",
@@ -527,7 +527,7 @@
     "brand": "Austin Air",
     "category": "Air Purifiers",
     "price": "$714.99",
-    "image": "/images/products/austin-air-healthmate.jpg",
+    "image": "/images/products/austin-air-healthmate.webp",
     "specs": {
       "coverage": "1,500 sq. ft.",
       "filterType": "True HEPA + 15 lbs Activated Carbon/Zeolite",
@@ -547,7 +547,7 @@
     "brand": "Bissell",
     "category": "Air Purifiers",
     "price": "$274.99",
-    "image": "/images/products/bissell-air320.jpg",
+    "image": "/images/products/bissell-air320.webp",
     "specs": {
       "coverage": "1,000 sq. ft.",
       "filterType": "3-Stage HEPA + Carbon + Fabric Pre-filter",
@@ -567,7 +567,7 @@
     "brand": "Shark",
     "category": "Air Purifiers",
     "price": "$349.99",
-    "image": "/images/products/shark-air-purifier-6.jpg",
+    "image": "/images/products/shark-air-purifier-6.webp",
     "specs": {
       "coverage": "1,200 sq. ft.",
       "filterType": "Anti-Allergen HEPA + Nanoseal",
@@ -587,7 +587,7 @@
     "brand": "GermGuardian",
     "category": "Air Purifiers",
     "price": "$149.99",
-    "image": "/images/products/germguardian-ac5250pt.jpg",
+    "image": "/images/products/germguardian-ac5250pt.webp",
     "specs": {
       "coverage": "167 sq. ft.",
       "filterType": "True HEPA + Carbon + UV-C",
@@ -607,7 +607,7 @@
     "brand": "Blueair",
     "category": "Air Purifiers",
     "price": "$599.99",
-    "image": "/images/products/blueair-classic-605.jpg",
+    "image": "/images/products/blueair-classic-605.webp",
     "specs": {
       "coverage": "775 sq. ft.",
       "filterType": "HEPASilent + DualProtection Carbon",
@@ -627,7 +627,7 @@
     "brand": "Levoit",
     "category": "Air Purifiers",
     "price": "$89.99",
-    "image": "/images/products/levoit-vital-200s.jpg",
+    "image": "/images/products/levoit-vital-200s.webp",
     "specs": {
       "coverage": "380 sq. ft.",
       "filterType": "True HEPA H13 + Carbon + Pre-filter",
@@ -647,7 +647,7 @@
     "brand": "Samsung",
     "category": "Air Purifiers",
     "price": "$599.99",
-    "image": "/images/products/samsung-bespoke-cube.jpg",
+    "image": "/images/products/samsung-bespoke-cube.webp",
     "specs": {
       "coverage": "800 sq. ft.",
       "filterType": "HEPA + Carbon Deodorization + Virus Doctor",
@@ -667,7 +667,7 @@
     "brand": "Winix",
     "category": "Air Purifiers",
     "price": "$199.99",
-    "image": "/images/products/winix-am90.jpg",
+    "image": "/images/products/winix-am90.webp",
     "specs": {
       "coverage": "400 sq. ft.",
       "filterType": "True HEPA + PlasmaWave + Carbon",
@@ -687,7 +687,7 @@
     "brand": "Dyson",
     "category": "Air Purifiers",
     "price": "$569.99",
-    "image": "/images/products/dyson-purifier-cool-tp07.jpg",
+    "image": "/images/products/dyson-purifier-cool-tp07.webp",
     "specs": {
       "coverage": "800 sq. ft.",
       "filterType": "HEPA H13 + Activated Carbon",
@@ -707,7 +707,7 @@
     "brand": "IQAir",
     "category": "Air Quality Monitors",
     "price": "$499.00",
-    "image": "/images/products/iqair-airvisual-pro.jpg",
+    "image": "/images/products/iqair-airvisual-pro.webp",
     "specs": {
       "coverage": "Whole home + outdoor",
       "sensors": "PM2.5, CO2, AQI, Humidity, Temp",
@@ -725,7 +725,7 @@
     "brand": "uHoo",
     "category": "Air Quality Monitors",
     "price": "$329.00",
-    "image": "/images/products/uhoo-aura.jpg",
+    "image": "/images/products/uhoo-aura.webp",
     "specs": {
       "coverage": "Single room",
       "sensors": "PM2.5, PM1, PM10, CO2, TVOC, CO, NO2, O3, Temp, Humidity, Air Pressure",
@@ -743,7 +743,7 @@
     "brand": "PurpleAir",
     "category": "Air Quality Monitors",
     "price": "$229.00",
-    "image": "/images/products/purpleair-flex.jpg",
+    "image": "/images/products/purpleair-flex.webp",
     "specs": {
       "coverage": "Indoor + Outdoor",
       "sensors": "PM1, PM2.5, PM10, Temp, Humidity, Air Pressure",
@@ -761,7 +761,7 @@
     "brand": "Aranet",
     "category": "Air Quality Monitors",
     "price": "$249.00",
-    "image": "/images/products/aranet4-home.jpg",
+    "image": "/images/products/aranet4-home.webp",
     "specs": {
       "coverage": "Single room",
       "sensors": "CO2, Temp, Humidity, Air Pressure",
@@ -779,7 +779,7 @@
     "brand": "Dyson",
     "category": "Humidifiers",
     "price": "$819.99",
-    "image": "/images/products/dyson-ph04.jpg",
+    "image": "/images/products/dyson-ph04.webp",
     "specs": {
       "coverage": "1,000 sq. ft. (purifier) / 750 sq. ft. (humidifier)",
       "tankSize": "1 gallon",
@@ -799,7 +799,7 @@
     "brand": "AquaOasis",
     "category": "Humidifiers",
     "price": "$29.99",
-    "image": "/images/products/aquaoasis-cool-mist.jpg",
+    "image": "/images/products/aquaoasis-cool-mist.webp",
     "specs": {
       "coverage": "250 sq. ft.",
       "tankSize": "2.2 liters",
@@ -817,7 +817,7 @@
     "brand": "AIRCARE",
     "category": "Humidifiers",
     "price": "$189.99",
-    "image": "/images/products/aircare-ma1201.jpg",
+    "image": "/images/products/aircare-ma1201.webp",
     "specs": {
       "coverage": "3,600 sq. ft.",
       "tankSize": "3.6 gallons",
@@ -837,7 +837,7 @@
     "brand": "Pure Enrichment",
     "category": "Humidifiers",
     "price": "$39.99",
-    "image": "/images/products/pure-enrichment-mistaire.jpg",
+    "image": "/images/products/pure-enrichment-mistaire.webp",
     "specs": {
       "coverage": "250 sq. ft.",
       "tankSize": "1.5 liters",
@@ -855,7 +855,7 @@
     "brand": "Hey Dewy",
     "category": "Humidifiers",
     "price": "$39.00",
-    "image": "/images/products/hey-dewy-humidifier.jpg",
+    "image": "/images/products/hey-dewy-humidifier.webp",
     "specs": {
       "coverage": "150 sq. ft.",
       "tankSize": "600 ml",
@@ -873,7 +873,7 @@
     "brand": "Tosot",
     "category": "Dehumidifiers",
     "price": "$229.99",
-    "image": "/images/products/tosot-50-pint.jpg",
+    "image": "/images/products/tosot-50-pint.webp",
     "specs": {
       "coverage": "4,500 sq. ft.",
       "capacity": "50 pints/day",
@@ -891,7 +891,7 @@
     "brand": "LG",
     "category": "Dehumidifiers",
     "price": "$299.99",
-    "image": "/images/products/lg-puricare-dehumidifier.jpg",
+    "image": "/images/products/lg-puricare-dehumidifier.webp",
     "specs": {
       "coverage": "2,000 sq. ft.",
       "capacity": "50 pints/day",
@@ -909,7 +909,7 @@
     "brand": "Keystone",
     "category": "Dehumidifiers",
     "price": "$219.99",
-    "image": "/images/products/keystone-kstad50b.jpg",
+    "image": "/images/products/keystone-kstad50b.webp",
     "specs": {
       "coverage": "3,000 sq. ft.",
       "capacity": "50 pints/day",
@@ -927,7 +927,7 @@
     "brand": "Vremi",
     "category": "Dehumidifiers",
     "price": "$249.99",
-    "image": "/images/products/vremi-50-pint.jpg",
+    "image": "/images/products/vremi-50-pint.webp",
     "specs": {
       "coverage": "4,500 sq. ft.",
       "capacity": "50 pints/day",
@@ -945,7 +945,7 @@
     "brand": "Hisense",
     "category": "Dehumidifiers",
     "price": "$329.99",
-    "image": "/images/products/hisense-70-pint.jpg",
+    "image": "/images/products/hisense-70-pint.webp",
     "specs": {
       "coverage": "5,000 sq. ft.",
       "capacity": "70 pints/day",

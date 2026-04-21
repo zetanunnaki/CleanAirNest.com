@@ -40,6 +40,14 @@
   ::selection {
     background: rgba(13, 148, 136, 0.2);
   }
+
+  img {
+    content-visibility: auto;
+  }
+
+  .contain-layout {
+    contain: layout style;
+  }
 }
 
 @layer components {
