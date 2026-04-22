@@ -61,7 +61,7 @@ function MobileNav() {
           <Menu className="w-5 h-5 text-slate-600 group-open:hidden" aria-hidden="true" />
           <X className="w-5 h-5 text-slate-600 hidden group-open:block" aria-hidden="true" />
         </summary>
-        <nav className="absolute right-0 top-full mt-2 w-64 glass border border-slate-200/50 rounded-2xl shadow-2xl shadow-slate-200/50 py-2 z-50 overflow-hidden animate-scale-in">
+        <nav className="absolute right-0 top-full mt-2 w-[calc(100vw-2rem)] sm:w-64 max-w-[280px] glass border border-slate-200/50 rounded-2xl shadow-2xl shadow-slate-200/50 py-2 z-50 overflow-hidden animate-scale-in">
           {navLinks.map((link) => (
             <Link
               key={link.href}

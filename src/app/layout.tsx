@@ -39,14 +39,14 @@ export const metadata: Metadata = {
     locale: "en_US",
     title: "AirQualityNest - Expert Air Quality Reviews & Guides",
     description:
-      "Lab-tested reviews and science-backed guides for air purifiers, monitors, humidifiers, and dehumidifiers.",
+      "In-depth reviews and buying guides for air purifiers, monitors, humidifiers, and dehumidifiers.",
     url: "https://airqualitynest.com",
   },
   twitter: {
     card: "summary_large_image",
     title: "AirQualityNest",
     description:
-      "Lab-tested reviews and science-backed guides for air purifiers, monitors, humidifiers, and dehumidifiers.",
+      "In-depth reviews and buying guides for air purifiers, monitors, humidifiers, and dehumidifiers.",
   },
   robots: {
     index: true,

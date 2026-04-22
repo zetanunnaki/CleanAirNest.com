@@ -70,7 +70,7 @@
 
 @layer components {
   .fluid-container {
-    @apply max-w-[1400px] mx-auto px-5 sm:px-8 md:px-12 lg:px-16;
+    @apply max-w-[1400px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16;
   }
 
   /* === GLASS SYSTEM === */
@@ -358,19 +358,19 @@
     @apply max-w-none;
   }
   .prose-elevated h2 {
-    @apply font-display text-3xl md:text-4xl font-bold mt-20 mb-8 tracking-tight text-slate-900;
+    @apply font-display text-2xl sm:text-3xl md:text-4xl font-bold mt-14 sm:mt-20 mb-6 sm:mb-8 tracking-tight text-slate-900;
   }
   .prose-elevated h3 {
-    @apply font-display text-xl md:text-2xl font-bold mt-14 mb-6 tracking-tight text-slate-900;
+    @apply font-display text-lg sm:text-xl md:text-2xl font-bold mt-10 sm:mt-14 mb-4 sm:mb-6 tracking-tight text-slate-900;
   }
   .prose-elevated p {
-    @apply text-lg md:text-xl leading-[1.8] text-slate-600 mb-8 font-light;
+    @apply text-base sm:text-lg md:text-xl leading-[1.8] text-slate-600 mb-6 sm:mb-8 font-light;
   }
   .prose-elevated .lead {
-    @apply text-xl md:text-2xl text-slate-800 font-normal leading-relaxed mb-16;
+    @apply text-lg sm:text-xl md:text-2xl text-slate-800 font-normal leading-relaxed mb-10 sm:mb-16;
   }
   .prose-elevated ul, .prose-elevated ol {
-    @apply text-lg md:text-xl text-slate-600 mb-8 font-light space-y-3 pl-6;
+    @apply text-base sm:text-lg md:text-xl text-slate-600 mb-6 sm:mb-8 font-light space-y-3 pl-5 sm:pl-6;
   }
   .prose-elevated li {
     @apply leading-[1.8];
@@ -379,7 +379,7 @@
     @apply text-accent-dark underline underline-offset-4 decoration-accent/30 hover:decoration-accent hover:text-accent transition-colors;
   }
   .prose-elevated blockquote {
-    @apply border-l-4 border-accent/40 pl-8 py-3 italic font-serif text-xl md:text-2xl text-slate-700 my-12 bg-accent/[0.03] rounded-r-2xl pr-6;
+    @apply border-l-4 border-accent/40 pl-5 sm:pl-8 py-3 italic font-serif text-lg sm:text-xl md:text-2xl text-slate-700 my-8 sm:my-12 bg-accent/[0.03] rounded-r-2xl pr-4 sm:pr-6;
   }
   .prose-elevated img {
     @apply rounded-3xl my-8;
@@ -390,10 +390,10 @@
 
   /* === MDX TABLE === */
   .mdx-table-wrapper {
-    @apply my-10 -mx-5 px-5 md:mx-0 md:px-0 overflow-x-auto;
+    @apply my-8 sm:my-10 -mx-4 px-4 md:mx-0 md:px-0 overflow-x-auto;
   }
   .mdx-table-wrapper table {
-    @apply w-full text-base border-collapse min-w-[480px];
+    @apply w-full text-sm sm:text-base border-collapse min-w-[420px];
   }
   .mdx-table-wrapper thead {
     @apply sticky top-0 z-10;
@@ -402,7 +402,7 @@
     background: linear-gradient(135deg, #020617, #1e293b);
   }
   .mdx-table-wrapper th {
-    @apply text-left px-5 py-4 text-white text-sm font-display font-bold uppercase tracking-wider;
+    @apply text-left px-3 sm:px-5 py-3 sm:py-4 text-white text-xs sm:text-sm font-display font-bold uppercase tracking-wider;
   }
   .mdx-table-wrapper th:first-child {
     @apply rounded-tl-2xl;
@@ -420,7 +420,7 @@
     @apply bg-slate-50/60;
   }
   .mdx-table-wrapper td {
-    @apply px-5 py-4 border-b border-slate-100 text-slate-600 text-[15px] leading-relaxed;
+    @apply px-3 sm:px-5 py-3 sm:py-4 border-b border-slate-100 text-slate-600 text-xs sm:text-[15px] leading-relaxed;
   }
   .mdx-table-wrapper td:first-child {
     @apply font-semibold text-slate-900;

@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Wind } from "lucide-react";
-import { NewsletterSignup } from "./NewsletterSignup";
 
 export function Footer() {
   return (
@@ -14,25 +13,9 @@ export function Footer() {
       <div className="absolute top-40 right-[10%] w-96 h-96 bg-accent/5 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-20 left-[5%] w-72 h-72 bg-cyan-400/5 rounded-full blur-[100px] pointer-events-none" />
 
-      <div className="fluid-container pt-32 pb-12 border-b border-white/[0.06] relative">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-          <div>
-            <h2 className="text-2xl md:text-3xl font-display font-bold tracking-tight text-white mb-3">
-              Stay in the know
-            </h2>
-            <p className="text-slate-400 font-light leading-relaxed max-w-md">
-              Independent air quality insights delivered weekly — no fluff, no spam.
-            </p>
-          </div>
-          <div className="md:flex md:justify-end">
-            <NewsletterSignup variant="footer" />
-          </div>
-        </div>
-      </div>
-
-      <div className="fluid-container py-16">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
-          <div className="md:col-span-5">
+      <div className="fluid-container py-10 sm:py-16 pt-24 sm:pt-32">
+        <div className="grid grid-cols-2 md:grid-cols-12 gap-8 sm:gap-12">
+          <div className="col-span-2 md:col-span-5">
             <div className="flex items-center gap-2.5 mb-5">
               <div className="w-9 h-9 bg-gradient-to-br from-accent to-cyan-500 rounded-xl flex items-center justify-center">
                 <Wind className="w-[18px] h-[18px] text-white" />
@@ -41,9 +24,9 @@ export function Footer() {
                 AirQualityNest
               </span>
             </div>
-            <p className="text-slate-400 text-base font-light leading-relaxed max-w-sm mb-6">
-              Independent, lab-backed reviews of air quality products. We buy
-              every product we test. No sponsored content, ever.
+            <p className="text-slate-400 text-sm sm:text-base font-light leading-relaxed max-w-sm mb-6">
+              Independent reviews and buying guides for air quality products.
+              Based on real customer feedback. No sponsored content, ever.
             </p>
             <div className="flex items-center gap-3">
               {[
@@ -101,14 +84,23 @@ export function Footer() {
           ))}
         </div>
 
-        <div className="border-t border-white/[0.06] mt-14 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500">
-          <p className="text-xs">
-            &copy; {new Date().getFullYear()} AirQualityNest. All rights reserved.
+        <div className="border-t border-white/[0.06] mt-14 pt-8 space-y-4">
+          <p className="text-[11px] text-slate-500 font-light leading-relaxed max-w-3xl">
+            <strong className="text-slate-400 font-medium">Affiliate Disclosure:</strong> AirQualityNest
+            is a participant in the Amazon Services LLC Associates Program, an affiliate advertising
+            program designed to provide a means for sites to earn advertising fees by advertising and
+            linking to Amazon.com. When you buy through links on our site, we may earn an affiliate
+            commission at no extra cost to you.
           </p>
-          <div className="flex items-center gap-5 text-xs font-light">
-            <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy</Link>
-            <Link href="/terms" className="hover:text-white transition-colors">Terms</Link>
-            <span className="text-slate-600">Amazon Associate</span>
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-slate-500">
+            <p className="text-xs">
+              &copy; {new Date().getFullYear()} AirQualityNest. All rights reserved.
+            </p>
+            <div className="flex items-center gap-5 text-xs font-light">
+              <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy</Link>
+              <Link href="/terms" className="hover:text-white transition-colors">Terms</Link>
+              <Link href="/about#affiliate-disclosure" className="hover:text-white transition-colors">Affiliate Disclosure</Link>
+            </div>
           </div>
         </div>
       </div>

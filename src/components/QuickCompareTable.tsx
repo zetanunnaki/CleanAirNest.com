@@ -86,29 +86,29 @@ export function QuickCompareTable({
   const showCategory = columns.includes("category");
 
   return (
-    <div className="overflow-x-auto -mx-6 px-6 md:mx-0 md:px-0">
-      <div className="bg-white border border-slate-100 rounded-2xl overflow-hidden shadow-sm min-w-[640px]">
-        <table className="w-full text-base border-collapse">
+    <div className="overflow-x-auto -mx-4 px-4 md:mx-0 md:px-0">
+      <div className="bg-white border border-slate-100 rounded-2xl overflow-hidden shadow-sm min-w-[540px]">
+        <table className="w-full text-sm sm:text-base border-collapse">
           <thead>
             <tr style={{ background: "linear-gradient(135deg, #020617, #1e293b)" }}>
-              <th className="px-5 py-4 text-left text-white text-sm font-display font-bold uppercase tracking-wider rounded-tl-2xl">
+              <th className="px-3 sm:px-5 py-3 sm:py-4 text-left text-white text-xs sm:text-sm font-display font-bold uppercase tracking-wider rounded-tl-2xl">
                 Product
               </th>
               {showCategory && (
-                <th className="px-5 py-4 text-left text-white text-sm font-display font-bold uppercase tracking-wider">
+                <th className="px-3 sm:px-5 py-3 sm:py-4 text-left text-white text-xs sm:text-sm font-display font-bold uppercase tracking-wider">
                   Category
                 </th>
               )}
-              <th className="px-5 py-4 text-center text-white text-sm font-display font-bold uppercase tracking-wider">
+              <th className="px-3 sm:px-5 py-3 sm:py-4 text-center text-white text-xs sm:text-sm font-display font-bold uppercase tracking-wider">
                 Rating
               </th>
-              <th className="px-5 py-4 text-center text-white text-sm font-display font-bold uppercase tracking-wider">
+              <th className="px-3 sm:px-5 py-3 sm:py-4 text-center text-white text-xs sm:text-sm font-display font-bold uppercase tracking-wider">
                 Price
               </th>
-              <th className="px-5 py-4 text-center text-white text-sm font-display font-bold uppercase tracking-wider">
+              <th className="px-3 sm:px-5 py-3 sm:py-4 text-center text-white text-xs sm:text-sm font-display font-bold uppercase tracking-wider">
                 {keySpecLabel}
               </th>
-              <th className="px-5 py-4 text-center text-white text-sm font-display font-bold uppercase tracking-wider rounded-tr-2xl">
+              <th className="px-3 sm:px-5 py-3 sm:py-4 text-center text-white text-xs sm:text-sm font-display font-bold uppercase tracking-wider rounded-tr-2xl">
                 &nbsp;
               </th>
             </tr>
@@ -124,7 +124,7 @@ export function QuickCompareTable({
                   }`}
                 >
                   <td
-                    className={`px-5 py-4 ${
+                    className={`px-3 sm:px-5 py-3 sm:py-4 ${
                       !isLast ? "border-b border-slate-100" : ""
                     } ${isLast ? "rounded-bl-2xl" : ""}`}
                   >

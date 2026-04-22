@@ -20,7 +20,7 @@ export function AuthorByline({ author, date, updatedDate, readingTime }: AuthorB
 
   return (
     <div className="mt-8">
-      <div className="flex flex-wrap items-center gap-x-5 gap-y-2.5 text-sm text-slate-500">
+      <div className="flex flex-wrap items-center gap-x-3 sm:gap-x-5 gap-y-2 sm:gap-y-2.5 text-xs sm:text-sm text-slate-500">
         <Link href="/about/editorial-team" className="flex items-center gap-2 group">
           <div className="w-7 h-7 bg-accent/10 rounded-full flex items-center justify-center group-hover:bg-accent/15 transition-colors">
             <User className="w-3.5 h-3.5 text-accent" />
@@ -49,7 +49,7 @@ export function AuthorByline({ author, date, updatedDate, readingTime }: AuthorB
       </div>
       <div className="flex items-center gap-2 mt-3 text-[11px] text-slate-400">
         <Shield className="w-3 h-3 text-accent" />
-        <span>Independently tested &middot; No manufacturer influence &middot; <Link href="/about#how-we-test" className="underline underline-offset-2 hover:text-accent transition-colors">Our process</Link></span>
+        <span>Independent editorial &middot; Based on customer reviews &middot; <Link href="/about#how-we-test" className="underline underline-offset-2 hover:text-accent transition-colors">Our process</Link></span>
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ import { Search } from "lucide-react";
 export const metadata: Metadata = {
   title: "Product Reviews - In-Depth Air Quality Product Reviews",
   description:
-    "Detailed, hands-on reviews of air purifiers, air quality monitors, humidifiers, and dehumidifiers with real-world testing data.",
+    "Detailed reviews of air purifiers, air quality monitors, humidifiers, and dehumidifiers based on real customer feedback and expert analysis.",
   alternates: { canonical: "https://airqualitynest.com/reviews" },
 };
 
@@ -39,7 +39,7 @@ export default function ReviewsPage() {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     "name": "Air Quality Product Reviews",
-    "description": "Detailed, hands-on reviews of air purifiers, air quality monitors, humidifiers, and dehumidifiers with real-world testing data.",
+    "description": "Detailed reviews of air purifiers, air quality monitors, humidifiers, and dehumidifiers based on real customer feedback and expert analysis.",
     "url": "https://airqualitynest.com/reviews",
     "mainEntity": {
       "@type": "ItemList",
@@ -71,20 +71,20 @@ export default function ReviewsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-    <div className="fluid-container py-14 md:py-20">
-      <header className="max-w-3xl mb-14">
+    <div className="fluid-container py-10 sm:py-14 md:py-20">
+      <header className="max-w-3xl mb-8 sm:mb-14">
         <div className="flex items-center gap-2.5 mb-5">
           <div className="w-10 h-10 bg-accent/8 rounded-xl flex items-center justify-center">
             <Search className="w-5 h-5 text-accent" />
           </div>
           <span className="text-xs font-bold uppercase tracking-[0.15em] text-accent">In-Depth</span>
         </div>
-        <h1 className="text-[clamp(1.75rem,4vw,3rem)] font-display font-bold tracking-tight text-primary mb-4">
+        <h1 className="text-[clamp(1.5rem,4vw,3rem)] font-display font-bold tracking-tight text-primary mb-3 sm:mb-4">
           Product Reviews
         </h1>
-        <p className="text-lg text-slate-500 font-light leading-relaxed">
-          Hands-on reviews with real-world testing data. We measure
-          actual performance so you know exactly what you&apos;re getting.
+        <p className="text-base sm:text-lg text-slate-500 font-light leading-relaxed">
+          In-depth reviews based on customer feedback and expert analysis.
+          We compare specs and real-world performance so you know what to expect.
         </p>
       </header>
 
@@ -93,8 +93,8 @@ export default function ReviewsPage() {
           <h2 className="text-2xl md:text-3xl font-display font-bold tracking-tight text-primary mb-3">
             Product Overview
           </h2>
-          <p className="text-lg text-slate-500 font-light mb-10">
-            Every product we&apos;ve reviewed, organized by category and sorted by rating.
+          <p className="text-base sm:text-lg text-slate-500 font-light mb-8 sm:mb-10">
+            Every product we&apos;ve covered, organized by category and sorted by rating.
           </p>
           <div className="space-y-12">
             {productsByCategory.map(({ category, products }) => (

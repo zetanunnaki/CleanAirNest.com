@@ -9,7 +9,7 @@ import { AffiliateDisclosure } from "@/components/AffiliateDisclosure";
 import { AuthorByline } from "@/components/AuthorByline";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { RelatedArticles } from "@/components/RelatedArticles";
-import { NewsletterSignup } from "@/components/NewsletterSignup";
+
 import { SocialShare } from "@/components/SocialShare";
 
 interface PageProps {
@@ -160,13 +160,13 @@ export default async function ReviewArticlePage({ params }: PageProps) {
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-1/3 right-[15%] w-72 h-72 bg-accent/8 rounded-full blur-[80px]" />
         </div>
-        <div className="fluid-container py-14 md:py-20 relative z-10">
+        <div className="fluid-container py-10 sm:py-14 md:py-20 relative z-10">
           <div className="max-w-4xl mx-auto">
             <Breadcrumbs items={[
               { label: "Reviews", href: "/reviews" },
               { label: article.frontmatter.title },
             ]} />
-            <div className="flex items-center gap-2 mb-6">
+            <div className="flex items-center gap-2 mb-4 sm:mb-6">
               <span className="badge-accent">
                 {article.frontmatter.category}
               </span>
@@ -174,10 +174,10 @@ export default async function ReviewArticlePage({ params }: PageProps) {
                 Review
               </span>
             </div>
-            <h1 className="text-[clamp(1.75rem,4vw,3.25rem)] font-display font-bold tracking-tight text-primary mb-5 leading-[1.08]">
+            <h1 className="text-[clamp(1.5rem,4vw,3.25rem)] font-display font-bold tracking-tight text-primary mb-4 sm:mb-5 leading-[1.08]">
               {article.frontmatter.title}
             </h1>
-            <p className="text-lg md:text-xl text-slate-500 font-light leading-relaxed mb-8 max-w-3xl">
+            <p className="text-base sm:text-lg md:text-xl text-slate-500 font-light leading-relaxed mb-6 sm:mb-8 max-w-3xl">
               {article.frontmatter.description}
             </p>
             <AuthorByline
@@ -195,9 +195,9 @@ export default async function ReviewArticlePage({ params }: PageProps) {
         </div>
       </header>
 
-      <article className="fluid-container pb-24">
+      <article className="fluid-container pb-16 sm:pb-24">
         <div className="max-w-4xl mx-auto">
-          <div className="relative aspect-[21/9] rounded-3xl overflow-hidden mb-10 shadow-lg">
+          <div className="relative aspect-[16/9] sm:aspect-[21/9] rounded-xl sm:rounded-3xl overflow-hidden mb-6 sm:mb-10 shadow-lg">
             <Image
               src={article.frontmatter.featuredImage}
               alt={article.frontmatter.title}
@@ -209,7 +209,6 @@ export default async function ReviewArticlePage({ params }: PageProps) {
           </div>
           <AffiliateDisclosure />
           <MdxContent source={article.content} />
-          <NewsletterSignup />
           <RelatedArticles articles={allArticles} currentSlug={slug} />
         </div>
       </article>

@@ -9,7 +9,7 @@ import { getProduct } from "@/lib/products";
 const categories = [
   {
     name: "Air Purifiers",
-    description: "HEPA purifiers tested for smoke, allergens, and VOCs",
+    description: "Top-rated HEPA purifiers for smoke, allergens, and VOCs",
     icon: Wind,
     href: "/best-picks/best-air-purifiers-for-allergies",
     color: "from-teal-500 to-emerald-600",
@@ -44,20 +44,20 @@ const categories = [
 const trustPoints = [
   {
     icon: Zap,
-    title: "Real-World Testing",
-    description: "Every product tested in sealed chambers with calibrated PM2.5 monitors. No guesswork — just data.",
+    title: "In-Depth Research",
+    description: "We analyze hundreds of verified customer reviews and expert opinions to surface what actually matters.",
     color: "from-teal-500 to-emerald-600",
   },
   {
     icon: Award,
-    title: "Self-Funded Lab",
-    description: "We buy every product ourselves. No free samples, no sponsored content, no manufacturer influence.",
+    title: "No Sponsored Content",
+    description: "Our recommendations are based on merit. We earn from affiliate links, but our picks are never paid placements.",
     color: "from-amber-500 to-orange-600",
   },
   {
     icon: Shield,
-    title: "Transparent Process",
-    description: "We show our methodology, disclose affiliate relationships, and update our rankings as new data comes in.",
+    title: "Transparent & Updated",
+    description: "We disclose our affiliate relationships upfront and update our rankings regularly as new products and reviews emerge.",
     color: "from-cyan-500 to-teal-600",
   },
 ];
@@ -71,7 +71,7 @@ export default function HomePage() {
     "name": "AirQualityNest",
     "url": "https://airqualitynest.com",
     "logo": "https://airqualitynest.com/icon.svg",
-    "description": "Independent, lab-backed reviews of air purifiers, air quality monitors, humidifiers, and dehumidifiers.",
+    "description": "Independent reviews and buying guides for air purifiers, air quality monitors, humidifiers, and dehumidifiers.",
     "foundingDate": "2024",
     "sameAs": [
       "https://pinterest.com/airqualitynest",
@@ -85,7 +85,7 @@ export default function HomePage() {
     "@type": "WebSite",
     "name": "AirQualityNest",
     "url": "https://airqualitynest.com",
-    "description": "Expert reviews, comparisons, and guides for air purifiers, air quality monitors, humidifiers, and dehumidifiers.",
+    "description": "Reviews, comparisons, and buying guides for air purifiers, air quality monitors, humidifiers, and dehumidifiers.",
     "publisher": {
       "@type": "Organization",
       "name": "AirQualityNest"
@@ -116,21 +116,21 @@ export default function HomePage() {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] border border-accent/[0.04] rounded-full animate-morph" />
         </div>
 
-        <div className="fluid-container pt-20 pb-28 md:pt-28 md:pb-36 lg:pt-32 lg:pb-44 relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="fluid-container pt-14 pb-20 sm:pt-20 sm:pb-28 md:pt-28 md:pb-36 lg:pt-32 lg:pb-44 relative z-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             <div>
               <div className="section-label mb-8">
                 <Sparkles className="w-3.5 h-3.5" />
-                Lab-Tested &middot; Independent &middot; Trusted
+                Expert Picks &middot; Honest Reviews &middot; Trusted
               </div>
-              <h1 className="text-[clamp(2.75rem,6vw,5.5rem)] font-display font-bold tracking-[-0.03em] text-primary leading-[0.92] mb-7">
+              <h1 className="text-[clamp(2.25rem,5.5vw,5.5rem)] font-display font-bold tracking-[-0.03em] text-primary leading-[0.92] mb-5 sm:mb-7">
                 Breathe Easier
                 <br />
                 <span className="gradient-text">at Home.</span>
               </h1>
-              <p className="text-lg md:text-xl text-slate-500 leading-relaxed max-w-xl mb-10 font-light">
-                We lab-test air purifiers, monitors, and humidifiers so you
-                don&apos;t have to. Science-backed picks for cleaner, healthier indoor air.
+              <p className="text-base sm:text-lg md:text-xl text-slate-500 leading-relaxed max-w-xl mb-8 sm:mb-10 font-light">
+                We research air purifiers, monitors, and humidifiers based on
+                real customer reviews so you can make confident buying decisions.
               </p>
               <div className="flex flex-wrap gap-3">
                 <Link href="/best-picks/best-air-purifiers-for-allergies">
@@ -145,8 +145,8 @@ export default function HomePage() {
                   </Button>
                 </Link>
               </div>
-              <div className="flex flex-wrap gap-5 mt-10 text-sm text-slate-500">
-                {["50+ products tested", "500+ hours of lab testing", "No sponsored content"].map((item) => (
+              <div className="flex flex-wrap gap-3 sm:gap-5 mt-8 sm:mt-10 text-xs sm:text-sm text-slate-500">
+                {["50+ products researched", "1,000+ customer reviews analyzed", "No sponsored content"].map((item) => (
                   <span key={item} className="flex items-center gap-1.5">
                     <CheckCircle2 className="w-4 h-4 text-accent" />
                     {item}
@@ -158,9 +158,9 @@ export default function HomePage() {
             <div className="hidden lg:flex justify-center items-center relative">
               <div className="relative" style={{ perspective: "1200px" }}>
                 <div className="absolute -inset-16 bg-gradient-to-br from-accent/15 via-cyan-300/8 to-transparent rounded-full blur-[80px]" />
-                <div className="card-premium p-7 w-[320px] animate-float-rotate relative" style={{ transform: "rotateY(-5deg) rotateX(3deg)" }}>
-                  <div className="absolute top-4 right-4">
-                    <span className="badge-premium">
+                <div className="card-premium p-7 w-[320px] animate-float-rotate relative !overflow-visible" style={{ transform: "rotateY(-5deg) rotateX(3deg)" }}>
+                  <div className="absolute -top-3 right-4 z-10">
+                    <span className="badge-premium shadow-lg shadow-accent/20">
                       <Award className="w-3 h-3" />
                       #1 Pick
                     </span>
@@ -205,28 +205,28 @@ export default function HomePage() {
       <div className="section-separator py-4" />
 
       {/* ═══════════════ CATEGORIES ═══════════════ */}
-      <section className="fluid-container py-24 md:py-32">
-        <div className="text-center mb-16">
-          <div className="section-label mx-auto mb-5 w-fit">Browse by Category</div>
-          <h2 className="text-[clamp(1.75rem,4vw,3.5rem)] font-display font-bold tracking-tight text-primary mb-4">
+      <section className="fluid-container py-16 sm:py-24 md:py-32">
+        <div className="text-center mb-10 sm:mb-16">
+          <div className="section-label mx-auto mb-4 sm:mb-5 w-fit">Browse by Category</div>
+          <h2 className="text-[clamp(1.5rem,4vw,3.5rem)] font-display font-bold tracking-tight text-primary mb-3 sm:mb-4">
             What Are You Looking For?
           </h2>
-          <p className="text-lg text-slate-500 max-w-md mx-auto font-light">
+          <p className="text-base sm:text-lg text-slate-500 max-w-md mx-auto font-light">
             Explore our tested categories to find the right product for your home
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-5">
           {categories.map((cat) => (
             <Link key={cat.name} href={cat.href} className="group">
-              <div className="card-elevated p-7 h-full flex flex-col relative overflow-hidden">
+              <div className="card-elevated p-4 sm:p-7 h-full flex flex-col relative overflow-hidden">
                 <div className={`absolute -top-10 -right-10 w-32 h-32 bg-gradient-to-br ${cat.color} opacity-[0.06] rounded-full blur-2xl group-hover:opacity-[0.12] transition-opacity duration-500`} />
-                <div className={`w-12 h-12 bg-gradient-to-br ${cat.color} rounded-2xl flex items-center justify-center mb-5 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-all duration-300`}>
-                  <cat.icon className="w-5 h-5 text-white" />
+                <div className={`w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br ${cat.color} rounded-xl sm:rounded-2xl flex items-center justify-center mb-3 sm:mb-5 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-all duration-300`}>
+                  <cat.icon className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
                 </div>
-                <h3 className="font-display font-bold text-base text-primary mb-2">{cat.name}</h3>
-                <p className="text-sm text-slate-500 leading-relaxed mb-4 flex-1">{cat.description}</p>
-                <div className="flex items-center gap-1.5 text-sm font-semibold text-accent opacity-0 group-hover:opacity-100 translate-y-1 group-hover:translate-y-0 transition-all duration-300">
-                  Explore <ArrowRight className="w-3.5 h-3.5" />
+                <h3 className="font-display font-bold text-sm sm:text-base text-primary mb-1 sm:mb-2">{cat.name}</h3>
+                <p className="text-xs sm:text-sm text-slate-500 leading-relaxed mb-3 sm:mb-4 flex-1 hidden sm:block">{cat.description}</p>
+                <div className="flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-accent sm:opacity-0 sm:group-hover:opacity-100 sm:translate-y-1 sm:group-hover:translate-y-0 transition-all duration-300">
+                  Explore <ArrowRight className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
                 </div>
               </div>
             </Link>
@@ -237,33 +237,33 @@ export default function HomePage() {
       <div className="section-separator py-4" />
 
       {/* ═══════════════ FEATURED PRODUCTS ═══════════════ */}
-      <section className="fluid-container py-24 md:py-32">
-        <div className="text-center mb-16">
-          <div className="section-label mx-auto mb-5 w-fit">
+      <section className="fluid-container py-16 sm:py-24 md:py-32">
+        <div className="text-center mb-10 sm:mb-16">
+          <div className="section-label mx-auto mb-4 sm:mb-5 w-fit">
             <TrendingUp className="w-3.5 h-3.5" />
             Editor&apos;s Choice 2026
           </div>
-          <h2 className="text-[clamp(1.75rem,4vw,3.5rem)] font-display font-bold tracking-tight text-primary mb-4">
-            Top-Tested Air Purifiers
+          <h2 className="text-[clamp(1.5rem,4vw,3.5rem)] font-display font-bold tracking-tight text-primary mb-3 sm:mb-4">
+            Top-Rated Air Purifiers
           </h2>
-          <p className="text-lg text-slate-500 max-w-md mx-auto font-light">
-            Our highest-rated picks after 500+ hours of lab testing
+          <p className="text-base sm:text-lg text-slate-500 max-w-md mx-auto font-light">
+            Our highest-rated picks based on customer reviews and expert analysis
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
           {(() => {
             const product = getProduct("coway-airmega-ap1512hh");
             if (!product) return null;
             return (
-              <div className="card-premium p-8 lg:p-10 group relative lg:row-span-2">
-                <div className="absolute top-6 right-6">
+              <div className="card-premium p-5 sm:p-8 lg:p-10 group relative lg:row-span-2 !overflow-visible">
+                <div className="absolute -top-3 right-4 sm:right-6 z-10">
                   <span className="badge-premium shadow-lg shadow-accent/20">
                     <Award className="w-3.5 h-3.5" />
                     Best Overall
                   </span>
                 </div>
-                <div className="w-full aspect-square bg-gradient-to-b from-slate-50/80 to-white rounded-2xl mb-6 relative overflow-hidden max-w-[360px] mx-auto">
+                <div className="w-full aspect-square bg-gradient-to-b from-slate-50/80 to-white rounded-2xl mb-4 sm:mb-6 relative overflow-hidden max-w-[280px] sm:max-w-[360px] mx-auto">
                   <Image
                     src={product.image}
                     alt={product.name}
@@ -318,9 +318,9 @@ export default function HomePage() {
               const product = getProduct(id);
               if (!product) return null;
               return (
-                <div key={id} className="card-elevated p-6 group relative overflow-hidden flex-1">
-                  <div className="flex flex-col sm:flex-row gap-5">
-                    <div className="w-full sm:w-40 aspect-square sm:aspect-auto sm:h-auto bg-gradient-to-b from-slate-50 to-white rounded-xl relative overflow-hidden shrink-0">
+                <div key={id} className="card-elevated p-4 sm:p-6 group relative overflow-hidden flex-1">
+                  <div className="flex flex-row gap-4 sm:gap-5">
+                    <div className="w-24 sm:w-40 aspect-square bg-gradient-to-b from-slate-50 to-white rounded-xl relative overflow-hidden shrink-0">
                       <Image
                         src={product.image}
                         alt={product.name}
@@ -373,40 +373,40 @@ export default function HomePage() {
       <div className="section-separator py-4" />
 
       {/* ═══════════════ WHY TRUST US ═══════════════ */}
-      <section className="fluid-container py-24 md:py-32">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <section className="fluid-container py-16 sm:py-24 md:py-32">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           <div>
-            <div className="section-label mb-5">Why Trust Us</div>
-            <h2 className="text-[clamp(1.75rem,4vw,3.5rem)] font-display font-bold tracking-tight text-primary mb-5 leading-[0.95]">
-              Independent Testing,
+            <div className="section-label mb-4 sm:mb-5">Why Trust Us</div>
+            <h2 className="text-[clamp(1.5rem,4vw,3.5rem)] font-display font-bold tracking-tight text-primary mb-4 sm:mb-5 leading-[0.95]">
+              Honest Research,
               <br />
-              <span className="gradient-text">Real Results.</span>
+              <span className="gradient-text">Better Choices.</span>
             </h2>
-            <p className="text-lg text-slate-500 leading-relaxed mb-10 max-w-lg font-light">
-              We purchase every product with our own money, test it in controlled lab conditions, and report the results transparently. No manufacturer influence, ever.
+            <p className="text-base sm:text-lg text-slate-500 leading-relaxed mb-8 sm:mb-10 max-w-lg font-light">
+              We dig through hundreds of verified customer reviews, compare specs, and highlight what real buyers love (and hate) so you can shop with confidence.
             </p>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-3 sm:gap-4">
               {[
-                { icon: FlaskConical, value: "500+", label: "Hours of Testing" },
-                { icon: Wind, value: "50+", label: "Products Tested" },
+                { icon: FlaskConical, value: "1,000+", label: "Reviews Analyzed" },
+                { icon: Wind, value: "50+", label: "Products Compared" },
                 { icon: Users, value: "50K+", label: "Monthly Readers" },
                 { icon: Clock, value: "2+", label: "Years of Research" },
               ].map((stat) => (
-                <div key={stat.label} className="stat-card p-5 text-center">
-                  <div className="flex items-center justify-center w-10 h-10 bg-accent/8 rounded-xl mx-auto mb-3">
-                    <stat.icon className="w-5 h-5 text-accent" />
+                <div key={stat.label} className="stat-card p-3 sm:p-5 text-center">
+                  <div className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 bg-accent/8 rounded-lg sm:rounded-xl mx-auto mb-2 sm:mb-3">
+                    <stat.icon className="w-4 h-4 sm:w-5 sm:h-5 text-accent" />
                   </div>
-                  <p className="text-2xl font-display font-bold text-primary">{stat.value}</p>
-                  <p className="text-xs text-slate-500 mt-0.5">{stat.label}</p>
+                  <p className="text-xl sm:text-2xl font-display font-bold text-primary">{stat.value}</p>
+                  <p className="text-[10px] sm:text-xs text-slate-500 mt-0.5">{stat.label}</p>
                 </div>
               ))}
             </div>
           </div>
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-4 sm:gap-5">
             {trustPoints.map((item) => (
-              <div key={item.title} className="card-glass p-6 flex items-start gap-4">
-                <div className={`w-11 h-11 bg-gradient-to-br ${item.color} rounded-xl flex items-center justify-center shadow-lg shrink-0`}>
-                  <item.icon className="w-5 h-5 text-white" />
+              <div key={item.title} className="card-glass p-4 sm:p-6 flex items-start gap-3 sm:gap-4">
+                <div className={`w-10 h-10 sm:w-11 sm:h-11 bg-gradient-to-br ${item.color} rounded-xl flex items-center justify-center shadow-lg shrink-0`}>
+                  <item.icon className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
                 </div>
                 <div>
                   <h3 className="font-display font-bold text-base text-primary mb-1.5">{item.title}</h3>
@@ -421,11 +421,11 @@ export default function HomePage() {
       <div className="section-separator py-4" />
 
       {/* ═══════════════ LATEST ARTICLES ═══════════════ */}
-      <section className="fluid-container py-24 md:py-32">
-        <div className="flex flex-col md:flex-row items-start md:items-end justify-between mb-14 gap-4">
+      <section className="fluid-container py-16 sm:py-24 md:py-32">
+        <div className="flex flex-col md:flex-row items-start md:items-end justify-between mb-8 sm:mb-14 gap-4">
           <div>
-            <div className="section-label mb-5">Stay Informed</div>
-            <h2 className="text-[clamp(1.75rem,4vw,3.5rem)] font-display font-bold tracking-tight text-primary mb-3">
+            <div className="section-label mb-4 sm:mb-5">Stay Informed</div>
+            <h2 className="text-[clamp(1.5rem,4vw,3.5rem)] font-display font-bold tracking-tight text-primary mb-3">
               Latest Research
             </h2>
             <p className="text-lg text-slate-500 font-light">
@@ -468,20 +468,20 @@ export default function HomePage() {
 
       {/* ═══════════════ CTA BANNER ═══════════════ */}
       <section className="fluid-container py-12">
-        <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-primary text-white p-12 md:p-20 lg:p-24 rounded-[40px] relative overflow-hidden group grain-overlay">
+        <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-primary text-white p-6 sm:p-10 md:p-16 lg:p-24 rounded-2xl sm:rounded-[40px] relative overflow-hidden group grain-overlay">
           <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-accent/10 blur-[100px] rounded-full animate-pulse-glow" />
           <div className="absolute bottom-0 left-0 w-[350px] h-[350px] bg-cyan-400/10 blur-[100px] rounded-full animate-pulse-glow" style={{ animationDelay: "2s" }} />
           <div className="relative z-10 text-center max-w-2xl mx-auto">
-            <div className="w-16 h-16 bg-gradient-to-br from-accent to-cyan-500 rounded-2xl mx-auto mb-10 flex items-center justify-center shadow-2xl shadow-accent/25 group-hover:scale-110 transition-transform duration-500">
+            <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-accent to-cyan-500 rounded-xl sm:rounded-2xl mx-auto mb-6 sm:mb-10 flex items-center justify-center shadow-2xl shadow-accent/25 group-hover:scale-110 transition-transform duration-500">
               <Wind className="w-8 h-8 text-white" />
             </div>
-            <h3 className="text-[clamp(1.75rem,4vw,3.5rem)] font-display font-bold mb-6 tracking-tight leading-[0.95]">
+            <h3 className="text-[clamp(1.5rem,4vw,3.5rem)] font-display font-bold mb-4 sm:mb-6 tracking-tight leading-[0.95]">
               Breathe Better,
               <br />Faster.
             </h3>
-            <p className="text-slate-400 mb-10 text-lg leading-relaxed max-w-md mx-auto font-light">
-              Not sure which purifier is right for your space? Start with our
-              most popular guide to find your perfect match.
+            <p className="text-slate-400 mb-8 sm:mb-10 text-base sm:text-lg leading-relaxed max-w-md mx-auto font-light">
+              Not sure which purifier is right for your space? Browse our
+              curated recommendations to find your perfect match.
             </p>
             <Link href="/best-picks/best-air-purifiers-for-allergies">
               <Button variant="secondary" size="xl">

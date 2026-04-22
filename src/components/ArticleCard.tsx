@@ -45,8 +45,8 @@ export function ArticleCard({ slug, type, frontmatter, featured }: ArticleCardPr
           </div>
         </div>
 
-        <div className={`p-6 flex flex-col flex-1 ${featured ? "md:p-8 lg:p-10 md:justify-center" : ""}`}>
-          <div className="flex items-center gap-2.5 mb-3">
+        <div className={`p-4 sm:p-6 flex flex-col flex-1 ${featured ? "md:p-8 lg:p-10 md:justify-center" : ""}`}>
+          <div className="flex items-center gap-2 sm:gap-2.5 mb-2 sm:mb-3">
             <div className={`w-1.5 h-1.5 rounded-full ${colors.accent}`} />
             <span className={`text-xs font-bold uppercase tracking-wider ${colors.text}`}>
               {type.replace("-", " ")}

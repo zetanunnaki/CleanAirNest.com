@@ -14,7 +14,7 @@ export function ProductCard({ productId, showBadge = true, rank }: ProductCardPr
   if (!product) return null;
 
   return (
-    <div className="group relative bg-white border border-slate-100/80 rounded-3xl p-7 md:p-8 hover:shadow-2xl hover:shadow-slate-200/40 hover:border-accent/10 transition-all duration-500 mb-8">
+    <div className="group relative bg-white border border-slate-100/80 rounded-2xl sm:rounded-3xl p-4 sm:p-7 md:p-8 hover:shadow-2xl hover:shadow-slate-200/40 hover:border-accent/10 transition-all duration-500 mb-6 sm:mb-8">
       {rank && rank <= 3 && (
         <div className="absolute -top-4 left-8">
           <div className={`
@@ -29,9 +29,9 @@ export function ProductCard({ productId, showBadge = true, rank }: ProductCardPr
         </div>
       )}
 
-      <div className="flex flex-col lg:flex-row gap-6">
-        <div className="lg:w-48 flex-shrink-0">
-          <div className="w-full aspect-square bg-gradient-to-b from-slate-50 to-white rounded-2xl flex items-center justify-center overflow-hidden group-hover:bg-slate-50 transition-colors">
+      <div className="flex flex-row gap-4 sm:gap-6">
+        <div className="w-24 sm:w-40 lg:w-48 flex-shrink-0">
+          <div className="w-full aspect-square bg-gradient-to-b from-slate-50 to-white rounded-xl sm:rounded-2xl flex items-center justify-center overflow-hidden group-hover:bg-slate-50 transition-colors">
             <Image
               src={product.image}
               alt={`${product.brand} ${product.name}`}
@@ -50,11 +50,11 @@ export function ProductCard({ productId, showBadge = true, rank }: ProductCardPr
               <p className="text-[10px] font-bold text-accent uppercase tracking-[0.2em] mb-1">
                 {product.brand}
               </p>
-              <h3 className="text-xl font-display font-bold text-slate-900 tracking-tight">
+              <h3 className="text-base sm:text-xl font-display font-bold text-slate-900 tracking-tight">
                 {product.name}
               </h3>
             </div>
-            <span className="text-2xl font-display font-bold text-slate-900 flex-shrink-0">
+            <span className="text-lg sm:text-2xl font-display font-bold text-slate-900 flex-shrink-0">
               {product.price}
             </span>
           </div>
@@ -77,7 +77,7 @@ export function ProductCard({ productId, showBadge = true, rank }: ProductCardPr
             </div>
           )}
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 mb-4 sm:mb-5">
             {Object.entries(product.specs)
               .filter(([, val]) => val && val !== "N/A")
               .slice(0, 4)

@@ -126,13 +126,13 @@ export function SearchDialog() {
   }
 
   return (
-    <div className="fixed inset-0 z-[100] flex items-start justify-center pt-[12vh]" onClick={close}>
+    <div className="fixed inset-0 z-[100] flex items-start justify-center pt-[8vh] sm:pt-[12vh]" onClick={close}>
       <div className="absolute inset-0 bg-slate-900/30 backdrop-blur-sm search-backdrop-enter" />
       <div
         role="dialog"
         aria-modal="true"
         aria-label="Search articles, reviews, and guides"
-        className="relative w-full max-w-xl mx-4 bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl shadow-slate-400/20 border border-slate-200/60 overflow-hidden search-dialog-enter"
+        className="relative w-full max-w-xl mx-3 sm:mx-4 bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl shadow-slate-400/20 border border-slate-200/60 overflow-hidden search-dialog-enter"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex items-center gap-3 px-5 py-3.5 border-b border-slate-100">
@@ -209,8 +209,8 @@ export function SearchDialog() {
           )}
         </div>
 
-        <div className="flex items-center justify-between px-5 py-2 border-t border-slate-100 bg-slate-50/50">
-          <div className="flex items-center gap-3 text-[10px] text-slate-400">
+        <div className="flex items-center justify-between px-3 sm:px-5 py-2 border-t border-slate-100 bg-slate-50/50">
+          <div className="hidden sm:flex items-center gap-3 text-[10px] text-slate-400">
             {[
               { key: "↑↓", label: "Navigate" },
               { key: "⏎", label: "Open" },
