@@ -49,7 +49,7 @@ export function AuthorByline({ author, date, updatedDate, readingTime }: AuthorB
       </div>
       <div className="flex items-center gap-2 mt-3 text-[11px] text-slate-400">
         <Shield className="w-3 h-3 text-accent" />
-        <span>Independent editorial &middot; Based on customer reviews &middot; <Link href="/about#how-we-test" className="underline underline-offset-2 hover:text-accent transition-colors">Our process</Link></span>
+        <span>Independent editorial &middot; Based on customer reviews</span>
       </div>
     </div>
   );

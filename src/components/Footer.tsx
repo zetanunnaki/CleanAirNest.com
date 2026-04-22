@@ -56,7 +56,6 @@ export function Footer() {
             ]},
             { title: "Company", links: [
               { href: "/about", label: "About Us" },
-              { href: "/about#how-we-test", label: "How We Test" },
               { href: "/about#affiliate-disclosure", label: "Disclosure" },
             ]},
             { title: "Categories", links: [
