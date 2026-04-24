@@ -12,7 +12,7 @@ const navLinks = [
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 glass header-border-gradient header-float">
+    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md header-border-gradient header-float">
       <div className="fluid-container h-[72px] flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2.5 group">
           <div className="relative">
