@@ -144,6 +144,14 @@
     "url": "/best-picks/best-dehumidifiers-for-crawl-space"
   },
   {
+    "title": "Best Dehumidifiers Under $200 in 2026 (Budget Picks That Deliver)",
+    "description": "The best affordable dehumidifiers under $200 for bedrooms, bathrooms, and small basements. Budget picks ranked by moisture removal, noise, and value.",
+    "slug": "best-dehumidifiers-under-200",
+    "type": "best-pick",
+    "category": "Dehumidifiers",
+    "url": "/best-picks/best-dehumidifiers-under-200"
+  },
+  {
     "title": "The 5 Best Dehumidifiers of 2026 (Reviewed & Ranked)",
     "description": "Our top dehumidifier picks for 2026 based on customer reviews, moisture removal performance, noise levels, and value. From budget to premium options.",
     "slug": "best-dehumidifiers",
@@ -158,6 +166,14 @@
     "type": "best-pick",
     "category": "Humidifiers",
     "url": "/best-picks/best-humidifiers-for-bedroom"
+  },
+  {
+    "title": "Best Humidifiers for Large Rooms in 2026 (500+ Sq. Ft. Coverage)",
+    "description": "The best humidifiers for large rooms and open floor plans. Top picks for 500-3,600 sq. ft. coverage based on customer reviews, tank size, and runtime.",
+    "slug": "best-humidifiers-for-large-rooms",
+    "type": "best-pick",
+    "category": "Humidifiers",
+    "url": "/best-picks/best-humidifiers-for-large-rooms"
   },
   {
     "title": "Best Humidifiers Under $50 in 2026 (Budget Picks That Actually Work)",
@@ -198,6 +214,22 @@
     "type": "best-pick",
     "category": "Air Purifiers",
     "url": "/best-picks/best-smart-air-purifiers"
+  },
+  {
+    "title": "Best Smart Humidifiers in 2026 (Wi-Fi, App Control & Auto Humidity)",
+    "description": "The best smart humidifiers with Wi-Fi, app control, and auto humidity adjustment. Top picks for Alexa, Google Home, and smart home integration.",
+    "slug": "best-smart-humidifiers",
+    "type": "best-pick",
+    "category": "Humidifiers",
+    "url": "/best-picks/best-smart-humidifiers"
+  },
+  {
+    "title": "Best Warm Mist Humidifiers in 2026 (For Winter Dry Air Relief)",
+    "description": "The best warm mist humidifiers for winter dry air. Our top picks for bedrooms and large rooms based on customer reviews, runtime, and mist output.",
+    "slug": "best-warm-mist-humidifiers",
+    "type": "best-pick",
+    "category": "Humidifiers",
+    "url": "/best-picks/best-warm-mist-humidifiers"
   },
   {
     "title": "The 5 Best Whole-House Air Purifiers in 2026",
@@ -720,6 +752,14 @@
     "url": "/guides/carbon-filter-explained"
   },
   {
+    "title": "Coway Mighty vs Honeywell HPA300: Which Budget Purifier Wins?",
+    "description": "Coway AP-1512HH vs Honeywell HPA300 comparison. We compare CADR, noise, energy use, filter costs, and value to find the best budget air purifier.",
+    "slug": "coway-vs-honeywell",
+    "type": "guide",
+    "category": "Comparisons",
+    "url": "/guides/coway-vs-honeywell"
+  },
+  {
     "title": "Coway AP-1512HH vs Levoit Core 400S vs Levoit Core 300: Which Is Right for You?",
     "description": "Coway Mighty vs Levoit Core 400S vs Core 300 — we compare performance, smart features, noise, and value. Find the right purifier for your room and budget.",
     "slug": "coway-vs-levoit",
@@ -824,6 +864,22 @@
     "url": "/guides/humidity-and-health"
   },
   {
+    "title": "IQAir vs Austin Air: Which Medical-Grade Purifier Is Better?",
+    "description": "IQAir HealthPro Plus vs Austin Air HealthMate comparison. We compare filtration, CADR, carbon capacity, noise, value, and who should buy which.",
+    "slug": "iqair-vs-austin-air",
+    "type": "guide",
+    "category": "Comparisons",
+    "url": "/guides/iqair-vs-austin-air"
+  },
+  {
+    "title": "Levoit Core 400S vs Blueair Blue Pure 211+: Which Should You Buy?",
+    "description": "Levoit Core 400S vs Blueair Blue Pure 211+ comparison. We compare CADR, smart features, noise, filter costs, and value for mid-range air purifier buyers.",
+    "slug": "levoit-400s-vs-blueair-211",
+    "type": "guide",
+    "category": "Comparisons",
+    "url": "/guides/levoit-400s-vs-blueair-211"
+  },
+  {
     "title": "Levoit vs Blueair: Which Air Purifier Brand Is Better?",
     "description": "Levoit vs Blueair head-to-head comparison. We compare filter technology, pricing, smart features, model lineups, and overall value to help you choose.",
     "slug": "levoit-vs-blueair",
@@ -846,6 +902,14 @@
     "type": "guide",
     "category": "Guides",
     "url": "/guides/vocs-in-your-home"
+  },
+  {
+    "title": "Whole-House vs Portable Air Purifiers: Which Is Right for You?",
+    "description": "Whole-house vs portable air purifier comparison. Learn the costs, effectiveness, installation, and which approach works best for your home and budget.",
+    "slug": "whole-house-vs-portable-air-purifier",
+    "type": "guide",
+    "category": "Guides",
+    "url": "/guides/whole-house-vs-portable-air-purifier"
   },
   {
     "title": "How to Protect Your Indoor Air During Wildfire Season",

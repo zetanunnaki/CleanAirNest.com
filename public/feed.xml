@@ -5,13 +5,21 @@
     <link>https://airqualitynest.com</link>
     <description>Expert reviews, comparisons, and guides for air purifiers, air quality monitors, humidifiers, and dehumidifiers.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Apr 2026 02:07:14 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 02:19:41 GMT</lastBuildDate>
     <atom:link href="https://airqualitynest.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>CADR Rating Explained: What It Means and Why It Matters</title>
       <link>https://airqualitynest.com/guides/cadr-rating-explained</link>
       <guid isPermaLink="true">https://airqualitynest.com/guides/cadr-rating-explained</guid>
       <description>Learn what CADR (Clean Air Delivery Rate) means, how it&apos;s measured, what numbers to look for, and how to use CADR to choose the right air purifier for your room.</description>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+      <category>guides</category>
+    </item>
+    <item>
+      <title>Coway Mighty vs Honeywell HPA300: Which Budget Purifier Wins?</title>
+      <link>https://airqualitynest.com/guides/coway-vs-honeywell</link>
+      <guid isPermaLink="true">https://airqualitynest.com/guides/coway-vs-honeywell</guid>
+      <description>Coway AP-1512HH vs Honeywell HPA300 comparison. We compare CADR, noise, energy use, filter costs, and value to find the best budget air purifier.</description>
       <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
       <category>guides</category>
     </item>
@@ -32,6 +40,38 @@
       <category>guides</category>
     </item>
     <item>
+      <title>IQAir vs Austin Air: Which Medical-Grade Purifier Is Better?</title>
+      <link>https://airqualitynest.com/guides/iqair-vs-austin-air</link>
+      <guid isPermaLink="true">https://airqualitynest.com/guides/iqair-vs-austin-air</guid>
+      <description>IQAir HealthPro Plus vs Austin Air HealthMate comparison. We compare filtration, CADR, carbon capacity, noise, value, and who should buy which.</description>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+      <category>guides</category>
+    </item>
+    <item>
+      <title>Levoit Core 400S vs Blueair Blue Pure 211+: Which Should You Buy?</title>
+      <link>https://airqualitynest.com/guides/levoit-400s-vs-blueair-211</link>
+      <guid isPermaLink="true">https://airqualitynest.com/guides/levoit-400s-vs-blueair-211</guid>
+      <description>Levoit Core 400S vs Blueair Blue Pure 211+ comparison. We compare CADR, smart features, noise, filter costs, and value for mid-range air purifier buyers.</description>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+      <category>guides</category>
+    </item>
+    <item>
+      <title>Whole-House vs Portable Air Purifiers: Which Is Right for You?</title>
+      <link>https://airqualitynest.com/guides/whole-house-vs-portable-air-purifier</link>
+      <guid isPermaLink="true">https://airqualitynest.com/guides/whole-house-vs-portable-air-purifier</guid>
+      <description>Whole-house vs portable air purifier comparison. Learn the costs, effectiveness, installation, and which approach works best for your home and budget.</description>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+      <category>guides</category>
+    </item>
+    <item>
+      <title>Best Dehumidifiers Under $200 in 2026 (Budget Picks That Deliver)</title>
+      <link>https://airqualitynest.com/best-picks/best-dehumidifiers-under-200</link>
+      <guid isPermaLink="true">https://airqualitynest.com/best-picks/best-dehumidifiers-under-200</guid>
+      <description>The best affordable dehumidifiers under $200 for bedrooms, bathrooms, and small basements. Budget picks ranked by moisture removal, noise, and value.</description>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+      <category>best-picks</category>
+    </item>
+    <item>
       <title>The 5 Best Dehumidifiers of 2026 (Reviewed &amp; Ranked)</title>
       <link>https://airqualitynest.com/best-picks/best-dehumidifiers</link>
       <guid isPermaLink="true">https://airqualitynest.com/best-picks/best-dehumidifiers</guid>
@@ -40,10 +80,34 @@
       <category>best-picks</category>
     </item>
     <item>
+      <title>Best Humidifiers for Large Rooms in 2026 (500+ Sq. Ft. Coverage)</title>
+      <link>https://airqualitynest.com/best-picks/best-humidifiers-for-large-rooms</link>
+      <guid isPermaLink="true">https://airqualitynest.com/best-picks/best-humidifiers-for-large-rooms</guid>
+      <description>The best humidifiers for large rooms and open floor plans. Top picks for 500-3,600 sq. ft. coverage based on customer reviews, tank size, and runtime.</description>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+      <category>best-picks</category>
+    </item>
+    <item>
       <title>Best Humidifiers Under $50 in 2026 (Budget Picks That Actually Work)</title>
       <link>https://airqualitynest.com/best-picks/best-humidifiers-under-50</link>
       <guid isPermaLink="true">https://airqualitynest.com/best-picks/best-humidifiers-under-50</guid>
       <description>The best affordable humidifiers under $50 for bedrooms and small rooms. Budget picks based on customer reviews, runtime, and mist output.</description>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+      <category>best-picks</category>
+    </item>
+    <item>
+      <title>Best Smart Humidifiers in 2026 (Wi-Fi, App Control &amp; Auto Humidity)</title>
+      <link>https://airqualitynest.com/best-picks/best-smart-humidifiers</link>
+      <guid isPermaLink="true">https://airqualitynest.com/best-picks/best-smart-humidifiers</guid>
+      <description>The best smart humidifiers with Wi-Fi, app control, and auto humidity adjustment. Top picks for Alexa, Google Home, and smart home integration.</description>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+      <category>best-picks</category>
+    </item>
+    <item>
+      <title>Best Warm Mist Humidifiers in 2026 (For Winter Dry Air Relief)</title>
+      <link>https://airqualitynest.com/best-picks/best-warm-mist-humidifiers</link>
+      <guid isPermaLink="true">https://airqualitynest.com/best-picks/best-warm-mist-humidifiers</guid>
+      <description>The best warm mist humidifiers for winter dry air. Our top picks for bedrooms and large rooms based on customer reviews, runtime, and mist output.</description>
       <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
       <category>best-picks</category>
     </item>
