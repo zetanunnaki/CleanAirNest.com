@@ -3,6 +3,7 @@ import { Inter, Outfit, Playfair_Display } from "next/font/google";
 import Script from "next/script";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { AffiliateTracking } from "@/components/AffiliateTracking";
 import "./globals.css";
 
 const inter = Inter({
@@ -93,6 +94,7 @@ export default function RootLayout({
                 gtag('config', '${GA_MEASUREMENT_ID}');
               `}
             </Script>
+            <AffiliateTracking />
           </>
         )}
         <a

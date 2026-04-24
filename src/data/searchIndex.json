@@ -144,12 +144,28 @@
     "url": "/best-picks/best-dehumidifiers-for-crawl-space"
   },
   {
+    "title": "The 5 Best Dehumidifiers of 2026 (Reviewed & Ranked)",
+    "description": "Our top dehumidifier picks for 2026 based on customer reviews, moisture removal performance, noise levels, and value. From budget to premium options.",
+    "slug": "best-dehumidifiers",
+    "type": "best-pick",
+    "category": "Dehumidifiers",
+    "url": "/best-picks/best-dehumidifiers"
+  },
+  {
     "title": "The 5 Best Humidifiers for Bedroom in 2026",
     "description": "Sleep better with properly humidified air. We tested the quietest, most effective humidifiers for bedrooms — from cool mist to warm mist to evaporative.",
     "slug": "best-humidifiers-for-bedroom",
     "type": "best-pick",
     "category": "Humidifiers",
     "url": "/best-picks/best-humidifiers-for-bedroom"
+  },
+  {
+    "title": "Best Humidifiers Under $50 in 2026 (Budget Picks That Actually Work)",
+    "description": "The best affordable humidifiers under $50 for bedrooms and small rooms. Budget picks based on customer reviews, runtime, and mist output.",
+    "slug": "best-humidifiers-under-50",
+    "type": "best-pick",
+    "category": "Humidifiers",
+    "url": "/best-picks/best-humidifiers-under-50"
   },
   {
     "title": "The Best Humidifiers for Dry Indoor Air (2026 Tested)",
@@ -688,6 +704,14 @@
     "url": "/guides/best-air-purifier-for-smoke"
   },
   {
+    "title": "CADR Rating Explained: What It Means and Why It Matters",
+    "description": "Learn what CADR (Clean Air Delivery Rate) means, how it's measured, what numbers to look for, and how to use CADR to choose the right air purifier for your room.",
+    "slug": "cadr-rating-explained",
+    "type": "guide",
+    "category": "Guides",
+    "url": "/guides/cadr-rating-explained"
+  },
+  {
     "title": "Activated Carbon Filters: What They Remove and When to Replace Them",
     "description": "Learn how activated carbon filters work, what pollutants they remove (VOCs, odors, gases), their limitations, replacement schedules, and carbon weight differences.",
     "slug": "carbon-filter-explained",
@@ -726,6 +750,14 @@
     "type": "guide",
     "category": "Guides",
     "url": "/guides/do-i-need-a-dehumidifier"
+  },
+  {
+    "title": "Dyson vs Blueair: Which Air Purifier Brand Is Better in 2026?",
+    "description": "Dyson vs Blueair air purifier comparison. We compare CADR, filtration, noise, smart features, design, and value to help you choose the right premium purifier.",
+    "slug": "dyson-vs-blueair",
+    "type": "guide",
+    "category": "Comparisons",
+    "url": "/guides/dyson-vs-blueair"
   },
   {
     "title": "Frigidaire vs GE Dehumidifier: Which Is Better for Your Basement?",
@@ -774,6 +806,14 @@
     "type": "guide",
     "category": "Guides",
     "url": "/guides/how-to-test-home-air-quality"
+  },
+  {
+    "title": "Humidifier vs Dehumidifier: Which One Do You Need?",
+    "description": "Humidifier vs dehumidifier explained. Learn the differences, when you need each, signs of dry vs humid air, and our top picks for both.",
+    "slug": "humidifier-vs-dehumidifier",
+    "type": "guide",
+    "category": "Guides",
+    "url": "/guides/humidifier-vs-dehumidifier"
   },
   {
     "title": "The Complete Guide to Humidity and Health: Finding Your Ideal Level",

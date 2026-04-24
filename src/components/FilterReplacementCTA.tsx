@@ -30,6 +30,9 @@ export function FilterReplacementCTA({ productId }: FilterReplacementCTAProps) {
             href={product.filterReplacementLink}
             target="_blank"
             rel="noopener noreferrer nofollow"
+            data-affiliate="amazon"
+            data-product-id={productId}
+            data-cta="filter-replacement"
           >
             <Button variant="accent" size="lg">
               Buy Replacement Filter

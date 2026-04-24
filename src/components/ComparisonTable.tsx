@@ -80,6 +80,9 @@ export function ComparisonTable({ productIds }: ComparisonTableProps) {
                     href={product.amazonLink}
                     target="_blank"
                     rel="noopener noreferrer nofollow"
+                    data-affiliate="amazon"
+                    data-product-id={product.id}
+                    data-cta="comparison-table"
                   >
                     <Button variant="amazon" size="sm">
                       View Deal <ExternalLink className="w-3 h-3" />

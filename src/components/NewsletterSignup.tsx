@@ -112,7 +112,7 @@ export function NewsletterSignup({ variant = "default" }: NewsletterSignupProps)
       <div className="absolute -top-24 -right-24 w-64 h-64 bg-accent/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute -bottom-16 -left-16 w-48 h-48 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
 
-      <div className="relative z-10 px-8 py-12 md:px-12 md:py-14 text-center">
+      <div className="relative z-10 px-5 py-8 sm:px-8 sm:py-12 md:px-12 md:py-14 text-center">
         <div className="inline-flex items-center gap-2 bg-accent/10 text-accent text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-6">
           <Sparkles className="w-3.5 h-3.5" />
           Free Newsletter
@@ -122,7 +122,7 @@ export function NewsletterSignup({ variant = "default" }: NewsletterSignupProps)
           Breathe easier with expert tips in your inbox
         </h2>
         <p className="text-slate-400 font-light text-lg leading-relaxed max-w-xl mx-auto mb-8">
-          Get weekly air quality tips, exclusive deals, and new product alerts — join 5,000+ readers who trust our independent reviews.
+          Get weekly air quality tips, exclusive deals, and new product alerts — join 5,000+ readers who trust our recommendations.
         </p>
 
         {status === "success" ? (

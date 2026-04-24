@@ -29,6 +29,9 @@ export function AffiliateButton({
         href={link}
         target="_blank"
         rel="noopener noreferrer nofollow"
+        data-affiliate={store}
+        data-product-id={productId}
+        data-cta="affiliate-button"
       >
         <Button variant={variant} size="xl">
           <ShoppingCart className="w-5 h-5" />

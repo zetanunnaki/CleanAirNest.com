@@ -92,7 +92,7 @@ export function ProductCard({ productId, showBadge = true, rank }: ProductCardPr
           </div>
 
           <div className="flex flex-wrap gap-2.5">
-            <a href={product.amazonLink} target="_blank" rel="noopener noreferrer nofollow">
+            <a href={product.amazonLink} target="_blank" rel="noopener noreferrer nofollow" data-affiliate="amazon" data-product-id={productId} data-cta="product-card">
               <Button variant="amazon" size="default">
                 <TrendingUp className="w-3.5 h-3.5" />
                 Check Price on Amazon
@@ -100,7 +100,7 @@ export function ProductCard({ productId, showBadge = true, rank }: ProductCardPr
               </Button>
             </a>
             {product.walmartLink && (
-              <a href={product.walmartLink} target="_blank" rel="noopener noreferrer nofollow">
+              <a href={product.walmartLink} target="_blank" rel="noopener noreferrer nofollow" data-affiliate="walmart" data-product-id={productId} data-cta="product-card">
                 <Button variant="walmart" size="sm">
                   Walmart <ExternalLink className="w-3 h-3" />
                 </Button>
