@@ -120,12 +120,28 @@
     "url": "/best-picks/best-air-purifiers-with-washable-filters"
   },
   {
+    "title": "Best Affordable Air Quality Monitors Under $100 in 2026",
+    "description": "Top affordable air quality monitors under $100 ranked by sensor accuracy, features, and value. Budget picks for PM2.5, VOC, and formaldehyde monitoring.",
+    "slug": "best-air-quality-monitors-under-100",
+    "type": "best-pick",
+    "category": "Air Quality Monitors",
+    "url": "/best-picks/best-air-quality-monitors-under-100"
+  },
+  {
     "title": "The 5 Best Air Quality Monitors for Home Use (2026)",
     "description": "We tested the top indoor air quality monitors for accuracy, features, and value. Find out which one is right for tracking your home's PM2.5, CO2, VOCs, and radon.",
     "slug": "best-air-quality-monitors",
     "type": "best-pick",
     "category": "Air Quality Monitors",
     "url": "/best-picks/best-air-quality-monitors"
+  },
+  {
+    "title": "Best CO2 Monitors for Home and Office in 2026 (Reviewed & Ranked)",
+    "description": "The best CO2 monitors for tracking ventilation quality at home and in offices. Top picks ranked by accuracy, display, smart features, and value.",
+    "slug": "best-co2-monitors",
+    "type": "best-pick",
+    "category": "Air Quality Monitors",
+    "url": "/best-picks/best-co2-monitors"
   },
   {
     "title": "The Best Dehumidifiers for Basements in 2026 (Tested & Ranked)",
@@ -152,12 +168,28 @@
     "url": "/best-picks/best-dehumidifiers-under-200"
   },
   {
+    "title": "Best Dehumidifiers with Built-in Pump for Hands-Free Drainage (2026)",
+    "description": "Top dehumidifiers with built-in pumps for hands-free continuous drainage. Perfect for basements, crawl spaces, and any area without a floor drain.",
+    "slug": "best-dehumidifiers-with-pump",
+    "type": "best-pick",
+    "category": "Dehumidifiers",
+    "url": "/best-picks/best-dehumidifiers-with-pump"
+  },
+  {
     "title": "The 5 Best Dehumidifiers of 2026 (Reviewed & Ranked)",
     "description": "Our top dehumidifier picks for 2026 based on customer reviews, moisture removal performance, noise levels, and value. From budget to premium options.",
     "slug": "best-dehumidifiers",
     "type": "best-pick",
     "category": "Dehumidifiers",
     "url": "/best-picks/best-dehumidifiers"
+  },
+  {
+    "title": "Best Evaporative Humidifiers in 2026 (No White Dust, No Over-Humidifying)",
+    "description": "The best evaporative humidifiers that eliminate white dust and prevent over-humidifying. Top picks for bedrooms, large rooms, and whole-house use.",
+    "slug": "best-evaporative-humidifiers",
+    "type": "best-pick",
+    "category": "Humidifiers",
+    "url": "/best-picks/best-evaporative-humidifiers"
   },
   {
     "title": "The 5 Best Humidifiers for Bedroom in 2026",
@@ -174,6 +206,14 @@
     "type": "best-pick",
     "category": "Humidifiers",
     "url": "/best-picks/best-humidifiers-for-large-rooms"
+  },
+  {
+    "title": "Best Humidifiers for Baby Nurseries in 2026 (Safe & Quiet Picks)",
+    "description": "The safest and quietest humidifiers for baby nurseries. Cool mist picks ranked by noise level, safety features, and ease of cleaning.",
+    "slug": "best-humidifiers-for-nursery",
+    "type": "best-pick",
+    "category": "Humidifiers",
+    "url": "/best-picks/best-humidifiers-for-nursery"
   },
   {
     "title": "Best Humidifiers Under $50 in 2026 (Budget Picks That Actually Work)",
@@ -208,12 +248,36 @@
     "url": "/best-picks/best-premium-air-purifiers"
   },
   {
+    "title": "Best Quiet Dehumidifiers for Bedrooms and Living Spaces (2026)",
+    "description": "The quietest dehumidifiers for bedrooms, nurseries, and living areas. Top picks ranked by noise level, capacity, and overall performance.",
+    "slug": "best-quiet-dehumidifiers",
+    "type": "best-pick",
+    "category": "Dehumidifiers",
+    "url": "/best-picks/best-quiet-dehumidifiers"
+  },
+  {
+    "title": "Best Radon Detectors and Monitors in 2026 (Continuous & Test Kits)",
+    "description": "The best radon detectors for home use in 2026. Continuous digital monitors and test kits compared by accuracy, features, and value based on customer reviews.",
+    "slug": "best-radon-detectors",
+    "type": "best-pick",
+    "category": "Air Quality Monitors",
+    "url": "/best-picks/best-radon-detectors"
+  },
+  {
     "title": "The 5 Best Smart Air Purifiers with Wi-Fi in 2026",
     "description": "Control your air quality from anywhere. We tested the best Wi-Fi-connected air purifiers with app control, voice assistants, and smart home integrations.",
     "slug": "best-smart-air-purifiers",
     "type": "best-pick",
     "category": "Air Purifiers",
     "url": "/best-picks/best-smart-air-purifiers"
+  },
+  {
+    "title": "Best Smart Dehumidifiers with Wi-Fi and App Control in 2026",
+    "description": "The best smart dehumidifiers with Wi-Fi, app control, and voice assistant support. Top picks ranked by smart features, capacity, and value.",
+    "slug": "best-smart-dehumidifiers",
+    "type": "best-pick",
+    "category": "Dehumidifiers",
+    "url": "/best-picks/best-smart-dehumidifiers"
   },
   {
     "title": "Best Smart Humidifiers in 2026 (Wi-Fi, App Control & Auto Humidity)",
@@ -664,6 +728,14 @@
     "url": "/guides/air-purifier-maintenance-guide"
   },
   {
+    "title": "Air Purifier Noise Levels Explained: How Loud Is Too Loud?",
+    "description": "Understand air purifier noise levels in decibels. Compare quiet vs loud purifiers, learn what dB means for sleep, and find the quietest models for bedrooms.",
+    "slug": "air-purifier-noise-levels-explained",
+    "type": "guide",
+    "category": "Guides",
+    "url": "/guides/air-purifier-noise-levels-explained"
+  },
+  {
     "title": "Where to Place Your Air Purifier: 7 Rules for Maximum Effectiveness",
     "description": "Learn exactly where to place your air purifier for best results. We tested placement positions and measured the difference. 7 rules backed by airflow data.",
     "slug": "air-purifier-placement-guide",
@@ -694,6 +766,14 @@
     "type": "guide",
     "category": "Guides",
     "url": "/guides/air-quality-index-explained"
+  },
+  {
+    "title": "Basement Air Quality: Common Problems and How to Fix Them",
+    "description": "Fix common basement air quality problems including mold, radon, musty odors, and excess humidity. A complete guide to making your basement safe and comfortable.",
+    "slug": "basement-air-quality",
+    "type": "guide",
+    "category": "Guides",
+    "url": "/guides/basement-air-quality"
   },
   {
     "title": "Best Air Purifiers for Apartments (2026): Small Space Solutions",
@@ -792,12 +872,28 @@
     "url": "/guides/do-i-need-a-dehumidifier"
   },
   {
+    "title": "Dyson Purifier Cool TP07 vs Levoit Core 400S: Which Is Worth It?",
+    "description": "Detailed comparison of the Dyson Purifier Cool TP07 ($570) vs Levoit Core 400S ($220). We break down CADR, smart features, noise, filters, and long-term cost.",
+    "slug": "dyson-cool-vs-levoit-400s",
+    "type": "guide",
+    "category": "Air Purifier Comparisons",
+    "url": "/guides/dyson-cool-vs-levoit-400s"
+  },
+  {
     "title": "Dyson vs Blueair: Which Air Purifier Brand Is Better in 2026?",
     "description": "Dyson vs Blueair air purifier comparison. We compare CADR, filtration, noise, smart features, design, and value to help you choose the right premium purifier.",
     "slug": "dyson-vs-blueair",
     "type": "guide",
     "category": "Comparisons",
     "url": "/guides/dyson-vs-blueair"
+  },
+  {
+    "title": "Formaldehyde in Your Home: Sources, Health Risks, and How to Remove It",
+    "description": "Learn where formaldehyde comes from in your home, its health risks, safe exposure levels, and proven methods to reduce it including air purifiers and ventilation.",
+    "slug": "formaldehyde-in-your-home",
+    "type": "guide",
+    "category": "Guides",
+    "url": "/guides/formaldehyde-in-your-home"
   },
   {
     "title": "Frigidaire vs GE Dehumidifier: Which Is Better for Your Basement?",
@@ -838,6 +934,14 @@
     "type": "guide",
     "category": "Guides",
     "url": "/guides/how-to-reduce-dust-in-your-home"
+  },
+  {
+    "title": "How to Tell If Your Air Purifier Is Actually Working",
+    "description": "5 ways to verify your air purifier is actually cleaning the air. From airflow tests to PM2.5 monitoring, learn how to check purifier performance.",
+    "slug": "how-to-tell-if-air-purifier-is-working",
+    "type": "guide",
+    "category": "Guides",
+    "url": "/guides/how-to-tell-if-air-purifier-is-working"
   },
   {
     "title": "How to Test Your Home's Air Quality: A Complete Guide",
@@ -896,6 +1000,14 @@
     "url": "/guides/radon-in-your-home"
   },
   {
+    "title": "How to Set Up Your Air Purifier for Spring and Fall Allergy Season",
+    "description": "Complete guide to optimizing your air purifier for seasonal allergies. Spring pollen and fall ragweed strategies, filter timing, placement tips, and product recommendations.",
+    "slug": "seasonal-allergy-air-purifier-setup",
+    "type": "guide",
+    "category": "Indoor Air Quality",
+    "url": "/guides/seasonal-allergy-air-purifier-setup"
+  },
+  {
     "title": "VOCs in Your Home: Sources, Dangers, and How to Remove Them",
     "description": "Discover what VOCs are, where they come from in your home, their health risks, and proven strategies to reduce volatile organic compounds in your indoor air.",
     "slug": "vocs-in-your-home",
@@ -918,6 +1030,14 @@
     "type": "guide",
     "category": "Guides",
     "url": "/guides/wildfire-smoke-indoor-air"
+  },
+  {
+    "title": "Winter Dry Air Solutions: How to Fix Low Humidity in Your Home",
+    "description": "Complete guide to solving winter dry air problems. How to choose and use humidifiers, maintain healthy humidity levels, and protect your health during heating season.",
+    "slug": "winter-dry-air-solutions",
+    "type": "guide",
+    "category": "Indoor Air Quality",
+    "url": "/guides/winter-dry-air-solutions"
   },
   {
     "title": "Dyson Big Quiet Formaldehyde",
