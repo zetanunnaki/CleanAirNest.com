@@ -77,6 +77,20 @@ const coverPrompts: Record<string, string> = {
     "Two modern air purifiers facing each other on opposite sides of a clean white table, dramatic split lighting, product comparison editorial photography",
   "homepage-hero":
     "Bright airy modern living room with large windows and clean blue sky, green plants, air purifier blending into decor, aspirational lifestyle photography",
+  "air-purifier-bedroom":
+    "Minimalist modern bedroom with a compact air purifier on nightstand, soft ambient lighting, cozy bedding, peaceful sleep atmosphere, lifestyle interior photography",
+  "air-purifier-comparison":
+    "Two modern air purifiers side by side on a clean white table with specs comparison cards between them, bright studio lighting, product comparison editorial photography",
+  "air-quality-guide":
+    "Modern kitchen with range hood and open window, steam rising from cooking, air quality monitor on counter showing readings, warm editorial lifestyle photography",
+  "allergies-air-purifier":
+    "Bright spring living room with blooming flowers visible through window, air purifier running nearby, person breathing easily on couch, warm natural lighting, lifestyle photography",
+  "dehumidifier-guide":
+    "Modern basement or laundry room with a sleek dehumidifier unit running, visible water tank, clean organized space, practical home improvement photography",
+  "humidifier-guide":
+    "Cozy winter living room with humidifier producing gentle mist, frost visible on windows outside, warm interior lighting, indoor plants thriving, lifestyle editorial photography",
+  "pet-air-purifier":
+    "Happy golden retriever lying next to a modern air purifier in a bright living room, subtle fur particles visible in sunbeam, warm lifestyle photography",
 };
 
 async function submitTask(prompt: string): Promise<string | null> {
