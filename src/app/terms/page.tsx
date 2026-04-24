@@ -3,6 +3,9 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Terms of Use",
   description: "AirQualityNest terms of use. Read our terms and conditions for using our website.",
+  alternates: {
+    canonical: "https://airqualitynest.com/terms",
+  },
 };
 
 export default function TermsPage() {

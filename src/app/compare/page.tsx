@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Compare Air Quality Products Side by Side",
   description:
     "Compare air purifiers, air quality monitors, humidifiers, and dehumidifiers side by side with specs, pricing, and expert ratings.",
+  alternates: {
+    canonical: "https://airqualitynest.com/compare",
+  },
 };
 
 export default function ComparePage() {

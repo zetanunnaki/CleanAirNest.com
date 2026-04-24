@@ -42,12 +42,22 @@ export const metadata: Metadata = {
     description:
       "In-depth reviews and buying guides for air purifiers, monitors, humidifiers, and dehumidifiers.",
     url: "https://airqualitynest.com",
+    images: [
+      {
+        url: "https://airqualitynest.com/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "AirQualityNest - Expert Air Quality Reviews & Guides",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
+    site: "@airqualitynest",
     title: "AirQualityNest",
     description:
       "In-depth reviews and buying guides for air purifiers, monitors, humidifiers, and dehumidifiers.",
+    images: ["https://airqualitynest.com/opengraph-image"],
   },
   robots: {
     index: true,

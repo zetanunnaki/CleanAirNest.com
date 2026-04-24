@@ -2,9 +2,12 @@ import { Metadata } from "next";
 import { Shield, Target, Heart, Zap, Award, Beaker } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About Us - Our Mission & Testing Process",
+  title: "About Us - Our Mission & Review Process",
   description:
-    "Learn about AirQualityNest's mission, our rigorous testing methodology, and our commitment to helping you breathe cleaner air at home.",
+    "Learn about AirQualityNest's mission, our editorial review process, and our commitment to helping you breathe cleaner air at home.",
+  alternates: {
+    canonical: "https://airqualitynest.com/about",
+  },
 };
 
 export default function AboutPage() {
@@ -14,7 +17,7 @@ export default function AboutPage() {
     "name": "AirQualityNest",
     "url": "https://airqualitynest.com",
     "logo": "https://airqualitynest.com/icon.svg",
-    "description": "Independent, lab-backed reviews of air purifiers, air quality monitors, humidifiers, and dehumidifiers.",
+    "description": "Editorial reviews and buying guides for air purifiers, air quality monitors, humidifiers, and dehumidifiers.",
     "foundingDate": "2024",
     "sameAs": [
       "https://pinterest.com/airqualitynest",
@@ -26,23 +29,23 @@ export default function AboutPage() {
   const howToJsonLd = {
     "@context": "https://schema.org",
     "@type": "HowTo",
-    "name": "How AirQualityNest Tests Air Quality Products",
-    "description": "Our rigorous real-home testing process for air purifiers, monitors, humidifiers, and dehumidifiers.",
+    "name": "How AirQualityNest Reviews Air Quality Products",
+    "description": "Our editorial review process for air purifiers, monitors, humidifiers, and dehumidifiers.",
     "step": [
       {
         "@type": "HowToStep",
-        "name": "Measure particle reduction",
-        "text": "Measure particle reduction rates using calibrated PM2.5 monitors (Temtop LKC-1000S+) in a standardized 400 sq. ft. sealed chamber."
+        "name": "Aggregate customer feedback",
+        "text": "Analyze hundreds of verified customer reviews across major retailers to identify real-world performance patterns, common issues, and standout features."
       },
       {
         "@type": "HowToStep",
-        "name": "Test at multiple fan speeds",
-        "text": "Test at multiple fan speeds, measure noise levels with a decibel meter at 3-foot distance, and track energy consumption over 7-day periods."
+        "name": "Research specifications and certifications",
+        "text": "Review manufacturer specifications, AHAM-verified CADR ratings, Energy Star certifications, and third-party test data to verify performance claims."
       },
       {
         "@type": "HowToStep",
-        "name": "Evaluate real-world performance",
-        "text": "Evaluate each product over a minimum of two weeks of daily use, assessing real-world factors like filter replacement costs, ease of maintenance, noise during sleep, and build quality durability."
+        "name": "Compare value and long-term costs",
+        "text": "Evaluate each product on total cost of ownership including purchase price, filter replacement costs, energy consumption, and warranty coverage to determine real value."
       }
     ]
   };
@@ -99,12 +102,12 @@ export default function AboutPage() {
             {
               icon: Target,
               title: "Our Mission",
-              text: "Make clean indoor air accessible to everyone through honest, expert guidance and lab-backed data.",
+              text: "Make clean indoor air accessible to everyone through honest, expert guidance and real customer data.",
             },
             {
               icon: Shield,
               title: "Independence",
-              text: "We buy every product we test. Manufacturers cannot pay for positive reviews or influence our rankings.",
+              text: "Manufacturers cannot pay for positive reviews or influence our rankings. Our editorial recommendations are fully independent.",
             },
             {
               icon: Heart,
@@ -132,30 +135,30 @@ export default function AboutPage() {
                 <Beaker size={32} />
               </div>
               <div>
-                <h2 id="how-we-test" className="!mt-0 !mb-2">How We Test</h2>
+                <h2 id="how-we-review" className="!mt-0 !mb-2">How We Review</h2>
                 <p className="!mb-0">
-                  Every product goes through rigorous real-home testing. Here&apos;s our process.
+                  Every product goes through our thorough editorial review process. Here&apos;s how we do it.
                 </p>
               </div>
             </div>
 
             <p>
-              For air purifiers, we measure particle reduction rates using calibrated
-              PM2.5 monitors (Temtop LKC-1000S+) in a standardized 400 sq. ft. sealed chamber.
-              We test at multiple fan speeds, measure noise levels with a decibel
-              meter at 3-foot distance, and track energy consumption over 7-day periods.
+              We analyze hundreds of verified customer reviews across Amazon, Walmart, and
+              specialty retailers to identify real-world performance patterns. We cross-reference
+              manufacturer specifications with AHAM-verified CADR ratings, Energy Star certifications,
+              and available third-party test data.
             </p>
             <p>
-              Each product is evaluated over a minimum of two weeks of daily use,
-              assessing real-world factors like filter replacement costs, ease of
-              maintenance, noise during sleep, and build quality durability.
+              Each product is evaluated on total cost of ownership — including purchase price,
+              filter replacement costs, energy consumption, and warranty coverage — alongside
+              real customer feedback on noise levels, ease of maintenance, and build quality durability.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-16">
               {[
-                { icon: Zap, stat: "400 sq ft", label: "Sealed test chamber" },
-                { icon: Award, stat: "14+ days", label: "Per product tested" },
-                { icon: Shield, stat: "100%", label: "Self-purchased products" },
+                { icon: Zap, stat: "500+", label: "Customer reviews analyzed per product" },
+                { icon: Award, stat: "40+", label: "Products reviewed" },
+                { icon: Shield, stat: "100%", label: "Editorially independent" },
               ].map((item) => (
                 <div key={item.label} className="bg-white border border-slate-100 rounded-3xl p-8 text-center">
                   <div className="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center mx-auto mb-4">
@@ -171,12 +174,12 @@ export default function AboutPage() {
             <p>
               AirQualityNest is reader-supported. When you purchase through links on
               our site, we may earn an affiliate commission at no additional cost to
-              you. This revenue funds our independent product testing and lab equipment.
+              you. This revenue funds our editorial research and content.
             </p>
             <p>
               Our affiliate relationships never influence editorial content. We
-              recommend products based solely on testing results and research.
-              Many products we test do not make it into our recommendations.
+              recommend products based solely on our research and customer review analysis.
+              Many products we review do not make it into our recommendations.
             </p>
 
             <h2>Contact Us</h2>

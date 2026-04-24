@@ -5,7 +5,7 @@ import { Shield, Award, Beaker, Users, BookOpen, CheckCircle } from "lucide-reac
 export const metadata: Metadata = {
   title: "Editorial Team - Meet the Experts Behind AirQualityNest",
   description:
-    "Meet the AirQualityNest editorial team. Our indoor air quality experts combine hands-on product testing, air quality science knowledge, and years of experience to deliver trustworthy reviews and guides.",
+    "Meet the AirQualityNest editorial team. Our indoor air quality experts combine deep product research, air quality science knowledge, and years of experience to deliver trustworthy reviews and guides.",
   alternates: {
     canonical: "https://airqualitynest.com/about/editorial-team",
   },
@@ -14,15 +14,15 @@ export const metadata: Metadata = {
 const teamMembers = [
   {
     name: "CleanAir Team",
-    role: "Editorial & Testing",
+    role: "Editorial & Research",
     expertise: [
       "HEPA & activated carbon filtration",
-      "PM2.5 / VOC measurement",
-      "Product performance benchmarking",
-      "Real-home usability evaluation",
+      "PM2.5 / VOC analysis",
+      "Customer review data analysis",
+      "Product value & cost-of-ownership evaluation",
     ],
     description:
-      "Our core editorial team researches, tests, and writes every review and guide on AirQualityNest. Each member brings direct, hands-on experience with dozens of air purifiers, monitors, humidifiers, and dehumidifiers. We use calibrated instruments -- not manufacturer spec sheets -- to evaluate real-world product performance.",
+      "Our core editorial team researches, analyzes, and writes every review and guide on AirQualityNest. Each member brings deep knowledge of air purifiers, monitors, humidifiers, and dehumidifiers. We analyze hundreds of verified customer reviews and cross-reference manufacturer specs with independent certifications to evaluate real-world product performance.",
   },
 ];
 
@@ -34,7 +34,7 @@ export default function EditorialTeamPage() {
     url: "https://airqualitynest.com",
     logo: "https://airqualitynest.com/icon.svg",
     description:
-      "Independent, lab-backed reviews of air purifiers, air quality monitors, humidifiers, and dehumidifiers.",
+      "Editorial reviews and buying guides for air purifiers, air quality monitors, humidifiers, and dehumidifiers.",
     foundingDate: "2024",
     sameAs: [
       "https://pinterest.com/airqualitynest",
@@ -73,8 +73,8 @@ export default function EditorialTeamPage() {
               Meet the Editorial Team
             </h1>
             <p className="text-xl md:text-2xl text-slate-500 font-light leading-relaxed">
-              Every recommendation on AirQualityNest is backed by hands-on
-              testing, calibrated instruments, and a genuine commitment to
+              Every recommendation on AirQualityNest is backed by thorough
+              research, real customer data, and a genuine commitment to
               helping you breathe cleaner air at home.
             </p>
           </div>
@@ -92,13 +92,13 @@ export default function EditorialTeamPage() {
             },
             {
               icon: Award,
-              title: "Product Testing",
-              text: "Every product we review is purchased independently and tested in real-home conditions using calibrated PM2.5 monitors (Temtop LKC-1000S+), decibel meters, and energy monitors over a minimum of 14 days.",
+              title: "Product Research",
+              text: "Every product we review goes through an extensive research process. We analyze hundreds of verified customer reviews, cross-reference AHAM-verified CADR ratings, and evaluate total cost of ownership over the product's lifespan.",
             },
             {
               icon: Shield,
               title: "Editorial Independence",
-              text: "Manufacturers cannot pay for reviews or influence our rankings. We buy every product, disclose every affiliate relationship, and recommend only what we would use in our own homes.",
+              text: "Manufacturers cannot pay for reviews or influence our rankings. We disclose every affiliate relationship and recommend only what we would use in our own homes.",
             },
           ].map((item) => (
             <div
@@ -171,7 +171,7 @@ export default function EditorialTeamPage() {
         </div>
       </section>
 
-      {/* Testing Methodology */}
+      {/* Review Methodology */}
       <section className="fluid-container py-20">
         <div className="max-w-4xl mx-auto">
           <div className="bg-slate-50 border border-slate-100 p-10 rounded-[40px]">
@@ -181,21 +181,20 @@ export default function EditorialTeamPage() {
               </div>
               <div>
                 <h2 className="font-display font-bold text-2xl text-primary mb-4">
-                  Our Testing Methodology
+                  Our Review Methodology
                 </h2>
                 <p className="text-slate-500 font-light leading-relaxed mb-4">
-                  We test every product in a standardized 400 sq. ft. sealed
-                  room using calibrated PM2.5 monitors. For air purifiers, we
-                  measure particle reduction at every fan speed, record noise
-                  levels from 3 feet with a decibel meter, and track energy
-                  consumption over 7-day periods.
+                  For every product, we analyze hundreds of verified customer
+                  reviews across major retailers and cross-reference them with
+                  AHAM-verified CADR ratings, Energy Star certifications, and
+                  available third-party performance data.
                 </p>
                 <p className="text-slate-500 font-light leading-relaxed mb-4">
-                  Each product lives in our homes for a minimum of 14 days. We
-                  assess long-term factors that short lab tests miss: filter
-                  replacement cost over a year, daily noise experience during
-                  sleep, maintenance effort, app reliability, and build-quality
-                  durability.
+                  We evaluate the full picture: filter replacement cost over
+                  a year, real-world noise levels reported by customers,
+                  maintenance effort, app reliability, energy consumption,
+                  and build-quality durability based on long-term owner
+                  feedback.
                 </p>
                 <p className="text-slate-500 font-light leading-relaxed">
                   We publish our methodology, disclose our affiliate
