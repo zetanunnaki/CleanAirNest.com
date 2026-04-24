@@ -832,6 +832,14 @@
     "url": "/guides/carbon-filter-explained"
   },
   {
+    "title": "Cooking and Indoor Air Quality: Ventilation, Pollutants, and Solutions",
+    "description": "How cooking impacts your indoor air quality. Gas vs electric stove pollutants, range hood effectiveness, air purifier strategies, and ventilation tips for healthier cooking.",
+    "slug": "cooking-ventilation-air-quality",
+    "type": "guide",
+    "category": "Indoor Air Quality",
+    "url": "/guides/cooking-ventilation-air-quality"
+  },
+  {
     "title": "Coway Mighty vs Honeywell HPA300: Which Budget Purifier Wins?",
     "description": "Coway AP-1512HH vs Honeywell HPA300 comparison. We compare CADR, noise, energy use, filter costs, and value to find the best budget air purifier.",
     "slug": "coway-vs-honeywell",
@@ -870,6 +878,14 @@
     "type": "guide",
     "category": "Guides",
     "url": "/guides/do-i-need-a-dehumidifier"
+  },
+  {
+    "title": "Dorm Room Air Quality: The College Student's Guide to Clean Air",
+    "description": "How to improve air quality in your dorm room. Compact air purifier picks, humidity control, and practical tips for small shared spaces on a student budget.",
+    "slug": "dorm-room-air-quality",
+    "type": "guide",
+    "category": "Indoor Air Quality",
+    "url": "/guides/dorm-room-air-quality"
   },
   {
     "title": "Dyson Purifier Cool TP07 vs Levoit Core 400S: Which Is Worth It?",
@@ -992,6 +1008,22 @@
     "url": "/guides/levoit-vs-blueair"
   },
   {
+    "title": "New Home Air Quality Checklist: What to Do After Moving In",
+    "description": "Essential air quality checklist for new homeowners and renters. From day one testing to long-term monitoring, everything you need for clean air in your new home.",
+    "slug": "new-home-air-quality-checklist",
+    "type": "guide",
+    "category": "Indoor Air Quality",
+    "url": "/guides/new-home-air-quality-checklist"
+  },
+  {
+    "title": "Pet Owners' Guide to Indoor Air Quality: Dander, Odor, and Allergen Control",
+    "description": "Complete guide to managing pet dander, odors, and allergens in your home. Best air purifiers, humidity control, and practical strategies for pet owners.",
+    "slug": "pet-owners-air-quality-guide",
+    "type": "guide",
+    "category": "Indoor Air Quality",
+    "url": "/guides/pet-owners-air-quality-guide"
+  },
+  {
     "title": "Radon in Your Home: Testing, Risks, and Mitigation",
     "description": "Learn about radon gas risks, EPA guidelines, how to test your home with short and long-term tests, and mitigation systems that reduce dangerous radon levels.",
     "slug": "radon-in-your-home",
@@ -1006,6 +1038,14 @@
     "type": "guide",
     "category": "Indoor Air Quality",
     "url": "/guides/seasonal-allergy-air-purifier-setup"
+  },
+  {
+    "title": "Summer Humidity and Mold Prevention: Your Complete Guide",
+    "description": "How to control summer humidity and prevent mold growth in your home. Dehumidifier strategies, ventilation tips, and product recommendations for the hottest months.",
+    "slug": "summer-humidity-mold-prevention",
+    "type": "guide",
+    "category": "Indoor Air Quality",
+    "url": "/guides/summer-humidity-mold-prevention"
   },
   {
     "title": "VOCs in Your Home: Sources, Dangers, and How to Remove Them",

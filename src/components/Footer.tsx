@@ -25,7 +25,7 @@ export function Footer() {
               </span>
             </div>
             <p className="text-slate-400 text-sm sm:text-base font-light leading-relaxed max-w-sm mb-6">
-              Independent reviews and buying guides for air quality products.
+              Editorial reviews and buying guides for air quality products.
               Based on real customer feedback. No sponsored content, ever.
             </p>
             <div className="flex items-center gap-3">

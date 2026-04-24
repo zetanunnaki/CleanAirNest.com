@@ -123,7 +123,18 @@
       "Bash(curl -s -H \"Authorization: Bearer a34ec7e113fd3f211e45fc9c44ecaabb\" \"https://api.kie.ai/api/v1/flux/kontext/result?taskId=fluxkontext_6a57dec5b3e74a8f8e86e133d181281b\")",
       "Bash(curl -s -H \"Authorization: Bearer a34ec7e113fd3f211e45fc9c44ecaabb\" \"https://api.kie.ai/api/v1/flux/kontext/task/fluxkontext_6a57dec5b3e74a8f8e86e133d181281b\")",
       "Bash(curl -s -H \"Authorization: Bearer a34ec7e113fd3f211e45fc9c44ecaabb\" \"https://api.kie.ai/api/v1/flux/kontext/record-info?taskId=fluxkontext_6a57dec5b3e74a8f8e86e133d181281b\")",
-      "Bash(git config *)"
+      "Bash(git config *)",
+      "Bash(node scripts/generateSitemap.mjs)",
+      "Bash(git pull *)",
+      "Bash(git stash *)",
+      "Bash(curl -s http://localhost:3001/best-picks/best-air-quality-monitors-under-100)",
+      "Bash(python3 -c ' *)",
+      "Bash(node -e \"const pkg = require\\('next-mdx-remote/package.json'\\); console.log\\('next-mdx-remote version:', pkg.version\\);\")",
+      "Bash(curl -s http://localhost:3001/best-picks/best-dehumidifiers-with-pump)",
+      "Bash(curl -s http://localhost:3001/best-picks/best-co2-monitors)",
+      "Read(//dev/**)",
+      "Bash(dir \"C:\\\\Users\\\\Issam\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-Issam-CleanAirNest-com\")",
+      "Bash(node --input-type=module -e ' *)"
     ],
     "additionalDirectories": [
       "c:\\Users\\Issam\\CleanAirNest.com\\src\\app\\best-picks"

@@ -5,7 +5,6 @@ import { getArticle, getArticleSlugs, getAllArticles } from "@/lib/articles";
 import { getReadingTime, extractFaqItems } from "@/lib/utils";
 import { getProduct } from "@/lib/products";
 import { MdxContent } from "@/components/MdxContent";
-import { AffiliateDisclosure } from "@/components/AffiliateDisclosure";
 import { AuthorByline } from "@/components/AuthorByline";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { RelatedArticles } from "@/components/RelatedArticles";
@@ -207,7 +206,6 @@ export default async function ReviewArticlePage({ params }: PageProps) {
               priority
             />
           </div>
-          <AffiliateDisclosure />
           <MdxContent source={article.content} />
           <RelatedArticles articles={allArticles} currentSlug={slug} />
         </div>
