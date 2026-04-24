@@ -32,11 +32,12 @@ export function AffiliateButton({
         data-affiliate={store}
         data-product-id={productId}
         data-cta="affiliate-button"
+        className="w-full sm:w-auto"
       >
-        <Button variant={variant} size="xl">
-          <ShoppingCart className="w-5 h-5" />
+        <Button variant={variant} size="xl" className="w-full sm:w-auto">
+          <ShoppingCart className="w-5 h-5 shrink-0" />
           {label || defaultLabel}
-          <ExternalLink className="w-4 h-4" />
+          <ExternalLink className="w-4 h-4 shrink-0" />
         </Button>
       </a>
     </div>
