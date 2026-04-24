@@ -14,6 +14,13 @@ If you care about hyperlocal air quality data — especially during wildfire sea
 
 <ProductCard productId="purpleair-flex" />
 
+<SpecTable specs={[
+  {label: "Sensors", value: "PM1, PM2.5, PM10, Temp, Humidity, Air Pressure"},
+  {label: "Battery Life", value: "N/A (USB-C powered)"},
+  {label: "Connectivity", value: "Wi-Fi"},
+  {label: "Price", value: "$229.00"}
+]} />
+
 ## Design & Build
 
 The PurpleAir Flex is a compact rectangular unit measuring 4.5 x 3 x 2 inches, housed in a rugged matte plastic shell. It is designed to work both indoors and outdoors (with the optional weatherproof enclosure, sold separately for $30). The build is utilitarian rather than decorative — this is a sensor first, a design object second.
@@ -62,11 +69,17 @@ The Temtop M10 costs about the same and includes a built-in color display showin
 
 ## The Verdict
 
-The PurpleAir Flex is the best air quality monitor for data enthusiasts and anyone living in wildfire-prone areas. The dual-laser sensors provide reliable PM2.5 data, and the community map integration gives you hyperlocal context that no other monitor can match. The lack of a display and the utilitarian design mean this is not the best choice for a living room centerpiece — for that, the Awair Element or Airthings View Plus are better options.
+<VerdictBox 
+  verdict="The PurpleAir Flex is the best air quality monitor for data enthusiasts and anyone living in wildfire-prone areas."
+  product="PurpleAir Flex Air Quality Monitor"
+  rating="4.5"
+  pros={["Dual laser sensors for redundancy and accuracy", "Data shared to PurpleAir real-time map", "Indoor/outdoor capable with weatherproof housing", "Open data API for researchers"]}
+  cons={["No CO2 or VOC sensors", "No display — web dashboard only", "Requires stable Wi-Fi connection", "More researcher-oriented than consumer-friendly"]}
+/>
+
+The dual-laser sensors provide reliable PM2.5 data, and the community map integration gives you hyperlocal context that no other monitor can match. The lack of a display and the utilitarian design mean this is not the best choice for a living room centerpiece — for that, the Awair Element or Airthings View Plus are better options.
 
 For outdoor monitoring, community science, or wildfire tracking, the Flex is our top recommendation at this price point.
-
-**Rating: 4/5**
 
 <AffiliateButton productId="purpleair-flex" label="Check Price on Amazon" />
 
