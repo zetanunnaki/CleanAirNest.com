@@ -9,7 +9,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 import { SocialShare } from "@/components/SocialShare";
-import { NewsletterSignup } from "@/components/NewsletterSignup";
+
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -151,7 +151,6 @@ export default async function BestPicksArticlePage({ params }: PageProps) {
             />
           </div>
           <MdxContent source={article.content} />
-          <NewsletterSignup />
           <RelatedArticles articles={allArticles} currentSlug={slug} />
         </div>
       </article>

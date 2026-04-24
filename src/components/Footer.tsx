@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Wind } from "lucide-react";
-import { NewsletterSignup } from "@/components/NewsletterSignup";
+
 
 export function Footer() {
   return (
@@ -84,11 +84,7 @@ export function Footer() {
           ))}
         </div>
 
-        <div className="border-t border-white/[0.06] mt-14 pt-10 pb-6">
-          <NewsletterSignup variant="footer" />
-        </div>
-
-        <div className="border-t border-white/[0.06] mt-6 pt-8 space-y-4">
+        <div className="border-t border-white/[0.06] mt-14 pt-8 space-y-4">
           <p className="text-[11px] text-slate-500 font-light leading-relaxed max-w-3xl">
             <strong className="text-slate-400 font-medium">Affiliate Disclosure:</strong> AirQualityNest
             is a participant in the Amazon Services LLC Associates Program, an affiliate advertising

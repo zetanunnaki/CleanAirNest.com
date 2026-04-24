@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { ArticleCard } from "@/components/ArticleCard";
 import { getAllArticles } from "@/lib/articles";
 import { getProduct } from "@/lib/products";
-import { NewsletterSignup } from "@/components/NewsletterSignup";
+
 
 const categories = [
   {
@@ -482,11 +482,6 @@ export default function HomePage() {
             Articles coming soon. Check back for expert air quality reviews and guides.
           </p>
         )}
-      </section>
-
-      {/* ═══════════════ NEWSLETTER ═══════════════ */}
-      <section className="fluid-container">
-        <NewsletterSignup />
       </section>
 
       {/* ═══════════════ CTA BANNER ═══════════════ */}
