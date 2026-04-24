@@ -63,13 +63,13 @@ export default function EditorialTeamPage() {
       {/* Hero */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 air-glow"></div>
-        <div className="fluid-container py-20 md:py-32 relative z-10">
+        <div className="fluid-container py-10 sm:py-16 md:py-24 lg:py-32 relative z-10">
           <div className="max-w-3xl">
             <span className="inline-flex items-center gap-2 px-5 py-2 bg-accent/10 text-accent rounded-full text-sm font-semibold mb-8">
               <Users className="w-4 h-4" />
               Our Team
             </span>
-            <h1 className="text-4xl md:text-6xl font-display font-bold tracking-tighter text-primary mb-6 leading-[1.05]">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl font-display font-bold tracking-tighter text-primary mb-6 leading-[1.05]">
               Meet the Editorial Team
             </h1>
             <p className="text-xl md:text-2xl text-slate-500 font-light leading-relaxed">
@@ -82,7 +82,7 @@ export default function EditorialTeamPage() {
       </section>
 
       {/* Expertise Areas */}
-      <section className="fluid-container py-20">
+      <section className="fluid-container py-10 sm:py-16 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
             {
@@ -103,7 +103,7 @@ export default function EditorialTeamPage() {
           ].map((item) => (
             <div
               key={item.title}
-              className="bg-white border border-slate-100 rounded-[28px] p-10 text-center hover:shadow-xl hover:shadow-slate-200/30 transition-all duration-500"
+              className="bg-white border border-slate-100 rounded-[28px] p-5 sm:p-7 md:p-10 text-center hover:shadow-xl hover:shadow-slate-200/30 transition-all duration-500"
             >
               <div className="w-14 h-14 bg-accent/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
                 <item.icon className="w-6 h-6 text-accent" />
@@ -120,7 +120,7 @@ export default function EditorialTeamPage() {
       </section>
 
       {/* Team Members */}
-      <section className="fluid-container py-20">
+      <section className="fluid-container py-10 sm:py-16 md:py-20">
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center gap-3 mb-10">
             <div className="w-12 h-12 bg-accent/10 rounded-2xl flex items-center justify-center">
@@ -134,7 +134,7 @@ export default function EditorialTeamPage() {
           {teamMembers.map((member) => (
             <div
               key={member.name}
-              className="bg-white border border-slate-100 rounded-[28px] p-10 mb-8"
+              className="bg-white border border-slate-100 rounded-[28px] p-5 sm:p-7 md:p-10 mb-8"
             >
               <div className="flex flex-col md:flex-row gap-8">
                 <div className="w-20 h-20 bg-accent/10 rounded-2xl flex items-center justify-center shrink-0">
@@ -172,9 +172,9 @@ export default function EditorialTeamPage() {
       </section>
 
       {/* Review Methodology */}
-      <section className="fluid-container py-20">
+      <section className="fluid-container py-10 sm:py-16 md:py-20">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-slate-50 border border-slate-100 p-10 rounded-[40px]">
+          <div className="bg-slate-50 border border-slate-100 p-5 sm:p-7 md:p-10 rounded-2xl sm:rounded-[40px]">
             <div className="flex flex-col md:flex-row gap-8 items-start">
               <div className="bg-accent text-white p-4 rounded-3xl shrink-0 animate-float shadow-xl shadow-accent/20">
                 <Beaker size={32} />

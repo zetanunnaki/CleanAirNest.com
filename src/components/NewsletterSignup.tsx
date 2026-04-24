@@ -112,13 +112,13 @@ export function NewsletterSignup({ variant = "default" }: NewsletterSignupProps)
       <div className="absolute -top-24 -right-24 w-64 h-64 bg-accent/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute -bottom-16 -left-16 w-48 h-48 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
 
-      <div className="relative z-10 px-5 py-8 sm:px-8 sm:py-12 md:px-12 md:py-14 text-center">
+      <div className="relative z-10 px-4 py-6 sm:px-8 sm:py-12 md:px-12 md:py-14 text-center">
         <div className="inline-flex items-center gap-2 bg-accent/10 text-accent text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-6">
           <Sparkles className="w-3.5 h-3.5" />
           Free Newsletter
         </div>
 
-        <h2 className="text-2xl md:text-3xl font-display font-bold tracking-tight text-white mb-3">
+        <h2 className="text-xl sm:text-2xl md:text-3xl font-display font-bold tracking-tight text-white mb-3">
           Breathe easier with expert tips in your inbox
         </h2>
         <p className="text-slate-400 font-light text-lg leading-relaxed max-w-xl mx-auto mb-8">
@@ -152,7 +152,7 @@ export function NewsletterSignup({ variant = "default" }: NewsletterSignupProps)
             <button
               type="submit"
               disabled={status === "loading"}
-              className="w-full sm:w-auto bg-accent hover:bg-accent/90 text-white font-semibold px-8 py-3.5 rounded-full transition-all disabled:opacity-60 disabled:cursor-not-allowed shadow-lg shadow-accent/25 hover:shadow-accent/40 whitespace-nowrap"
+              className="w-full sm:w-auto bg-accent hover:bg-accent/90 text-white font-semibold px-6 sm:px-8 py-3 sm:py-3.5 rounded-full transition-all disabled:opacity-60 disabled:cursor-not-allowed shadow-lg shadow-accent/25 hover:shadow-accent/40 whitespace-nowrap"
             >
               {status === "loading" ? "Subscribing..." : "Subscribe Free"}
             </button>

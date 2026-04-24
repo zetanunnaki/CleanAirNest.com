@@ -14,7 +14,7 @@ export function Footer() {
       <div className="absolute bottom-20 left-[5%] w-72 h-72 bg-cyan-400/5 rounded-full blur-[100px] pointer-events-none" />
 
       <div className="fluid-container py-10 sm:py-16 pt-24 sm:pt-32">
-        <div className="grid grid-cols-2 md:grid-cols-12 gap-8 sm:gap-12">
+        <div className="grid grid-cols-2 md:grid-cols-12 gap-6 sm:gap-8 md:gap-12">
           <div className="col-span-2 md:col-span-5">
             <div className="flex items-center gap-2.5 mb-5">
               <div className="w-9 h-9 bg-gradient-to-br from-accent to-cyan-500 rounded-xl flex items-center justify-center">

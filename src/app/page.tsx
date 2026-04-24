@@ -468,7 +468,7 @@ export default function HomePage() {
 
       {/* ═══════════════ CTA BANNER ═══════════════ */}
       <section className="fluid-container py-12">
-        <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-primary text-white p-6 sm:p-10 md:p-16 lg:p-24 rounded-2xl sm:rounded-[40px] relative overflow-hidden group grain-overlay">
+        <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-primary text-white p-5 sm:p-8 md:p-14 lg:p-20 rounded-2xl sm:rounded-[40px] relative overflow-hidden group grain-overlay">
           <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-accent/10 blur-[100px] rounded-full animate-pulse-glow" />
           <div className="absolute bottom-0 left-0 w-[350px] h-[350px] bg-cyan-400/10 blur-[100px] rounded-full animate-pulse-glow" style={{ animationDelay: "2s" }} />
           <div className="relative z-10 text-center max-w-2xl mx-auto">

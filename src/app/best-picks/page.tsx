@@ -76,7 +76,7 @@ export default function BestPicksPage() {
           </div>
           <span className="text-sm font-bold uppercase tracking-widest text-accent">Curated</span>
         </div>
-        <h1 className="text-4xl md:text-5xl font-display font-bold tracking-tighter text-primary mb-4">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold tracking-tighter text-primary mb-4">
           Best Picks
         </h1>
         <p className="text-xl text-slate-500 font-light leading-relaxed">

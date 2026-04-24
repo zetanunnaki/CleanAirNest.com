@@ -8,7 +8,7 @@ interface SourceProps {
 
 export function Source({ href, label, children }: SourceProps) {
   return (
-    <blockquote className="not-prose my-6 border-l-4 border-accent/30 bg-accent/5 rounded-r-2xl p-6">
+    <blockquote className="not-prose my-6 border-l-4 border-accent/30 bg-accent/5 rounded-r-2xl p-4 sm:p-6">
       <p className="text-slate-700 font-light leading-relaxed mb-3 text-[0.95rem]">
         {children}
       </p>

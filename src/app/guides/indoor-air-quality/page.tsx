@@ -109,13 +109,13 @@ export default function IndoorAirQualityHubPage() {
       {/* Hero */}
       <section className="relative overflow-hidden bg-gradient-to-br from-emerald-50/50 via-white to-accent/5">
         <div className="absolute inset-0 air-glow"></div>
-        <div className="fluid-container py-20 md:py-32 relative z-10">
+        <div className="fluid-container py-10 sm:py-16 md:py-24 lg:py-32 relative z-10">
           <div className="max-w-3xl">
             <span className="inline-flex items-center gap-2 px-5 py-2 bg-accent/10 text-accent rounded-full text-sm font-semibold mb-8">
               <Activity className="w-4 h-4" />
               Topical Hub
             </span>
-            <h1 className="text-4xl md:text-6xl font-display font-bold tracking-tighter text-primary mb-6 leading-[1.05]">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl font-display font-bold tracking-tighter text-primary mb-6 leading-[1.05]">
               Indoor Air Quality: Test, Monitor & Improve
             </h1>
             <p className="text-xl md:text-2xl text-slate-500 font-light leading-relaxed mb-8">
@@ -135,7 +135,7 @@ export default function IndoorAirQualityHubPage() {
       </section>
 
       {/* Guides */}
-      <section className="fluid-container py-20">
+      <section className="fluid-container py-10 sm:py-16 md:py-20">
         <div className="flex items-center gap-3 mb-10">
           <div className="w-12 h-12 bg-accent/10 rounded-2xl flex items-center justify-center">
             <BookOpen className="w-6 h-6 text-accent" />
@@ -154,7 +154,7 @@ export default function IndoorAirQualityHubPage() {
             <Link
               key={article.slug}
               href={`/guides/${article.slug}`}
-              className="group bg-white border border-slate-100 rounded-2xl p-8 hover:shadow-xl hover:shadow-slate-200/30 transition-all duration-500"
+              className="group bg-white border border-slate-100 rounded-2xl p-4 sm:p-6 md:p-8 hover:shadow-xl hover:shadow-slate-200/30 transition-all duration-500"
             >
               <h3 className="font-display font-bold text-lg text-primary mb-2 group-hover:text-accent transition-colors">
                 {article.frontmatter.title}
@@ -171,7 +171,7 @@ export default function IndoorAirQualityHubPage() {
       </section>
 
       {/* Best Picks */}
-      <section className="fluid-container py-20">
+      <section className="fluid-container py-10 sm:py-16 md:py-20">
         <div className="flex items-center gap-3 mb-10">
           <div className="w-12 h-12 bg-accent/10 rounded-2xl flex items-center justify-center">
             <Award className="w-6 h-6 text-accent" />
@@ -190,7 +190,7 @@ export default function IndoorAirQualityHubPage() {
             <Link
               key={article.slug}
               href={`/best-picks/${article.slug}`}
-              className="group bg-white border border-slate-100 rounded-2xl p-8 hover:shadow-xl hover:shadow-slate-200/30 transition-all duration-500"
+              className="group bg-white border border-slate-100 rounded-2xl p-4 sm:p-6 md:p-8 hover:shadow-xl hover:shadow-slate-200/30 transition-all duration-500"
             >
               <h3 className="font-display font-bold text-lg text-primary mb-2 group-hover:text-accent transition-colors">
                 {article.frontmatter.title}
@@ -207,7 +207,7 @@ export default function IndoorAirQualityHubPage() {
       </section>
 
       {/* Reviews */}
-      <section className="fluid-container py-20">
+      <section className="fluid-container py-10 sm:py-16 md:py-20">
         <div className="flex items-center gap-3 mb-10">
           <div className="w-12 h-12 bg-accent/10 rounded-2xl flex items-center justify-center">
             <Search className="w-6 h-6 text-accent" />
@@ -226,7 +226,7 @@ export default function IndoorAirQualityHubPage() {
             <Link
               key={article.slug}
               href={`/reviews/${article.slug}`}
-              className="group bg-white border border-slate-100 rounded-2xl p-8 hover:shadow-xl hover:shadow-slate-200/30 transition-all duration-500"
+              className="group bg-white border border-slate-100 rounded-2xl p-4 sm:p-6 md:p-8 hover:shadow-xl hover:shadow-slate-200/30 transition-all duration-500"
             >
               <h3 className="font-display font-bold text-lg text-primary mb-2 group-hover:text-accent transition-colors">
                 {article.frontmatter.title}

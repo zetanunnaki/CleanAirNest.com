@@ -77,13 +77,13 @@ export default function AboutPage() {
       {/* Hero */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 air-glow"></div>
-        <div className="fluid-container py-20 md:py-32 relative z-10">
+        <div className="fluid-container py-10 sm:py-16 md:py-24 lg:py-32 relative z-10">
           <div className="max-w-3xl">
             <span className="inline-flex items-center gap-2 px-5 py-2 bg-accent/10 text-accent rounded-full text-sm font-semibold mb-8">
               <Heart className="w-4 h-4" />
               Our Story
             </span>
-            <h1 className="text-4xl md:text-6xl font-display font-bold tracking-tighter text-primary mb-6 leading-[1.05]">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl font-display font-bold tracking-tighter text-primary mb-6 leading-[1.05]">
               About AirQualityNest
             </h1>
             <p className="text-xl md:text-2xl text-slate-500 font-light leading-relaxed">
@@ -96,7 +96,7 @@ export default function AboutPage() {
       </section>
 
       {/* Values */}
-      <section className="fluid-container py-20">
+      <section className="fluid-container py-10 sm:py-16 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
             {
@@ -115,7 +115,7 @@ export default function AboutPage() {
               text: "We clearly disclose affiliate relationships and publish our complete testing methodology.",
             },
           ].map((item) => (
-            <div key={item.title} className="bg-white border border-slate-100 rounded-[28px] p-10 text-center hover:shadow-xl hover:shadow-slate-200/30 transition-all duration-500">
+            <div key={item.title} className="bg-white border border-slate-100 rounded-[28px] p-5 sm:p-7 md:p-10 text-center hover:shadow-xl hover:shadow-slate-200/30 transition-all duration-500">
               <div className="w-14 h-14 bg-accent/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
                 <item.icon className="w-6 h-6 text-accent" />
               </div>
@@ -127,10 +127,10 @@ export default function AboutPage() {
       </section>
 
       {/* How We Test */}
-      <section className="fluid-container py-20">
+      <section className="fluid-container py-10 sm:py-16 md:py-20">
         <div className="max-w-4xl mx-auto">
           <div className="prose-elevated">
-            <div className="bg-slate-50 border border-slate-100 p-10 rounded-[40px] flex flex-col md:flex-row gap-8 mb-20 items-center">
+            <div className="bg-slate-50 border border-slate-100 p-5 sm:p-7 md:p-10 rounded-2xl sm:rounded-[40px] flex flex-col md:flex-row gap-8 mb-20 items-center">
               <div className="bg-accent text-white p-4 rounded-3xl shrink-0 animate-float shadow-xl shadow-accent/20">
                 <Beaker size={32} />
               </div>
@@ -160,7 +160,7 @@ export default function AboutPage() {
                 { icon: Award, stat: "40+", label: "Products reviewed" },
                 { icon: Shield, stat: "100%", label: "Editorially independent" },
               ].map((item) => (
-                <div key={item.label} className="bg-white border border-slate-100 rounded-3xl p-8 text-center">
+                <div key={item.label} className="bg-white border border-slate-100 rounded-3xl p-4 sm:p-6 md:p-8 text-center">
                   <div className="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center mx-auto mb-4">
                     <item.icon className="w-5 h-5 text-accent" />
                   </div>

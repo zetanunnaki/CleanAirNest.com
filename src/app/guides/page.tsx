@@ -57,7 +57,7 @@ export default function GuidesPage() {
           </div>
           <span className="text-sm font-bold uppercase tracking-widest text-accent">Learn</span>
         </div>
-        <h1 className="text-4xl md:text-5xl font-display font-bold tracking-tighter text-primary mb-4">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold tracking-tighter text-primary mb-4">
           Guides
         </h1>
         <p className="text-xl text-slate-500 font-light leading-relaxed">

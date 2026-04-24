@@ -47,7 +47,7 @@ export default function ComparePage() {
             Side by Side
           </span>
         </div>
-        <h1 className="text-4xl md:text-5xl font-display font-bold tracking-tighter text-primary mb-4">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold tracking-tighter text-primary mb-4">
           Compare Products
         </h1>
         <p className="text-xl text-slate-500 font-light leading-relaxed">

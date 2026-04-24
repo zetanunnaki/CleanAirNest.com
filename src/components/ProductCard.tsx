@@ -29,9 +29,9 @@ export function ProductCard({ productId, showBadge = true, rank }: ProductCardPr
         </div>
       )}
 
-      <div className="flex flex-row gap-4 sm:gap-6">
-        <div className="w-24 sm:w-40 lg:w-48 flex-shrink-0">
-          <div className="w-full aspect-square bg-gradient-to-b from-slate-50 to-white rounded-xl sm:rounded-2xl flex items-center justify-center overflow-hidden group-hover:bg-slate-50 transition-colors">
+      <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
+        <div className="w-full sm:w-40 lg:w-48 flex-shrink-0">
+          <div className="w-full aspect-[3/2] sm:aspect-square bg-gradient-to-b from-slate-50 to-white rounded-xl sm:rounded-2xl flex items-center justify-center overflow-hidden group-hover:bg-slate-50 transition-colors">
             <Image
               src={product.image}
               alt={`${product.brand} ${product.name}`}
@@ -82,7 +82,7 @@ export function ProductCard({ productId, showBadge = true, rank }: ProductCardPr
               .filter(([, val]) => val && val !== "N/A")
               .slice(0, 4)
               .map(([key, val]) => (
-                <div key={key} className="bg-slate-50/80 rounded-xl p-3">
+                <div key={key} className="bg-slate-50/80 rounded-xl p-2 sm:p-3">
                   <span className="text-[10px] font-semibold text-slate-400 uppercase tracking-wider block mb-0.5">
                     {key.replace(/([A-Z])/g, " $1").trim()}
                   </span>
