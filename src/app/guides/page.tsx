@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import { ArticleCard } from "@/components/ArticleCard";
 import { getGuides } from "@/lib/articles";
-import { BookOpen } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Air Quality Guides - Learn About Indoor Air Quality",
@@ -49,25 +48,23 @@ export default function GuidesPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-    <div className="fluid-container py-16 md:py-24">
-      <header className="max-w-3xl mb-16">
-        <div className="flex items-center gap-3 mb-6">
-          <div className="w-12 h-12 bg-accent/10 rounded-2xl flex items-center justify-center">
-            <BookOpen className="w-6 h-6 text-accent" />
-          </div>
-          <span className="text-sm font-bold uppercase tracking-widest text-accent">Learn</span>
+    <div className="fluid-container py-10 sm:py-14 md:py-20">
+      <header className="max-w-3xl mb-10 sm:mb-16">
+        <div className="flex items-center gap-3 mb-5">
+          <div className="w-8 h-[2px] bg-accent" />
+          <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Learn</span>
         </div>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold tracking-tighter text-primary mb-4">
+        <h1 className="text-[clamp(1.75rem,4vw,3rem)] font-serif font-bold tracking-tight text-primary mb-4">
           Guides
         </h1>
-        <p className="text-xl text-slate-500 font-light leading-relaxed">
+        <p className="text-base sm:text-lg text-slate-500 font-light leading-relaxed">
           Science-backed guides to help you understand indoor air quality,
           choose the right products, and create a healthier home environment.
         </p>
       </header>
 
       {articles.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {articles.map((article) => (
             <ArticleCard
               key={article.slug}

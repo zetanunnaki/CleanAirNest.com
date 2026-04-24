@@ -3,7 +3,6 @@ import { ArticleCard } from "@/components/ArticleCard";
 import { getBestPicks } from "@/lib/articles";
 import { getAllProducts } from "@/lib/products";
 import { QuickCompareTable, getReviewSlug } from "@/components/QuickCompareTable";
-import { Award } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Best Picks - Top Air Quality Products",
@@ -68,18 +67,16 @@ export default function BestPicksPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-    <div className="fluid-container py-16 md:py-24">
-      <header className="max-w-3xl mb-16">
-        <div className="flex items-center gap-3 mb-6">
-          <div className="w-12 h-12 bg-accent/10 rounded-2xl flex items-center justify-center">
-            <Award className="w-6 h-6 text-accent" />
-          </div>
-          <span className="text-sm font-bold uppercase tracking-widest text-accent">Curated</span>
+    <div className="fluid-container py-10 sm:py-14 md:py-20">
+      <header className="max-w-3xl mb-10 sm:mb-16">
+        <div className="flex items-center gap-3 mb-5">
+          <div className="w-8 h-[2px] bg-accent" />
+          <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Curated</span>
         </div>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold tracking-tighter text-primary mb-4">
+        <h1 className="text-[clamp(1.75rem,4vw,3rem)] font-serif font-bold tracking-tight text-primary mb-4">
           Best Picks
         </h1>
-        <p className="text-xl text-slate-500 font-light leading-relaxed">
+        <p className="text-base sm:text-lg text-slate-500 font-light leading-relaxed">
           Our expert-tested roundups help you find the best air quality products
           for your specific needs, room size, and budget.
         </p>
@@ -87,10 +84,10 @@ export default function BestPicksPage() {
 
       {topProducts.length > 0 && (
         <section className="mb-16">
-          <h2 className="text-2xl md:text-3xl font-display font-bold tracking-tight text-primary mb-3">
+          <h2 className="text-2xl md:text-3xl font-serif font-bold tracking-tight text-primary mb-3">
             Top Rated Products
           </h2>
-          <p className="text-lg text-slate-500 font-light mb-8">
+          <p className="text-base sm:text-lg text-slate-500 font-light mb-8">
             Quick comparison of our highest-rated picks across all categories.
           </p>
           <QuickCompareTable products={topProducts} keySpecLabel="Coverage / Key Spec" />
@@ -98,7 +95,7 @@ export default function BestPicksPage() {
       )}
 
       {articles.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {articles.map((article) => (
             <ArticleCard
               key={article.slug}

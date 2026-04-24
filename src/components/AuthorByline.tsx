@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Calendar, User, Clock, RefreshCw, Shield } from "lucide-react";
+import { Calendar, Clock, RefreshCw, Shield } from "lucide-react";
 
 interface AuthorBylineProps {
   author: string;
@@ -19,19 +19,14 @@ export function AuthorByline({ author, date, updatedDate, readingTime }: AuthorB
     : null;
 
   return (
-    <div className="mt-8">
-      <div className="flex flex-wrap items-center gap-x-3 sm:gap-x-5 gap-y-2 sm:gap-y-2.5 text-xs sm:text-sm text-slate-500">
-        <Link href="/about/editorial-team" className="flex items-center gap-2 group">
-          <div className="w-7 h-7 bg-accent/10 rounded-full flex items-center justify-center group-hover:bg-accent/15 transition-colors">
-            <User className="w-3.5 h-3.5 text-accent" />
-          </div>
-          <div className="flex flex-col">
-            <span className="font-semibold text-slate-700 group-hover:text-accent transition-colors text-sm leading-tight">
-              {author}
-            </span>
-            <span className="text-[10px] text-slate-400 leading-tight">Indoor Air Quality Expert</span>
-          </div>
+    <div className="mt-8 pt-6 border-t border-slate-200">
+      <div className="flex flex-wrap items-center gap-x-4 sm:gap-x-5 gap-y-2 text-xs sm:text-sm text-slate-500">
+        <Link href="/about/editorial-team" className="group">
+          <span className="font-semibold text-slate-700 group-hover:text-accent transition-colors text-sm">
+            {author}
+          </span>
         </Link>
+        <span className="text-slate-300">|</span>
         <span className="flex items-center gap-1.5 text-xs">
           <Calendar className="w-3.5 h-3.5" />
           <time dateTime={date}>{publishDate}</time>
@@ -49,7 +44,7 @@ export function AuthorByline({ author, date, updatedDate, readingTime }: AuthorB
       </div>
       <div className="flex items-center gap-2 mt-3 text-[11px] text-slate-400">
         <Shield className="w-3 h-3 text-accent" />
-        <span>Independent editorial &middot; Based on customer reviews</span>
+        <span>Independent editorial · Based on customer reviews</span>
       </div>
     </div>
   );

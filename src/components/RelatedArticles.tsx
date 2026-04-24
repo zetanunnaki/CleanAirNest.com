@@ -14,10 +14,13 @@ export function RelatedArticles({ articles, currentSlug }: RelatedArticlesProps)
   if (related.length === 0) return null;
 
   return (
-    <section className="mt-20 pt-14 border-t border-slate-100/80">
-      <h2 className="text-xl sm:text-2xl font-display font-bold tracking-tight text-primary mb-8">
-        Continue Reading
-      </h2>
+    <section className="mt-20 pt-14 border-t-2 border-slate-200">
+      <div className="flex items-center gap-3 mb-8">
+        <div className="w-8 h-[2px] bg-accent" />
+        <h2 className="text-xl sm:text-2xl font-serif font-bold tracking-tight text-primary">
+          Continue Reading
+        </h2>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {related.map((article) => (
           <ArticleCard

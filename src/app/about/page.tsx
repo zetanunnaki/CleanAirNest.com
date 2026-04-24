@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { Shield, Target, Heart, Zap, Award, Beaker } from "lucide-react";
+import { Shield, Target, Heart } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "About Us - Our Mission & Review Process",
@@ -74,19 +74,17 @@ export default function AboutPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
       />
 
-      {/* Hero */}
-      <section className="relative overflow-hidden">
-        <div className="absolute inset-0 air-glow"></div>
-        <div className="fluid-container py-10 sm:py-16 md:py-24 lg:py-32 relative z-10">
+      <section className="border-b border-slate-200">
+        <div className="fluid-container py-10 sm:py-16 md:py-24">
           <div className="max-w-3xl">
-            <span className="inline-flex items-center gap-2 px-5 py-2 bg-accent/10 text-accent rounded-full text-sm font-semibold mb-8">
-              <Heart className="w-4 h-4" />
-              Our Story
-            </span>
-            <h1 className="text-3xl sm:text-4xl md:text-6xl font-display font-bold tracking-tighter text-primary mb-6 leading-[1.05]">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-8 h-[2px] bg-accent" />
+              <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Our Story</span>
+            </div>
+            <h1 className="text-[clamp(1.75rem,4vw,3.5rem)] font-serif font-bold tracking-tight text-primary mb-6 leading-[1.1]">
               About AirQualityNest
             </h1>
-            <p className="text-xl md:text-2xl text-slate-500 font-light leading-relaxed">
+            <p className="text-lg md:text-xl text-slate-500 font-light leading-relaxed">
               We founded AirQualityNest with a simple belief: everyone deserves to
               know what they&apos;re breathing. We research, test, and review indoor
               air quality products so you can make informed decisions.
@@ -95,8 +93,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Values */}
-      <section className="fluid-container py-10 sm:py-16 md:py-20">
+      <section className="fluid-container py-12 sm:py-16 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
             {
@@ -115,32 +112,28 @@ export default function AboutPage() {
               text: "We clearly disclose affiliate relationships and publish our complete testing methodology.",
             },
           ].map((item) => (
-            <div key={item.title} className="bg-white border border-slate-100 rounded-[28px] p-5 sm:p-7 md:p-10 text-center hover:shadow-xl hover:shadow-slate-200/30 transition-all duration-500">
-              <div className="w-14 h-14 bg-accent/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                <item.icon className="w-6 h-6 text-accent" />
+            <div key={item.title} className="border-t-2 border-accent/20 pt-6 sm:pt-8">
+              <div className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+                <item.icon className="w-5 h-5 text-accent" />
               </div>
-              <h3 className="font-display font-bold text-xl text-primary mb-3">{item.title}</h3>
+              <h3 className="font-serif font-bold text-xl text-primary mb-3">{item.title}</h3>
               <p className="text-slate-500 font-light leading-relaxed">{item.text}</p>
             </div>
           ))}
         </div>
       </section>
 
-      {/* How We Test */}
-      <section className="fluid-container py-10 sm:py-16 md:py-20">
+      <section className="fluid-container py-12 sm:py-16 md:py-20">
         <div className="max-w-4xl mx-auto">
           <div className="prose-elevated">
-            <div className="bg-slate-50 border border-slate-100 p-5 sm:p-7 md:p-10 rounded-2xl sm:rounded-[40px] flex flex-col md:flex-row gap-8 mb-20 items-center">
-              <div className="bg-accent text-white p-4 rounded-3xl shrink-0 animate-float shadow-xl shadow-accent/20">
-                <Beaker size={32} />
-              </div>
-              <div>
-                <h2 id="how-we-review" className="!mt-0 !mb-2">How We Review</h2>
-                <p className="!mb-0">
-                  Every product goes through our thorough editorial review process. Here&apos;s how we do it.
-                </p>
-              </div>
+            <div className="flex items-center gap-3 mb-8">
+              <div className="w-8 h-[2px] bg-accent" />
+              <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Our Process</span>
             </div>
+            <h2 id="how-we-review" className="!mt-0">How We Review</h2>
+            <p className="lead">
+              Every product goes through our thorough editorial review process. Here&apos;s how we do it.
+            </p>
 
             <p>
               We analyze hundreds of verified customer reviews across Amazon, Walmart, and
@@ -156,15 +149,12 @@ export default function AboutPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-16">
               {[
-                { icon: Zap, stat: "500+", label: "Customer reviews analyzed per product" },
-                { icon: Award, stat: "40+", label: "Products reviewed" },
-                { icon: Shield, stat: "100%", label: "Editorially independent" },
+                { stat: "500+", label: "Customer reviews analyzed per product" },
+                { stat: "40+", label: "Products reviewed" },
+                { stat: "100%", label: "Editorially independent" },
               ].map((item) => (
-                <div key={item.label} className="bg-white border border-slate-100 rounded-3xl p-4 sm:p-6 md:p-8 text-center">
-                  <div className="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center mx-auto mb-4">
-                    <item.icon className="w-5 h-5 text-accent" />
-                  </div>
-                  <p className="font-display text-3xl font-bold text-primary mb-1">{item.stat}</p>
+                <div key={item.label} className="border-t-2 border-accent/20 pt-6 text-center">
+                  <p className="font-serif text-3xl sm:text-4xl font-bold text-primary mb-2">{item.stat}</p>
                   <p className="text-sm text-slate-500 font-light">{item.label}</p>
                 </div>
               ))}

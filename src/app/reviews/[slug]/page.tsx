@@ -158,26 +158,20 @@ export default async function ReviewArticlePage({ params }: PageProps) {
       {productJsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }} />}
       {faqJsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />}
 
-      <header className="relative overflow-hidden">
-        <div className="absolute inset-0 gradient-mesh-hero" />
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-1/3 right-[15%] w-72 h-72 bg-accent/8 rounded-full blur-[80px]" />
-        </div>
-        <div className="fluid-container py-10 sm:py-14 md:py-20 relative z-10">
+      <header className="border-b border-slate-200">
+        <div className="fluid-container py-10 sm:py-14 md:py-20">
           <div className="max-w-4xl mx-auto">
             <Breadcrumbs items={[
               { label: "Reviews", href: "/reviews" },
               { label: article.frontmatter.title },
             ]} />
-            <div className="flex items-center gap-2 mb-4 sm:mb-6">
-              <span className="badge-accent">
-                {article.frontmatter.category}
-              </span>
-              <span className="badge bg-emerald-500/10 text-emerald-600 border border-emerald-500/15">
-                Review
+            <div className="flex items-center gap-3 mb-4 sm:mb-6">
+              <div className="w-8 h-[2px] bg-accent" />
+              <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">
+                {article.frontmatter.category} · Review
               </span>
             </div>
-            <h1 className="text-[clamp(1.5rem,4vw,3.25rem)] font-display font-bold tracking-tight text-primary mb-4 sm:mb-5 leading-[1.08]">
+            <h1 className="text-[clamp(1.75rem,4vw,3.25rem)] font-serif font-bold tracking-tight text-primary mb-4 sm:mb-5 leading-[1.1]">
               {article.frontmatter.title}
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-slate-500 font-light leading-relaxed mb-6 sm:mb-8 max-w-3xl">
@@ -200,7 +194,7 @@ export default async function ReviewArticlePage({ params }: PageProps) {
 
       <article className="fluid-container pb-16 sm:pb-24">
         <div className="max-w-4xl mx-auto">
-          <div className="relative aspect-[16/9] sm:aspect-[21/9] rounded-xl sm:rounded-3xl overflow-hidden mb-6 sm:mb-10 shadow-lg">
+          <div className="relative aspect-[16/9] sm:aspect-[21/9] overflow-hidden mb-8 sm:mb-12 border border-slate-200 rounded-lg">
             <Image
               src={article.frontmatter.featuredImage}
               alt={article.frontmatter.title}

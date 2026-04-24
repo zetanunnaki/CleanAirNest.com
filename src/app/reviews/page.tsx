@@ -3,7 +3,6 @@ import { ArticleCard } from "@/components/ArticleCard";
 import { getReviews } from "@/lib/articles";
 import { getAllProducts, getCategories } from "@/lib/products";
 import { QuickCompareTable, getReviewSlug } from "@/components/QuickCompareTable";
-import { Search } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Product Reviews - In-Depth Air Quality Product Reviews",
@@ -72,14 +71,12 @@ export default function ReviewsPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
     <div className="fluid-container py-10 sm:py-14 md:py-20">
-      <header className="max-w-3xl mb-8 sm:mb-14">
-        <div className="flex items-center gap-2.5 mb-5">
-          <div className="w-10 h-10 bg-accent/8 rounded-xl flex items-center justify-center">
-            <Search className="w-5 h-5 text-accent" />
-          </div>
-          <span className="text-xs font-bold uppercase tracking-[0.15em] text-accent">In-Depth</span>
+      <header className="max-w-3xl mb-10 sm:mb-16">
+        <div className="flex items-center gap-3 mb-5">
+          <div className="w-8 h-[2px] bg-accent" />
+          <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">In-Depth</span>
         </div>
-        <h1 className="text-[clamp(1.5rem,4vw,3rem)] font-display font-bold tracking-tight text-primary mb-3 sm:mb-4">
+        <h1 className="text-[clamp(1.75rem,4vw,3rem)] font-serif font-bold tracking-tight text-primary mb-3 sm:mb-4">
           Product Reviews
         </h1>
         <p className="text-base sm:text-lg text-slate-500 font-light leading-relaxed">
@@ -90,7 +87,7 @@ export default function ReviewsPage() {
 
       {productsByCategory.length > 0 && (
         <section className="mb-16">
-          <h2 className="text-2xl md:text-3xl font-display font-bold tracking-tight text-primary mb-3">
+          <h2 className="text-2xl md:text-3xl font-serif font-bold tracking-tight text-primary mb-3">
             Product Overview
           </h2>
           <p className="text-base sm:text-lg text-slate-500 font-light mb-8 sm:mb-10">
@@ -110,7 +107,7 @@ export default function ReviewsPage() {
       )}
 
       {articles.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {articles.map((article) => (
             <ArticleCard
               key={article.slug}
