@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { ArticleCard } from "@/components/ArticleCard";
 import { getAllArticles } from "@/lib/articles";
 import { getProduct } from "@/lib/products";
+import { NewsletterSignup } from "@/components/NewsletterSignup";
 
 const categories = [
   {
@@ -483,6 +484,11 @@ export default function HomePage() {
         )}
       </section>
 
+      {/* ═══════════════ NEWSLETTER ═══════════════ */}
+      <section className="fluid-container">
+        <NewsletterSignup />
+      </section>
+
       {/* ═══════════════ CTA BANNER ═══════════════ */}
       <section className="fluid-container py-12">
         <div className="bg-primary text-white p-6 sm:p-10 md:p-16 lg:p-20 rounded-2xl sm:rounded-3xl relative overflow-hidden">
@@ -491,16 +497,23 @@ export default function HomePage() {
               Find Your Perfect
               <br />Air Purifier
             </h3>
-            <p className="text-slate-400 mb-8 sm:mb-10 text-base sm:text-lg leading-relaxed max-w-md mx-auto font-light">
+            <p className="text-slate-400 mb-6 sm:mb-8 text-base sm:text-lg leading-relaxed max-w-md mx-auto font-light">
               Not sure which purifier is right for your space? Browse our
               curated recommendations to find your perfect match.
             </p>
-            <Link href="/best-picks/best-air-purifiers-for-allergies">
-              <Button variant="secondary" size="xl">
-                Find Your Perfect Purifier
-                <ArrowRight className="w-5 h-5" />
-              </Button>
-            </Link>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
+              <Link href="/best-picks/best-air-purifiers-for-allergies">
+                <Button variant="secondary" size="xl">
+                  Browse Top Picks
+                  <ArrowRight className="w-5 h-5" />
+                </Button>
+              </Link>
+              <Link href="/compare">
+                <Button variant="outline" size="xl" className="border-white/20 text-white hover:bg-white/10">
+                  Compare Products
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
       </section>

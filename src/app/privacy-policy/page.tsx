@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://airqualitynest.com/privacy-policy",
   },
+  openGraph: {
+    title: "Privacy Policy | AirQualityNest",
+    description: "Learn how we collect, use, and protect your personal information.",
+    url: "https://airqualitynest.com/privacy-policy",
+  },
+  robots: { index: false, follow: true },
 };
 
 export default function PrivacyPolicyPage() {

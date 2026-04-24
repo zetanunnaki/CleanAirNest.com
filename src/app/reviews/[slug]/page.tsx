@@ -10,6 +10,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 import { SocialShare } from "@/components/SocialShare";
+import { NewsletterSignup } from "@/components/NewsletterSignup";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -205,6 +206,7 @@ export default async function ReviewArticlePage({ params }: PageProps) {
             />
           </div>
           <MdxContent source={article.content} />
+          <NewsletterSignup />
           <RelatedArticles articles={allArticles} currentSlug={slug} />
         </div>
       </article>

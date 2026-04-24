@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://airqualitynest.com/terms",
   },
+  openGraph: {
+    title: "Terms of Use | AirQualityNest",
+    description: "Read our terms and conditions for using our website.",
+    url: "https://airqualitynest.com/terms",
+  },
+  robots: { index: false, follow: true },
 };
 
 export default function TermsPage() {
