@@ -13,6 +13,8 @@ import { Source } from "./Source";
 import { KeyTakeaways } from "./KeyTakeaways";
 import { QuickAnswer } from "./QuickAnswer";
 import { SourceCitation } from "./SourceCitation";
+import { VerdictBox } from "./VerdictBox";
+import { SpecTable } from "./SpecTable";
 
 function MdxTable(props: React.HTMLAttributes<HTMLTableElement>) {
   return (
@@ -36,6 +38,8 @@ const components = {
   KeyTakeaways,
   QuickAnswer,
   SourceCitation,
+  VerdictBox,
+  SpecTable,
   table: MdxTable,
 };
 

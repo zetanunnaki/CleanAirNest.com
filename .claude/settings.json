@@ -134,7 +134,11 @@
       "Bash(curl -s http://localhost:3001/best-picks/best-co2-monitors)",
       "Read(//dev/**)",
       "Bash(dir \"C:\\\\Users\\\\Issam\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-Issam-CleanAirNest-com\")",
-      "Bash(node --input-type=module -e ' *)"
+      "Bash(node --input-type=module -e ' *)",
+      "Bash(grep -o '\\\\.[^.]*$')",
+      "Bash(awk '{print $1\": \"$2}')",
+      "Bash(node -e \"const data = require\\('./src/data/products.json'\\); for \\(const [id, product] of Object.entries\\(data\\)\\) { const img = product.image.split\\('/'\\).pop\\(\\); console.log\\(id + ': ' + img\\); }\")",
+      "Bash(node -e \"const data = require\\('./src/data/products.json'\\); for \\(const [id, product] of Object.entries\\(data\\)\\) { const img = product.image.split\\('/'\\).pop\\(\\); console.log\\(img\\); }\")"
     ],
     "additionalDirectories": [
       "c:\\Users\\Issam\\CleanAirNest.com\\src\\app\\best-picks"

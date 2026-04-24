@@ -108,6 +108,10 @@ export default async function ReviewArticlePage({ params }: PageProps) {
       "@type": "WebPage",
       "@id": `https://airqualitynest.com/reviews/${slug}`,
     },
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["[data-speakable='verdict']", ".prose-elevated h2", ".prose-elevated h2 + p"],
+    },
   };
 
   const productJsonLd = product

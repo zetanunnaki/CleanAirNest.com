@@ -73,6 +73,10 @@ export default async function BestPicksArticlePage({ params }: PageProps) {
       "@type": "WebPage",
       "@id": `https://airqualitynest.com/best-picks/${slug}`,
     },
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["[data-speakable='verdict']", ".prose-elevated h2", ".prose-elevated h2 + p"],
+    },
   };
 
   const faqItems = extractFaqItems(article.content);
