@@ -1,4 +1,4 @@
-import { Star, ExternalLink } from "lucide-react";
+import { Star, ExternalLink, ShoppingCart } from "lucide-react";
 
 interface QuickCompareProduct {
   id: string;
@@ -56,12 +56,12 @@ function StarRating({ rating }: { rating: number }) {
   const fullStars = Math.floor(rating);
   const hasHalf = rating - fullStars >= 0.3;
   return (
-    <div className="flex items-center justify-center gap-1">
+    <div className="flex items-center gap-1">
       <div className="flex">
         {Array.from({ length: 5 }).map((_, i) => (
           <Star
             key={i}
-            className={`w-4 h-4 ${
+            className={`w-3 h-3 sm:w-4 sm:h-4 ${
               i < fullStars
                 ? "fill-amber-400 text-amber-400"
                 : i === fullStars && hasHalf
@@ -71,7 +71,48 @@ function StarRating({ rating }: { rating: number }) {
           />
         ))}
       </div>
-      <span className="ml-1 font-semibold text-slate-900 text-sm">{rating}</span>
+      <span className="font-semibold text-slate-900 text-xs sm:text-sm">{rating}</span>
+    </div>
+  );
+}
+
+function MobileCard({ product }: { product: QuickCompareProduct }) {
+  return (
+    <div className="bg-white border border-slate-100 rounded-2xl p-4 shadow-sm">
+      <div className="flex items-start justify-between gap-3 mb-3">
+        <div className="min-w-0">
+          <a
+            href={`/reviews/${product.reviewSlug}`}
+            className="font-semibold text-sm text-slate-900 hover:text-accent-dark transition-colors line-clamp-2"
+          >
+            {product.name}
+          </a>
+          {product.badge && (
+            <span className="inline-block text-[10px] bg-accent/10 text-accent px-2 py-0.5 rounded-full font-semibold mt-1">
+              {product.badge}
+            </span>
+          )}
+        </div>
+        <span className="font-display font-bold text-slate-900 text-base shrink-0">
+          {product.price}
+        </span>
+      </div>
+      <div className="flex items-center justify-between gap-3">
+        <div className="flex items-center gap-3">
+          {product.rating && <StarRating rating={product.rating} />}
+          <span className="text-xs text-slate-500">{product.keySpec}</span>
+        </div>
+        <a
+          href={product.amazonLink}
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          className="inline-flex items-center gap-1.5 bg-[#FF9900] text-black hover:bg-[#e88b00] shadow-md shadow-[#FF9900]/15 rounded-full font-bold h-8 px-3.5 text-xs transition-all active:scale-[0.97] whitespace-nowrap shrink-0"
+        >
+          <ShoppingCart className="w-3 h-3" />
+          Buy
+          <ExternalLink className="w-2.5 h-2.5" />
+        </a>
+      </div>
     </div>
   );
 }
@@ -86,116 +127,126 @@ export function QuickCompareTable({
   const showCategory = columns.includes("category");
 
   return (
-    <div className="overflow-x-auto -mx-4 px-4 md:mx-0 md:px-0">
-      <div className="bg-white border border-slate-100 rounded-2xl overflow-hidden shadow-sm min-w-[540px]">
-        <table className="w-full text-sm sm:text-base border-collapse">
-          <thead>
-            <tr style={{ background: "linear-gradient(135deg, #020617, #1e293b)" }}>
-              <th className="px-3 sm:px-5 py-3 sm:py-4 text-left text-white text-xs sm:text-sm font-display font-bold uppercase tracking-wider rounded-tl-2xl">
-                Product
-              </th>
-              {showCategory && (
-                <th className="px-3 sm:px-5 py-3 sm:py-4 text-left text-white text-xs sm:text-sm font-display font-bold uppercase tracking-wider">
-                  Category
+    <>
+      {/* Mobile: card layout */}
+      <div className="sm:hidden space-y-3 my-6">
+        {products.map((product) => (
+          <MobileCard key={product.id} product={product} />
+        ))}
+      </div>
+
+      {/* Desktop: table layout */}
+      <div className="hidden sm:block overflow-x-auto">
+        <div className="bg-white border border-slate-100 rounded-2xl overflow-hidden shadow-sm">
+          <table className="w-full text-sm sm:text-base border-collapse">
+            <thead>
+              <tr style={{ background: "linear-gradient(135deg, #020617, #1e293b)" }}>
+                <th className="px-4 sm:px-5 py-3 sm:py-4 text-left text-white text-xs sm:text-sm font-display font-bold uppercase tracking-wider rounded-tl-2xl">
+                  Product
                 </th>
-              )}
-              <th className="px-3 sm:px-5 py-3 sm:py-4 text-center text-white text-xs sm:text-sm font-display font-bold uppercase tracking-wider">
-                Rating
-              </th>
-              <th className="px-3 sm:px-5 py-3 sm:py-4 text-center text-white text-xs sm:text-sm font-display font-bold uppercase tracking-wider">
-                Price
-              </th>
-              <th className="px-3 sm:px-5 py-3 sm:py-4 text-center text-white text-xs sm:text-sm font-display font-bold uppercase tracking-wider">
-                {keySpecLabel}
-              </th>
-              <th className="px-3 sm:px-5 py-3 sm:py-4 text-center text-white text-xs sm:text-sm font-display font-bold uppercase tracking-wider rounded-tr-2xl">
-                &nbsp;
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            {products.map((product, i) => {
-              const isLast = i === products.length - 1;
-              return (
-                <tr
-                  key={product.id}
-                  className={`transition-colors duration-150 hover:bg-accent/[0.03] ${
-                    i % 2 === 1 ? "bg-slate-50/60" : ""
-                  }`}
-                >
-                  <td
-                    className={`px-3 sm:px-5 py-3 sm:py-4 ${
-                      !isLast ? "border-b border-slate-100" : ""
-                    } ${isLast ? "rounded-bl-2xl" : ""}`}
+                {showCategory && (
+                  <th className="px-4 sm:px-5 py-3 sm:py-4 text-left text-white text-xs sm:text-sm font-display font-bold uppercase tracking-wider">
+                    Category
+                  </th>
+                )}
+                <th className="px-4 sm:px-5 py-3 sm:py-4 text-center text-white text-xs sm:text-sm font-display font-bold uppercase tracking-wider">
+                  Rating
+                </th>
+                <th className="px-4 sm:px-5 py-3 sm:py-4 text-center text-white text-xs sm:text-sm font-display font-bold uppercase tracking-wider">
+                  Price
+                </th>
+                <th className="px-4 sm:px-5 py-3 sm:py-4 text-center text-white text-xs sm:text-sm font-display font-bold uppercase tracking-wider">
+                  {keySpecLabel}
+                </th>
+                <th className="px-4 sm:px-5 py-3 sm:py-4 text-center text-white text-xs sm:text-sm font-display font-bold uppercase tracking-wider rounded-tr-2xl">
+                  &nbsp;
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {products.map((product, i) => {
+                const isLast = i === products.length - 1;
+                return (
+                  <tr
+                    key={product.id}
+                    className={`transition-colors duration-150 hover:bg-accent/[0.03] ${
+                      i % 2 === 1 ? "bg-slate-50/60" : ""
+                    }`}
                   >
-                    <div className="flex flex-col gap-1">
-                      <a
-                        href={`/reviews/${product.reviewSlug}`}
-                        className="font-semibold text-slate-900 hover:text-accent-dark transition-colors"
-                      >
-                        {product.name}
-                      </a>
-                      {product.badge && (
-                        <span className="inline-block text-[11px] bg-accent/10 text-accent px-2.5 py-0.5 rounded-full font-semibold w-fit">
-                          {product.badge}
-                        </span>
-                      )}
-                    </div>
-                  </td>
-                  {showCategory && (
                     <td
-                      className={`px-5 py-4 text-slate-600 text-[15px] ${
+                      className={`px-4 sm:px-5 py-3 sm:py-4 ${
+                        !isLast ? "border-b border-slate-100" : ""
+                      } ${isLast ? "rounded-bl-2xl" : ""}`}
+                    >
+                      <div className="flex flex-col gap-1">
+                        <a
+                          href={`/reviews/${product.reviewSlug}`}
+                          className="font-semibold text-slate-900 hover:text-accent-dark transition-colors"
+                        >
+                          {product.name}
+                        </a>
+                        {product.badge && (
+                          <span className="inline-block text-[11px] bg-accent/10 text-accent px-2.5 py-0.5 rounded-full font-semibold w-fit">
+                            {product.badge}
+                          </span>
+                        )}
+                      </div>
+                    </td>
+                    {showCategory && (
+                      <td
+                        className={`px-4 sm:px-5 py-3 sm:py-4 text-slate-600 text-[15px] ${
+                          !isLast ? "border-b border-slate-100" : ""
+                        }`}
+                      >
+                        {product.category}
+                      </td>
+                    )}
+                    <td
+                      className={`px-4 sm:px-5 py-3 sm:py-4 text-center ${
                         !isLast ? "border-b border-slate-100" : ""
                       }`}
                     >
-                      {product.category}
+                      {product.rating ? (
+                        <StarRating rating={product.rating} />
+                      ) : (
+                        <span className="text-slate-400">&mdash;</span>
+                      )}
                     </td>
-                  )}
-                  <td
-                    className={`px-5 py-4 text-center ${
-                      !isLast ? "border-b border-slate-100" : ""
-                    }`}
-                  >
-                    {product.rating ? (
-                      <StarRating rating={product.rating} />
-                    ) : (
-                      <span className="text-slate-400">&mdash;</span>
-                    )}
-                  </td>
-                  <td
-                    className={`px-5 py-4 text-center font-display font-bold text-slate-900 ${
-                      !isLast ? "border-b border-slate-100" : ""
-                    }`}
-                  >
-                    {product.price}
-                  </td>
-                  <td
-                    className={`px-5 py-4 text-center text-slate-600 text-[15px] ${
-                      !isLast ? "border-b border-slate-100" : ""
-                    }`}
-                  >
-                    {product.keySpec}
-                  </td>
-                  <td
-                    className={`px-5 py-4 text-center ${
-                      !isLast ? "border-b border-slate-100" : ""
-                    } ${isLast ? "rounded-br-2xl" : ""}`}
-                  >
-                    <a
-                      href={product.amazonLink}
-                      target="_blank"
-                      rel="noopener noreferrer nofollow"
-                      className="inline-flex items-center gap-1.5 bg-[#FF9900] text-black hover:bg-[#e88b00] shadow-lg shadow-[#FF9900]/20 rounded-full font-bold h-9 px-4 text-sm transition-all active:scale-[0.98] whitespace-nowrap"
+                    <td
+                      className={`px-4 sm:px-5 py-3 sm:py-4 text-center font-display font-bold text-slate-900 ${
+                        !isLast ? "border-b border-slate-100" : ""
+                      }`}
                     >
-                      Buy on Amazon <ExternalLink className="w-3 h-3" />
-                    </a>
-                  </td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
+                      {product.price}
+                    </td>
+                    <td
+                      className={`px-4 sm:px-5 py-3 sm:py-4 text-center text-slate-600 text-[15px] ${
+                        !isLast ? "border-b border-slate-100" : ""
+                      }`}
+                    >
+                      {product.keySpec}
+                    </td>
+                    <td
+                      className={`px-4 sm:px-5 py-3 sm:py-4 text-center ${
+                        !isLast ? "border-b border-slate-100" : ""
+                      } ${isLast ? "rounded-br-2xl" : ""}`}
+                    >
+                      <a
+                        href={product.amazonLink}
+                        target="_blank"
+                        rel="noopener noreferrer nofollow"
+                        className="inline-flex items-center gap-1.5 bg-[#FF9900] text-black hover:bg-[#e88b00] shadow-lg shadow-[#FF9900]/20 rounded-full font-bold h-9 px-4 text-sm transition-all active:scale-[0.98] whitespace-nowrap"
+                      >
+                        Buy on Amazon <ExternalLink className="w-3 h-3" />
+                      </a>
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
