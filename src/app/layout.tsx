@@ -24,7 +24,7 @@ const playfairDisplay = Playfair_Display({
   variable: "--font-playfair-display",
 });
 
-const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_ID || "";
+const GA_MEASUREMENT_ID = "G-4SLZ4KF9BB";
 
 export const metadata: Metadata = {
   title: {
