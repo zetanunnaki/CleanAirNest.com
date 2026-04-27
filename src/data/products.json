@@ -65,7 +65,7 @@
     "name": "Dyson Big Quiet Formaldehyde",
     "brand": "Dyson",
     "category": "Air Purifiers",
-    "price": "$579.99",
+    "price": "$599.99",
     "image": "/images/products/dyson-purifier-big-quiet.webp",
     "specs": {
       "coverage": "1076 sq. ft.",
@@ -74,7 +74,6 @@
       "noiseLevel": "20 - 48 dB"
     },
     "amazonLink": "https://amazon.com/dp/B0CDQVR4G9?tag=airqualitynest-20",
-    "filterReplacementLink": "https://amazon.com/dp/B0DYSON01F?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 12 months",
     "pros": ["Destroys formaldehyde permanently", "Whisper-quiet operation", "Whole-home coverage", "Real-time air quality display"],
     "cons": ["Premium price point", "Heavy and large unit", "Expensive replacement filters"],
@@ -105,7 +104,7 @@
     "name": "Levoit Core 300 Air Purifier",
     "brand": "Levoit",
     "category": "Air Purifiers",
-    "price": "$99.99",
+    "price": "$89.99",
     "image": "/images/products/levoit-core-300.webp",
     "specs": {
       "coverage": "219 sq. ft.",
@@ -574,8 +573,7 @@
       "cadr": "340 Smoke / 340 Dust / 340 Pollen",
       "noiseLevel": "26 - 50 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B0CM6VDKSQ?tag=airqualitynest-20",
-    "filterReplacementLink": "https://amazon.com/dp/B0CSHARK06F?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B08QZTP239?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 12 months",
     "pros": ["Auto Clean Base removes trapped allergens from filter", "Nanoseal HEPA prevents particle bypass", "Clean Sense IQ auto-adjusts speed", "Large coverage at competitive price"],
     "cons": ["Auto Clean Base adds noise periodically", "Newer brand in air purification", "Taller unit at 27.5 inches"],
@@ -654,8 +652,7 @@
       "cadr": "310 Smoke / 330 Dust / 340 Pollen",
       "noiseLevel": "21 - 50 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B0B3SDNZZW?tag=airqualitynest-20",
-    "filterReplacementLink": "https://amazon.com/dp/B0BSAMSFLT?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B09NNV2GB1?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 12 months",
     "pros": ["Doubles as a side table with flat top", "Wind-Free purification disperses clean air gently", "SmartThings integration with full home automation", "Ultra-quiet at 21 dB on low", "Customizable color panels"],
     "cons": ["Very expensive for CADR rating", "Samsung ecosystem dependency", "Heavy at 26 lbs", "Limited third-party smart home support"],
@@ -675,7 +672,6 @@
       "noiseLevel": "27 - 55 dB"
     },
     "amazonLink": "https://amazon.com/dp/B0C1LBR92S?tag=airqualitynest-20",
-    "filterReplacementLink": "https://amazon.com/dp/B0BWNAM90F?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 12 months",
     "pros": ["Wi-Fi with Alexa and Google support at under $200", "Same strong CADR as the 5500-2", "Smart auto mode with air quality sensor", "PlasmaWave can be toggled off"],
     "cons": ["App is basic compared to Levoit VeSync", "PlasmaWave produces trace ozone", "Design is boxy"],
@@ -724,7 +720,7 @@
     "name": "Airthings 2930 Wave Plus",
     "brand": "Airthings",
     "category": "Air Quality Monitors",
-    "price": "$229.00",
+    "price": "$249.99",
     "image": "/images/products/uhoo-aura.webp",
     "specs": {
       "coverage": "Single room",
@@ -890,7 +886,7 @@
     "name": "AEOCKY 80-Pint Smart Dehumidifier",
     "brand": "AEOCKY",
     "category": "Dehumidifiers",
-    "price": "$259.99",
+    "price": "$239.99",
     "image": "/images/products/lg-puricare-dehumidifier.webp",
     "specs": {
       "coverage": "4,500 sq. ft.",
