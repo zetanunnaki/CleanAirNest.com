@@ -73,7 +73,7 @@
       "cadr": "423 Smoke / 423 Dust / 423 Pollen",
       "noiseLevel": "20 - 48 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B0DYSON01?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B0CDQVR4G9?tag=airqualitynest-20",
     "filterReplacementLink": "https://amazon.com/dp/B0DYSON01F?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 12 months",
     "pros": ["Destroys formaldehyde permanently", "Whisper-quiet operation", "Whole-home coverage", "Real-time air quality display"],
@@ -574,7 +574,7 @@
       "cadr": "340 Smoke / 340 Dust / 340 Pollen",
       "noiseLevel": "26 - 50 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B0CSHARK06?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B0CM6VDKSQ?tag=airqualitynest-20",
     "filterReplacementLink": "https://amazon.com/dp/B0CSHARK06F?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 12 months",
     "pros": ["Auto Clean Base removes trapped allergens from filter", "Nanoseal HEPA prevents particle bypass", "Clean Sense IQ auto-adjusts speed", "Large coverage at competitive price"],
@@ -654,7 +654,7 @@
       "cadr": "310 Smoke / 330 Dust / 340 Pollen",
       "noiseLevel": "21 - 50 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B0BSAMSUNG?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B0B3SDNZZW?tag=airqualitynest-20",
     "filterReplacementLink": "https://amazon.com/dp/B0BSAMSFLT?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 12 months",
     "pros": ["Doubles as a side table with flat top", "Wind-Free purification disperses clean air gently", "SmartThings integration with full home automation", "Ultra-quiet at 21 dB on low", "Customizable color panels"],
@@ -721,40 +721,40 @@
     "badge": "Best Professional Monitor"
   },
   "uhoo-aura": {
-    "name": "uHoo Aura Smart Air Quality Sensor",
-    "brand": "uHoo",
+    "name": "Airthings 2930 Wave Plus",
+    "brand": "Airthings",
     "category": "Air Quality Monitors",
-    "price": "$329.00",
+    "price": "$229.00",
     "image": "/images/products/uhoo-aura.webp",
     "specs": {
       "coverage": "Single room",
-      "sensors": "PM2.5, PM1, PM10, CO2, TVOC, CO, NO2, O3, Temp, Humidity, Air Pressure",
-      "battery": "N/A (USB-C powered)",
-      "connectivity": "Wi-Fi"
+      "sensors": "Radon, CO2, VOC, Temp, Humidity, Air Pressure",
+      "battery": "2x AA batteries (up to 16 months)",
+      "connectivity": "Bluetooth"
     },
-    "amazonLink": "https://amazon.com/dp/B0BUHOO01?tag=airqualitynest-20",
-    "pros": ["11 sensors — most comprehensive monitor available", "Detects NO2, ozone, and CO (uncommon in consumer monitors)", "IFTTT integration triggers purifiers automatically", "Detailed app with personalized health tips"],
-    "cons": ["Expensive for a monitor", "No standalone display — app only", "Subscription for advanced analytics", "Wi-Fi only, no Bluetooth"],
+    "amazonLink": "https://amazon.com/dp/B07JB8QWH6?tag=airqualitynest-20",
+    "pros": ["Radon + CO2 + VOC monitoring in one device", "Battery-powered — no wires needed", "Simple wave-to-check gesture for quick readings", "Airthings app with historical trends"],
+    "cons": ["Bluetooth only — no Wi-Fi without hub", "No PM2.5 sensor", "No on-device display", "Radon readings need 30+ days to stabilize"],
     "rating": 4.4,
-    "badge": "Most Sensors"
+    "badge": "Best Radon + Air Quality Combo"
   },
   "purpleair-flex": {
-    "name": "PurpleAir Flex Air Quality Monitor",
-    "brand": "PurpleAir",
+    "name": "Airthings 2960 View Plus",
+    "brand": "Airthings",
     "category": "Air Quality Monitors",
-    "price": "$229.00",
+    "price": "$299.00",
     "image": "/images/products/purpleair-flex.webp",
     "specs": {
-      "coverage": "Indoor + Outdoor",
-      "sensors": "PM1, PM2.5, PM10, Temp, Humidity, Air Pressure",
-      "battery": "N/A (USB-C powered)",
-      "connectivity": "Wi-Fi"
+      "coverage": "Up to 3,000 sq. ft.",
+      "sensors": "Radon, PM2.5, CO2, VOC, Temp, Humidity, Pressure",
+      "battery": "2x AA batteries (up to 2 years)",
+      "connectivity": "Bluetooth, Wi-Fi"
     },
-    "amazonLink": "https://amazon.com/dp/B0CPURPLE1?tag=airqualitynest-20",
-    "pros": ["Dual laser sensors for redundancy and accuracy", "Data shared to PurpleAir real-time map", "Indoor/outdoor capable with weatherproof housing", "Open data API for researchers"],
-    "cons": ["No CO2 or VOC sensors", "No display — web dashboard only", "Requires stable Wi-Fi connection", "More researcher-oriented than consumer-friendly"],
-    "rating": 4.5,
-    "badge": "Best Outdoor Monitor"
+    "amazonLink": "https://amazon.com/dp/B097YW5Q72?tag=airqualitynest-20",
+    "pros": ["Only consumer monitor with radon detection", "Battery-powered for flexible placement", "7 air quality sensors in one device", "Excellent Airthings dashboard and app"],
+    "cons": ["Premium price at $299", "Radon readings take 30+ days to stabilize", "No touchscreen display", "Battery life decreases with Wi-Fi enabled"],
+    "rating": 4.6,
+    "badge": "Best Multi-Sensor Monitor"
   },
   "aranet4-home": {
     "name": "Aranet4 Home Indoor CO2 Monitor",
@@ -887,22 +887,22 @@
     "badge": "Best Pump Value"
   },
   "lg-puricare-dehumidifier": {
-    "name": "LG PuriCare 50-Pint Smart Dehumidifier",
-    "brand": "LG",
+    "name": "AEOCKY 80-Pint Smart Dehumidifier",
+    "brand": "AEOCKY",
     "category": "Dehumidifiers",
-    "price": "$299.99",
+    "price": "$259.99",
     "image": "/images/products/lg-puricare-dehumidifier.webp",
     "specs": {
-      "coverage": "2,000 sq. ft.",
-      "capacity": "50 pints/day",
-      "tankSize": "12 pints",
-      "noiseLevel": "44 dB"
+      "coverage": "4,500 sq. ft.",
+      "capacity": "80 pints/day",
+      "tankSize": "Continuous drain hose",
+      "noiseLevel": "48 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B0BLGPURIC?tag=airqualitynest-20",
-    "pros": ["LG ThinQ app with Wi-Fi control", "Quiet operation at 44 dB", "Smart Dry mode learns your humidity patterns", "Large 12-pint bucket reduces emptying", "Sleek modern design"],
-    "cons": ["Premium price for a dehumidifier", "No built-in pump", "Wi-Fi setup can be finicky", "LG ThinQ app has mixed reviews"],
+    "amazonLink": "https://amazon.com/dp/B0D1C6HWFF?tag=airqualitynest-20",
+    "pros": ["ENERGY STAR Most Efficient 2025 certified", "Massive 4,500 sq. ft. coverage", "80 pint/day capacity for extreme moisture", "Intelligent humidistat with smart controls", "Includes drain hose for continuous operation"],
+    "cons": ["Larger footprint than 50-pint models", "Newer brand with less track record", "Can be louder at 48 dB on high", "No built-in pump"],
     "rating": 4.5,
-    "badge": "Best Smart Dehumidifier"
+    "badge": "Best High-Capacity"
   },
   "keystone-kstad50b": {
     "name": "Keystone 50-Pint Dehumidifier",
@@ -941,20 +941,20 @@
     "badge": "Best Value Large Capacity"
   },
   "hisense-70-pint": {
-    "name": "Hisense 70-Pint Dehumidifier with Built-In Pump",
+    "name": "Hisense 50-Pint Dehumidifier with Built-In Pump",
     "brand": "Hisense",
     "category": "Dehumidifiers",
-    "price": "$329.99",
+    "price": "$259.99",
     "image": "/images/products/hisense-70-pint.webp",
     "specs": {
-      "coverage": "5,000 sq. ft.",
-      "capacity": "70 pints/day",
-      "tankSize": "14.3 pints",
-      "noiseLevel": "52 dB"
+      "coverage": "4,500 sq. ft.",
+      "capacity": "50 pints/day",
+      "tankSize": "Built-in pump + bucket",
+      "noiseLevel": "48 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B0BHISENSE?tag=airqualitynest-20",
-    "pros": ["70-pint capacity handles extreme humidity", "Built-in pump drains upward up to 16 feet", "Wi-Fi enabled with app control", "Massive 14.3-pint bucket", "Auto defrost for unheated spaces"],
-    "cons": ["Louder at 52 dB", "Large and heavy at 55 lbs", "Higher energy consumption", "Premium price point"],
+    "amazonLink": "https://amazon.com/dp/B0GWFVLJF3?tag=airqualitynest-20",
+    "pros": ["Built-in pump for hands-free drainage", "Energy efficient and quiet operation", "4,500 sq. ft. coverage for large spaces", "Portable design works in basement, bathroom, garage", "Black finish blends into any room"],
+    "cons": ["50-pint capacity vs larger 70-pint models", "No Wi-Fi or smart app control", "Heavier than compact models", "Pump drainage setup requires routing hose"],
     "rating": 4.5,
     "badge": "Best Heavy Duty"
   }
