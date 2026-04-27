@@ -2,7 +2,8 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import { getArticle, getArticleSlugs, getAllArticles } from "@/lib/articles";
-import { getReadingTime, extractFaqItems } from "@/lib/utils";
+import { getReadingTime, extractFaqItems, extractProductIds } from "@/lib/utils";
+import { getProduct } from "@/lib/products";
 import { MdxContent } from "@/components/MdxContent";
 import { AuthorByline } from "@/components/AuthorByline";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -80,6 +81,40 @@ export default async function BestPicksArticlePage({ params }: PageProps) {
     },
   };
 
+  const productIds = extractProductIds(article.content);
+  const itemListJsonLd = productIds.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: productIds.map((id, i) => {
+      const product = getProduct(id);
+      if (!product) return null;
+      return {
+        "@type": "ListItem",
+        position: i + 1,
+        item: {
+          "@type": "Product",
+          name: `${product.brand} ${product.name}`,
+          image: `https://airqualitynest.com${product.image}`,
+          brand: { "@type": "Brand", name: product.brand },
+          ...(product.rating && {
+            review: {
+              "@type": "Review",
+              reviewRating: { "@type": "Rating", ratingValue: product.rating, bestRating: 5 },
+              author: { "@type": "Organization", name: "AirQualityNest" },
+            },
+          }),
+          offers: {
+            "@type": "Offer",
+            priceCurrency: "USD",
+            price: product.price.replace("$", "").replace(",", ""),
+            availability: "https://schema.org/InStock",
+            url: product.amazonLink,
+          },
+        },
+      };
+    }).filter(Boolean),
+  } : null;
+
   const faqItems = extractFaqItems(article.content);
   const faqJsonLd = faqItems.length > 0 ? {
     "@context": "https://schema.org",
@@ -97,6 +132,12 @@ export default async function BestPicksArticlePage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      {itemListJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+        />
+      )}
       {faqJsonLd && (
         <script
           type="application/ld+json"

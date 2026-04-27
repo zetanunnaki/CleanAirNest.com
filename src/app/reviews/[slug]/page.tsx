@@ -46,36 +46,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 function getProductIdFromSlug(slug: string): string | null {
-  const mappings: Record<string, string> = {
-    "coway-airmega-ap1512hh-review": "coway-airmega-ap1512hh",
-    "airthings-view-plus-review": "airthings-view-plus",
-    "levoit-core-400s-review": "levoit-core-400s",
-    "levoit-core-300-review": "levoit-core-300",
-    "blueair-blue-pure-211-review": "blueair-blue-pure-211",
-    "winix-5500-2-review": "winix-5500-2",
-    "honeywell-hpa300-review": "honeywell-hpa300",
-    "levoit-lv600s-review": "levoit-lv600s",
+  const overrides: Record<string, string> = {
     "frigidaire-50-pint-review": "frigidaire-ffad5033w1",
     "dreo-6l-humidifier-review": "dreo-oversized-6l",
-    "midea-20-pint-review": "midea-20-pint",
     "dyson-big-quiet-review": "dyson-purifier-big-quiet",
-    "honeywell-hev685w-review": "honeywell-hev685w",
-    "amazon-air-quality-monitor-review": "amazon-air-quality-monitor",
-    "awair-element-review": "awair-element",
     "ge-45-pint-review": "ge-adel45ly",
-    "iqair-healthpro-plus-review": "iqair-healthpro-plus",
-    "molekule-air-mini-plus-review": "molekule-air-mini-plus",
-    "rabbit-air-minusa2-review": "rabbit-air-minusa2",
-    "medify-ma40-review": "medify-ma40",
     "homelabs-dehumidifier-review": "homelabs-4500",
-    "canopy-humidifier-review": "canopy-humidifier",
-    "alen-breathesmart-45i-review": "alen-breathesmart-45i",
-    "coway-airmega-400-review": "coway-airmega-400",
-    "hathaspace-hsp001-review": "hathaspace-hsp001",
-    "temtop-m10-review": "temtop-m10",
-    "vornado-evdc300-review": "vornado-evdc300",
   };
-  return mappings[slug] || null;
+  return overrides[slug] || slug.replace(/-review$/, "") || null;
 }
 
 export default async function ReviewArticlePage({ params }: PageProps) {

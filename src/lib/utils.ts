@@ -11,6 +11,11 @@ export function getReadingTime(content: string): number {
   return Math.max(1, Math.ceil(words / 238));
 }
 
+export function extractProductIds(content: string): string[] {
+  const matches = content.matchAll(/<ProductCard\s+productId="([^"]+)"/g);
+  return [...matches].map((m) => m[1]);
+}
+
 export function extractFaqItems(content: string): { question: string; answer: string }[] {
   const match = content.match(/<FAQ\s+items=\{(\[[\s\S]*?\])}\s*\/>/);
   if (!match) return [];
