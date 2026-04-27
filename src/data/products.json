@@ -42,24 +42,24 @@
     "badge": "Best Smart Purifier"
   },
   "blueair-blue-pure-211": {
-    "name": "Blueair Blue Pure 211+",
-    "brand": "Blueair",
+    "name": "Levoit LV-H132 Air Purifier",
+    "brand": "Levoit",
     "category": "Air Purifiers",
-    "price": "$299.99",
+    "price": "$69.99",
     "image": "/images/products/blueair-blue-pure-211.webp",
     "specs": {
-      "coverage": "540 sq. ft.",
-      "filterType": "HEPASilent + Carbon",
-      "cadr": "350 Smoke / 350 Dust / 350 Pollen",
-      "noiseLevel": "31 - 56 dB"
+      "coverage": "129 sq. ft.",
+      "filterType": "True HEPA + Activated Carbon + Pre-filter",
+      "cadr": "AHAM Verified",
+      "noiseLevel": "25 - 50 dB"
     },
     "amazonLink": "https://amazon.com/dp/B071D58ZY5?tag=airqualitynest-20",
-    "filterReplacementLink": "https://amazon.com/dp/B073WLNFBR?tag=airqualitynest-20",
-    "filterReplacementCycle": "Every 6 months",
-    "pros": ["Outstanding CADR for large rooms", "Colorful fabric pre-filters", "Energy Star certified", "One-button simplicity"],
-    "cons": ["No smart features", "Pre-filter needs frequent washing", "Taller footprint"],
-    "rating": 4.6,
-    "badge": "Best for Large Rooms"
+    "filterReplacementLink": "https://amazon.com/dp/B07BF91M9L?tag=airqualitynest-20",
+    "filterReplacementCycle": "Every 6-8 months",
+    "pros": ["Under $70 — excellent budget pick", "Optional night light for bedrooms", "Three-stage filtration at low price", "Whisper-quiet 25 dB on low", "Compact and lightweight design"],
+    "cons": ["Small coverage at 129 sq. ft.", "No smart features or app control", "No air quality sensor or auto mode", "Manual fan speed control only"],
+    "rating": 4.4,
+    "badge": "Best Compact Budget"
   },
   "dyson-purifier-big-quiet": {
     "name": "Dyson Big Quiet Formaldehyde",
