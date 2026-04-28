@@ -416,6 +416,14 @@
     "url": "/reviews/coway-airmega-ap1512hh-review"
   },
   {
+    "title": "Dreo 3L Cool Mist Humidifier Review: The Best Budget Bedroom Humidifier Under $30?",
+    "description": "Our review of the Dreo 3L Cool Mist Humidifier — 26 dB quiet, 30-hour runtime, built-in humidity sensor, and top-fill design for just $29.94.",
+    "slug": "dreo-3l-bedroom-review",
+    "type": "review",
+    "category": "Humidifiers",
+    "url": "/reviews/dreo-3l-bedroom-review"
+  },
+  {
     "title": "Dreo 6L Smart Humidifier Review: 60 Hours of Runtime for $90",
     "description": "Our hands-on review of the Dreo 6L smart humidifier. With 60-hour runtime, warm and cool mist, voice control, and app control at $90, is this the best budget humidifier for large rooms?",
     "slug": "dreo-6l-humidifier-review",
@@ -449,15 +457,15 @@
   },
   {
     "title": "Frigidaire 50-Pint Dehumidifier Review: Best for Basements",
-    "description": "Our hands-on review of the Frigidaire 50-pint dehumidifier. We tested it in a damp basement for 30 days. Here is whether it is worth the $250 investment.",
+    "description": "Our hands-on review of the Frigidaire 50-pint dehumidifier. We tested it in a damp basement for 30 days. Here is whether it is worth the $314 investment.",
     "slug": "frigidaire-50-pint-review",
     "type": "review",
     "category": "Dehumidifiers",
     "url": "/reviews/frigidaire-50-pint-review"
   },
   {
-    "title": "GE 45-Pint Dehumidifier Review: Smart Dehumidification for Large Basements",
-    "description": "Our review of the GE 45-pint dehumidifier with Wi-Fi and built-in pump. Is the smart connectivity worth the premium over the Frigidaire?",
+    "title": "GE 25-Pint Dehumidifier Review: Smart Dehumidification for Bedrooms and Garages",
+    "description": "Our review of the GE 25-pint dehumidifier with Wi-Fi. A compact, affordable smart dehumidifier for bedrooms, garages, and medium-sized rooms up to 1,500 sq. ft.",
     "slug": "ge-45-pint-review",
     "type": "review",
     "category": "Dehumidifiers",
@@ -488,8 +496,8 @@
     "url": "/reviews/hey-dewy-humidifier-review"
   },
   {
-    "title": "Hisense 70-Pint Review: Heavy-Duty Dehumidification for Extreme Moisture",
-    "description": "Our review of the Hisense 70-pint dehumidifier — extreme capacity, built-in pump, Wi-Fi control, and heavy-duty performance for severe humidity at $329.99.",
+    "title": "Hisense 50-Pint Review: Built-In Pump Dehumidifier for Large Spaces",
+    "description": "The Hisense 50-Pint with Built-In Pump covers up to 4,500 sq. ft. at $309. A solid choice for basements and large rooms needing hands-free drainage.",
     "slug": "hisense-70-pint-review",
     "type": "review",
     "category": "Dehumidifiers",
@@ -537,7 +545,7 @@
   },
   {
     "title": "Keystone KSTAD50B Review: A Reliable 50-Pint Workhorse",
-    "description": "Our review of the Keystone KSTAD50B 50-pint dehumidifier — built-in pump, clear LED display, and dependable basement performance at $219.99.",
+    "description": "Our review of the Keystone KSTAD50B 50-pint dehumidifier — built-in pump, clear LED display, and dependable basement performance at $299.99.",
     "slug": "keystone-kstad50b-review",
     "type": "review",
     "category": "Dehumidifiers",
@@ -576,8 +584,8 @@
     "url": "/reviews/levoit-vital-200s-review"
   },
   {
-    "title": "LG PuriCare 50-Pint Review: The Smartest Dehumidifier You Can Buy?",
-    "description": "Our review of the LG PuriCare 50-pint dehumidifier with ThinQ smart app, voice control, and whisper-quiet operation at $299.99.",
+    "title": "LG PuriCare Discontinued — AEOCKY 80-Pint Is the Best Replacement",
+    "description": "The LG PuriCare dehumidifier has been discontinued. The AEOCKY 80-Pint Smart Dehumidifier ($239.97) is the best replacement with ENERGY STAR Most Efficient 2025 certification.",
     "slug": "lg-puricare-dehumidifier-review",
     "type": "review",
     "category": "Dehumidifiers",
@@ -656,8 +664,8 @@
     "url": "/reviews/temtop-m10-review"
   },
   {
-    "title": "Tosot 50-Pint Dehumidifier Review: The Best Budget Basement Pick?",
-    "description": "Our review of the Tosot 50-pint dehumidifier with built-in pump — effective basement dehumidification for $229.99 with continuous drainage.",
+    "title": "Tosot 50-Pint Discontinued — hOmeLabs 6,000 Sq Ft with Pump Is the Best Replacement",
+    "description": "The Tosot 50-pint dehumidifier is discontinued. The hOmeLabs 6,000 Sq Ft with Built-In Pump ($329.99) is the best replacement for basement dehumidification.",
     "slug": "tosot-50-pint-review",
     "type": "review",
     "category": "Dehumidifiers",
@@ -680,8 +688,8 @@
     "url": "/reviews/vornado-evdc300-review"
   },
   {
-    "title": "Vremi 50-Pint Dehumidifier Review: Big Coverage, Smart Design",
-    "description": "Our review of the Vremi 50-pint dehumidifier — turbo mode, large area coverage, and a surprisingly portable design for basements and large rooms at $249.99.",
+    "title": "Vremi 50-Pint Discontinued — AEOCKY 80-Pint Smart Is the Best Replacement",
+    "description": "The Vremi 50-pint dehumidifier is discontinued. The AEOCKY 80-Pint Smart Dehumidifier ($239.97) is the best replacement with Wi-Fi, app control, and 5,500 sq. ft. coverage.",
     "slug": "vremi-50-pint-review",
     "type": "review",
     "category": "Dehumidifiers",
@@ -1112,11 +1120,35 @@
     "url": "/reviews/ge-adel45ly-review"
   },
   {
-    "title": "hOmeLabs 4,500 Sq. Ft. Dehumidifier",
-    "description": "hOmeLabs - Dehumidifiers - Amazon Best Seller",
+    "title": "hOmeLabs 7,000 Sq. Ft. Dehumidifier",
+    "description": "hOmeLabs 7,000 Sq. Ft. Dehumidifier with Wi-Fi — Amazon Best Seller",
     "slug": "homelabs-4500",
     "type": "product",
     "category": "Dehumidifiers",
     "url": "/reviews/homelabs-4500-review"
+  },
+  {
+    "title": "BREATHE Airmonitor Plus Review: Professional-Grade Monitoring for $120?",
+    "description": "Our review of the BREATHE Airmonitor Plus with 8 sensors including CO2, PM2.5, VOC, and formaldehyde. At $119.99, is this the best multi-sensor value in 2026?",
+    "slug": "breathe-airmonitor-plus-review",
+    "type": "review",
+    "category": "Air Quality Monitors",
+    "url": "/reviews/breathe-airmonitor-plus-review"
+  },
+  {
+    "title": "AEOCKY 74-Pint Dehumidifier Review: Best Energy Star Value for Large Spaces?",
+    "description": "The AEOCKY 74-Pint delivers Energy Star 6.0 certification and 4,500 sq. ft. coverage for under $200. Our full review of this high-capacity budget dehumidifier.",
+    "slug": "aeocky-74-pint-review",
+    "type": "review",
+    "category": "Dehumidifiers",
+    "url": "/reviews/aeocky-74-pint-review"
+  },
+  {
+    "title": "AEOCKY 74-Pint Energy Star 6.0 Dehumidifier",
+    "description": "AEOCKY - Dehumidifiers - Best Energy Star Value",
+    "slug": "aeocky-74-pint",
+    "type": "product",
+    "category": "Dehumidifiers",
+    "url": "/reviews/aeocky-74-pint-review"
   }
 ]
