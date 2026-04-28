@@ -368,7 +368,7 @@
     "name": "Medify MA-40 Air Purifier",
     "brand": "Medify",
     "category": "Air Purifiers",
-    "price": "$349.99",
+    "price": "$249.99",
     "image": "/images/products/medify-ma40.webp",
     "specs": {
       "coverage": "840 sq. ft.",
@@ -376,7 +376,7 @@
       "cadr": "330 Smoke / 340 Dust / 340 Pollen",
       "noiseLevel": "28 - 66 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B07M8YBWJF?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B07LGDYV3C?tag=airqualitynest-20",
     "filterReplacementLink": "https://amazon.com/dp/B0816TLHQR?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 3-4 months",
     "pros": ["Dual-intake design for faster purification", "H13 True HEPA medical-grade filter", "Strong 330 CADR at competitive price", "Timer and 3 fan speeds", "Sleek modern design"],
@@ -423,22 +423,22 @@
     "badge": "Best Design"
   },
   "alen-breathesmart-45i": {
-    "name": "Alen BreatheSmart 45i",
+    "name": "Alen BreatheSmart 25i",
     "brand": "Alen",
     "category": "Air Purifiers",
-    "price": "$329.00",
+    "price": "$184.00",
     "image": "/images/products/alen-breathesmart-45i.webp",
     "specs": {
-      "coverage": "800 sq. ft.",
-      "filterType": "True HEPA + Fresh (antimicrobial) or Heavy Odor",
-      "cadr": "245 Smoke / 245 Dust / 245 Pollen",
-      "noiseLevel": "25 - 49 dB"
+      "coverage": "400 sq. ft.",
+      "filterType": "H13 HEPA + Advanced Filter",
+      "cadr": "107 CFM",
+      "noiseLevel": "20 - 40 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B07MG5RZFL?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B0G1T41ZFJ?tag=airqualitynest-20",
     "filterReplacementLink": "https://amazon.com/dp/B07B7N3RXG?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 12 months",
-    "pros": ["Customizable front panels match any decor", "Lifetime warranty — best in class", "Large room coverage at mid-range price", "Quiet B7 motor at 25 dB on low", "4 filter options for specific needs"],
-    "cons": ["CADR moderate for 800 sq. ft. claim", "No smart app or Wi-Fi", "Proprietary filters only"],
+    "pros": ["Forever Guarantee with filter subscription", "Whisper-quiet 20 dB on low", "Smart sensors with app alerts", "Compact and affordable at $184", "H13 HEPA captures 99.9% at 0.1 microns"],
+    "cons": ["Lower CADR at 107 CFM", "Smaller coverage than the discontinued 45i", "Proprietary filters only"],
     "rating": 4.5,
     "badge": "Best Warranty"
   },
@@ -467,15 +467,15 @@
     "name": "Hathaspace HSP001 5-in-1 Air Purifier",
     "brand": "Hathaspace",
     "category": "Air Purifiers",
-    "price": "$129.99",
+    "price": "$199.99",
     "image": "/images/products/hathaspace-hsp001.webp",
     "specs": {
-      "coverage": "350 sq. ft.",
-      "filterType": "True HEPA H11 + Carbon + Ionizer",
+      "coverage": "700 sq. ft.",
+      "filterType": "True HEPA + Carbon + Ionizer",
       "cadr": "170 Smoke / 170 Dust / 170 Pollen",
       "noiseLevel": "28 - 55 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B07RKXSP7Z?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B075ZZND8B?tag=airqualitynest-20",
     "filterReplacementLink": "https://amazon.com/dp/B07YRKTJMJ?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 6-8 months",
     "pros": ["5-in-1 filtration at budget price", "Includes cellular activated carbon", "Night mode dims all lights", "Compact and lightweight at 9 lbs"],
@@ -525,7 +525,7 @@
     "name": "Austin Air HealthMate HM400",
     "brand": "Austin Air",
     "category": "Air Purifiers",
-    "price": "$714.99",
+    "price": "$845.00",
     "image": "/images/products/austin-air-healthmate.webp",
     "specs": {
       "coverage": "1,500 sq. ft.",
@@ -533,7 +533,7 @@
       "cadr": "400 (estimated)",
       "noiseLevel": "35 - 65 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B000H2B1V4?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B008QWUWP2?tag=airqualitynest-20",
     "filterReplacementLink": "https://amazon.com/dp/B002ATBRXQ?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 5 years",
     "pros": ["5-year filter life saves money long-term", "15 lbs of carbon for superior gas/chemical removal", "Medical-grade True HEPA", "Made in USA with steel housing", "Ideal for chemical sensitivities and MCS"],
@@ -542,24 +542,24 @@
     "badge": "Best for Chemicals"
   },
   "bissell-air320": {
-    "name": "Bissell air320 Smart Air Purifier",
-    "brand": "Bissell",
+    "name": "Levoit Core 400S Smart Air Purifier",
+    "brand": "Levoit",
     "category": "Air Purifiers",
-    "price": "$274.99",
+    "price": "$181.95",
     "image": "/images/products/bissell-air320.webp",
     "specs": {
-      "coverage": "1,000 sq. ft.",
-      "filterType": "3-Stage HEPA + Carbon + Fabric Pre-filter",
-      "cadr": "230 Smoke / 232 Dust / 232 Pollen",
-      "noiseLevel": "26 - 55 dB"
+      "coverage": "403 sq. ft.",
+      "filterType": "True HEPA H13 + Carbon",
+      "cadr": "256 Smoke / 260 Dust / 256 Pollen",
+      "noiseLevel": "24 - 52 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B0BWM97CM1?tag=airqualitynest-20",
-    "filterReplacementLink": "https://amazon.com/dp/B0BWN3QSML?tag=airqualitynest-20",
-    "filterReplacementCycle": "Every 6-12 months",
-    "pros": ["Each purchase saves a homeless pet via BISSELL Pet Foundation", "CirQulate System monitors and auto-adjusts", "Large room coverage at mid-range price", "Quiet at 26 dB on low"],
-    "cons": ["CADR moderate for claimed coverage", "App can be slow to connect", "Filter costs above average"],
-    "rating": 4.4,
-    "badge": "Best for Pet Owners"
+    "amazonLink": "https://amazon.com/dp/B08R794ZMX?tag=airqualitynest-20",
+    "filterReplacementLink": "https://amazon.com/dp/B08SHQPFHW?tag=airqualitynest-20",
+    "filterReplacementCycle": "Every 6-8 months",
+    "pros": ["Excellent smart app control", "QuietKEAP technology", "AHAM Verified performance", "Auto mode with laser sensor", "Strong value at $182"],
+    "cons": ["Filter replacements are pricier", "Slightly larger footprint"],
+    "rating": 4.7,
+    "badge": "Best Smart Purifier"
   },
   "shark-air-purifier-6": {
     "name": "Shark Air Purifier 6 with Anti-Allergen HEPA",
@@ -584,7 +584,7 @@
     "name": "GermGuardian AC5250PT 3-in-1 Air Purifier",
     "brand": "GermGuardian",
     "category": "Air Purifiers",
-    "price": "$149.99",
+    "price": "$99.99",
     "image": "/images/products/germguardian-ac5250pt.webp",
     "specs": {
       "coverage": "167 sq. ft.",
@@ -601,30 +601,29 @@
     "badge": "Best UV-C Purifier"
   },
   "blueair-classic-605": {
-    "name": "Blueair Classic 605",
+    "name": "Blueair Blue Pure 211i Max",
     "brand": "Blueair",
     "category": "Air Purifiers",
-    "price": "$599.99",
+    "price": "$244.99",
     "image": "/images/products/blueair-classic-605.webp",
     "specs": {
-      "coverage": "775 sq. ft.",
-      "filterType": "HEPASilent + DualProtection Carbon",
-      "cadr": "500 Smoke / 500 Dust / 500 Pollen",
-      "noiseLevel": "32 - 62 dB"
+      "coverage": "674 sq. ft.",
+      "filterType": "HEPASilent Dual Filtration",
+      "cadr": "410 Smoke / 410 Dust / 410 Pollen",
+      "noiseLevel": "23 - 53 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B01NAOWQAS?tag=airqualitynest-20",
-    "filterReplacementLink": "https://amazon.com/dp/B01M3Y6AV9?tag=airqualitynest-20",
-    "filterReplacementCycle": "Every 6 months",
-    "pros": ["Industry-leading 500 CADR rating", "Wi-Fi enabled with app control", "Swedish engineering and design", "Energy Star certified"],
-    "cons": ["Premium price at $600", "Filter replacements every 6 months (~$80)", "Large and heavy unit", "Basic app functionality"],
+    "amazonLink": "https://amazon.com/dp/B0BN2MGV5H?tag=airqualitynest-20",
+    "filterReplacementCycle": "Every 9 months",
+    "pros": ["High 410 CADR for large rooms", "HEPASilent smart technology", "Whisper-quiet 23 dB on low", "Energy Star certified", "Excellent value at $245"],
+    "cons": ["No activated carbon for odors", "Fabric pre-filter needs washing", "Large footprint"],
     "rating": 4.6,
-    "badge": "Highest CADR"
+    "badge": "Best Large Room Value"
   },
   "levoit-vital-200s": {
     "name": "Levoit Vital 200S Smart Air Purifier",
     "brand": "Levoit",
     "category": "Air Purifiers",
-    "price": "$89.99",
+    "price": "$169.99",
     "image": "/images/products/levoit-vital-200s.webp",
     "specs": {
       "coverage": "380 sq. ft.",
@@ -632,10 +631,10 @@
       "cadr": "177 Smoke / 183 Dust / 195 Pollen",
       "noiseLevel": "23 - 50 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B0BJ1PVZDJ?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B0BGPF71Q6?tag=airqualitynest-20",
     "filterReplacementLink": "https://amazon.com/dp/B0BJPXRZ5Y?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 6-8 months",
-    "pros": ["Under $100 with smart app control", "Pet mode with stronger filtration", "PM2.5 laser sensor for auto mode", "Side air intake works against walls"],
+    "pros": ["Smart app control with PM2.5 sensor", "Pet mode with stronger filtration", "PM2.5 laser sensor for auto mode", "Side air intake works against walls"],
     "cons": ["Lower CADR than Core 400S", "Plastic build feels less premium", "App features more basic than higher models"],
     "rating": 4.5,
     "badge": "Best Budget Smart"
@@ -663,7 +662,7 @@
     "name": "Winix AM90 Wi-Fi Air Purifier",
     "brand": "Winix",
     "category": "Air Purifiers",
-    "price": "$199.99",
+    "price": "$179.99",
     "image": "/images/products/winix-am90.webp",
     "specs": {
       "coverage": "400 sq. ft.",
@@ -671,7 +670,7 @@
       "cadr": "243 Smoke / 246 Dust / 240 Pollen",
       "noiseLevel": "27 - 55 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B0C1LBR92S?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B07KQBNM7H?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 12 months",
     "pros": ["Wi-Fi with Alexa and Google support at under $200", "Same strong CADR as the 5500-2", "Smart auto mode with air quality sensor", "PlasmaWave can be toggled off"],
     "cons": ["App is basic compared to Levoit VeSync", "PlasmaWave produces trace ozone", "Design is boxy"],
@@ -682,7 +681,7 @@
     "name": "Dyson Purifier Cool TP07",
     "brand": "Dyson",
     "category": "Air Purifiers",
-    "price": "$569.99",
+    "price": "$560.99",
     "image": "/images/products/dyson-purifier-cool-tp07.webp",
     "specs": {
       "coverage": "800 sq. ft.",
@@ -690,7 +689,7 @@
       "cadr": "250 (estimated)",
       "noiseLevel": "30 - 55 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B098JQMD9S?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B09LT8THGS?tag=airqualitynest-20",
     "filterReplacementLink": "https://amazon.com/dp/B098JR2NFG?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 12 months",
     "pros": ["Purifier + bladeless fan combo", "Sealed HEPA H13 filtration system", "Dyson Link app with comprehensive air quality data", "Oscillation projects purified air across room", "Beautiful design doubles as home decor"],
