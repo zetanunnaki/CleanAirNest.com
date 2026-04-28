@@ -672,7 +672,8 @@
     "amazonLink": "https://amazon.com/dp/B09NNV2GB1?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 12 months",
     "pros": ["Doubles as a side table with flat top", "Wind-Free purification disperses clean air gently", "SmartThings integration with full home automation", "Ultra-quiet at 21 dB on low", "Customizable color panels"],
-    "cons": ["Very expensive for CADR rating", "Samsung ecosystem dependency", "Heavy at 26 lbs", "Limited third-party smart home support"],
+    "cons": ["Very expensive for CADR rating", "Samsung ecosystem dependency", "Heavy at 26 lbs", "Limited third-party smart home support", "Currently out of stock on Amazon"],
+    "availability": "temporarily-unavailable",
     "rating": 4.3,
     "badge": "Best Furniture-Style"
   },
@@ -765,7 +766,7 @@
     },
     "amazonLink": "https://amazon.com/dp/B097YW5Q72?tag=airqualitynest-20",
     "pros": ["Only consumer monitor with radon detection", "Battery-powered for flexible placement", "7 air quality sensors in one device", "Excellent Airthings dashboard and app"],
-    "cons": ["Premium price at $299", "Radon readings take 30+ days to stabilize", "No touchscreen display", "Battery life decreases with Wi-Fi enabled"],
+    "cons": ["Premium price at $330", "Radon readings take 30+ days to stabilize", "No touchscreen display", "Battery life decreases with Wi-Fi enabled"],
     "rating": 4.6,
     "badge": "Best Multi-Sensor Monitor"
   },
