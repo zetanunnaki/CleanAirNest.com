@@ -24,7 +24,7 @@
     "name": "Levoit Core 400S Smart Air Purifier",
     "brand": "Levoit",
     "category": "Air Purifiers",
-    "price": "$219.99",
+    "price": "$181.95",
     "image": "/images/products/levoit-core-400s.webp",
     "specs": {
       "coverage": "403 sq. ft.",
@@ -32,7 +32,7 @@
       "cadr": "256 Smoke / 260 Dust / 256 Pollen",
       "noiseLevel": "24 - 52 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B08L73QL1V?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B08R794ZMX?tag=airqualitynest-20",
     "walmartLink": "https://walmart.com/ip/levoit-core-400s?irgwc=1",
     "filterReplacementLink": "https://amazon.com/dp/B08SHQPFHW?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 6-8 months",
@@ -45,7 +45,7 @@
     "name": "Levoit LV-H132 Air Purifier",
     "brand": "Levoit",
     "category": "Air Purifiers",
-    "price": "$69.99",
+    "price": "$89.99",
     "image": "/images/products/blueair-blue-pure-211.webp",
     "specs": {
       "coverage": "129 sq. ft.",
@@ -65,7 +65,7 @@
     "name": "Dyson Big Quiet Formaldehyde",
     "brand": "Dyson",
     "category": "Air Purifiers",
-    "price": "$599.99",
+    "price": "$1,029.00",
     "image": "/images/products/dyson-purifier-big-quiet.webp",
     "specs": {
       "coverage": "1076 sq. ft.",
@@ -81,30 +81,30 @@
     "badge": "Premium Pick"
   },
   "winix-5500-2": {
-    "name": "Winix 5500-2 Air Purifier",
+    "name": "Winix 5510 Air Purifier",
     "brand": "Winix",
     "category": "Air Purifiers",
-    "price": "$159.99",
+    "price": "$179.99",
     "image": "/images/products/winix-5500-2.webp",
     "specs": {
-      "coverage": "360 sq. ft.",
+      "coverage": "392 sq. ft.",
       "filterType": "True HEPA + PlasmaWave + Carbon",
-      "cadr": "232 Smoke / 243 Dust / 246 Pollen",
-      "noiseLevel": "27.8 - 55.3 dB"
+      "cadr": "253 CFM",
+      "noiseLevel": "23.5 - 65.7 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B01D8F60MI?tag=airqualitynest-20",
-    "filterReplacementLink": "https://amazon.com/dp/B01CHWSZSE?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B0DJG1731C?tag=airqualitynest-20",
+    "filterReplacementLink": "https://amazon.com/dp/B0F3X6QC9F?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 12 months",
-    "pros": ["Budget-friendly with top performance", "PlasmaWave technology", "Auto mode works great", "Washable carbon pre-filter"],
-    "cons": ["PlasmaWave produces trace ozone", "Dated design aesthetic"],
+    "pros": ["WiFi app control and air quality monitor", "PlasmaWave technology", "Strong 253 CFM CADR for large rooms", "Washable carbon pre-filter", "Smart auto mode"],
+    "cons": ["PlasmaWave produces trace ozone", "Louder on max at 65.7 dB"],
     "rating": 4.6,
-    "badge": "Best Budget"
+    "badge": "Best Smart Value"
   },
   "levoit-core-300": {
     "name": "Levoit Core 300 Air Purifier",
     "brand": "Levoit",
     "category": "Air Purifiers",
-    "price": "$89.99",
+    "price": "$99.00",
     "image": "/images/products/levoit-core-300.webp",
     "specs": {
       "coverage": "219 sq. ft.",
@@ -308,19 +308,19 @@
     "name": "IQAir HealthPro Plus",
     "brand": "IQAir",
     "category": "Air Purifiers",
-    "price": "$899.00",
+    "price": "$1,199.99",
     "image": "/images/products/iqair-healthpro-plus.webp",
     "specs": {
       "coverage": "1,125 sq. ft.",
-      "filterType": "HyperHEPA (H12/H13) + V5-Cell Gas & Odor",
+      "filterType": "Smart HyperHEPA + V5-Cell Gas & Odor",
       "cadr": "300+ (Swiss-tested)",
       "noiseLevel": "22 - 59 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B003PVVNK0?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B0D7LQN3JT?tag=airqualitynest-20",
     "filterReplacementLink": "https://amazon.com/dp/B004LIXMYQ?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 12-18 months (PreMax), 24+ months (HyperHEPA)",
-    "pros": ["Medical-grade HyperHEPA filters to 0.003 microns", "Swiss-engineered with hospital-grade performance", "Fan-diffusion technology for even distribution", "10-year warranty on motor"],
-    "cons": ["Very expensive at $899", "Heavy at 35 lbs", "Large footprint", "Expensive filter replacements (~$200/set)"],
+    "pros": ["Medical-grade HyperHEPA filters to 0.003 microns", "Swiss-engineered with hospital-grade performance", "WiFi app control and smart features", "10-year warranty on motor"],
+    "cons": ["Premium price at $1,199.99", "Heavy at 35 lbs", "Large footprint", "Expensive filter replacements (~$200/set)"],
     "rating": 4.8,
     "badge": "Best Medical-Grade"
   },
@@ -328,7 +328,7 @@
     "name": "Molekule Air Mini+",
     "brand": "Molekule",
     "category": "Air Purifiers",
-    "price": "$399.99",
+    "price": "$359.99",
     "image": "/images/products/molekule-air-mini-plus.webp",
     "specs": {
       "coverage": "250 sq. ft.",
@@ -336,7 +336,7 @@
       "cadr": "~100 (estimated)",
       "noiseLevel": "30 - 56 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B09TLGHBFN?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B0BV96CXD9?tag=airqualitynest-20",
     "filterReplacementLink": "https://amazon.com/dp/B0B6GJ1C4Q?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 6 months",
     "pros": ["PECO technology destroys pollutants at molecular level", "Beautiful minimalist design", "App with air quality dashboard", "Portable and lightweight"],
@@ -348,7 +348,7 @@
     "name": "Rabbit Air MinusA2 Ultra Quiet",
     "brand": "Rabbit Air",
     "category": "Air Purifiers",
-    "price": "$549.95",
+    "price": "$608.99",
     "image": "/images/products/rabbit-air-minusa2.webp",
     "specs": {
       "coverage": "815 sq. ft.",
@@ -356,7 +356,7 @@
       "cadr": "200 Smoke / 193 Dust / 208 Pollen",
       "noiseLevel": "20.8 - 45.6 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B00CLBAVK2?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B003CZYL64?tag=airqualitynest-20",
     "filterReplacementLink": "https://amazon.com/dp/B009EKC35I?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 18-24 months",
     "pros": ["Wall-mountable design saves floor space", "Customizable filter for specific needs (germ, pet, toxin)", "Ultra-quiet at 20.8 dB", "5-stage filtration system", "Smart app with scheduling"],

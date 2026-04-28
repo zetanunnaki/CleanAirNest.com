@@ -138,10 +138,18 @@
       "Bash(grep -o '\\\\.[^.]*$')",
       "Bash(awk '{print $1\": \"$2}')",
       "Bash(node -e \"const data = require\\('./src/data/products.json'\\); for \\(const [id, product] of Object.entries\\(data\\)\\) { const img = product.image.split\\('/'\\).pop\\(\\); console.log\\(id + ': ' + img\\); }\")",
-      "Bash(node -e \"const data = require\\('./src/data/products.json'\\); for \\(const [id, product] of Object.entries\\(data\\)\\) { const img = product.image.split\\('/'\\).pop\\(\\); console.log\\(img\\); }\")"
+      "Bash(node -e \"const data = require\\('./src/data/products.json'\\); for \\(const [id, product] of Object.entries\\(data\\)\\) { const img = product.image.split\\('/'\\).pop\\(\\); console.log\\(img\\); }\")",
+      "Bash(node scripts/redistribute-dates.js)",
+      "Bash(git checkout *)",
+      "Bash(node scripts/regenerate-sitemap.mjs)",
+      "Bash(node -e \"const sharp = require\\('sharp'\\); console.log\\('sharp available'\\)\")",
+      "Bash(git diff *)",
+      "Read(//c//**)",
+      "WebFetch(domain:amazon.com)"
     ],
     "additionalDirectories": [
-      "c:\\Users\\Issam\\CleanAirNest.com\\src\\app\\best-picks"
+      "c:\\Users\\Issam\\CleanAirNest.com\\src\\app\\best-picks",
+      "\\tmp"
     ]
   }
 }
