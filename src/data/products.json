@@ -251,10 +251,10 @@
     "badge": "Longest Runtime"
   },
   "frigidaire-ffad5033w1": {
-    "name": "Frigidaire 50-Pint Dehumidifier",
+    "name": "Frigidaire 50-Pint Wi-Fi Dehumidifier",
     "brand": "Frigidaire",
     "category": "Dehumidifiers",
-    "price": "$249.99",
+    "price": "$314.00",
     "image": "/images/products/frigidaire-ffad5033w1.webp",
     "specs": {
       "coverage": "1,500 sq. ft.",
@@ -262,17 +262,17 @@
       "tankSize": "13.1 pints",
       "noiseLevel": "51 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B08DXVL4YG?tag=airqualitynest-20",
-    "pros": ["Powerful 50-pint capacity", "Built-in pump for continuous drain", "Energy Star certified", "Easy-to-clean washable filter"],
-    "cons": ["Louder than competitors", "Bulky design"],
+    "amazonLink": "https://amazon.com/dp/B0DG19KP9V?tag=airqualitynest-20",
+    "pros": ["Powerful 50-pint capacity", "Wi-Fi enabled with custom humidity control", "Energy Star certified", "Easy-to-clean washable filter", "Auto shut-off"],
+    "cons": ["Louder than competitors", "Bulky design", "Premium price"],
     "rating": 4.5,
     "badge": "Best Dehumidifier"
   },
   "midea-20-pint": {
-    "name": "Midea 20-Pint Dehumidifier",
+    "name": "Midea Cube 20-Pint Dehumidifier",
     "brand": "Midea",
     "category": "Dehumidifiers",
-    "price": "$159.99",
+    "price": "$178.99",
     "image": "/images/products/midea-20-pint.webp",
     "specs": {
       "coverage": "1,500 sq. ft.",
@@ -280,27 +280,27 @@
       "tankSize": "5.5 pints",
       "noiseLevel": "44 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B083DVHQ5S?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B08ZMY8BC8?tag=airqualitynest-20",
     "pros": ["Compact and lightweight", "Smart app control via Wi-Fi", "Quieter than most competitors", "Reusable washable filter"],
     "cons": ["Smaller capacity for large spaces", "Bucket fills quickly without drain hose"],
     "rating": 4.4,
     "badge": "Best Compact"
   },
   "ge-adel45ly": {
-    "name": "GE 45-Pint Dehumidifier",
+    "name": "GE 25-Pint Portable Dehumidifier",
     "brand": "GE",
     "category": "Dehumidifiers",
-    "price": "$279.00",
+    "price": "$229.00",
     "image": "/images/products/ge-adel45ly.webp",
     "specs": {
-      "coverage": "2,500 sq. ft.",
-      "capacity": "45 pints/day",
-      "tankSize": "Built-in pump",
+      "coverage": "1,500 sq. ft.",
+      "capacity": "25 pints/day",
+      "tankSize": "Bucket with alarm",
       "noiseLevel": "48 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B0BVX1N1QV?tag=airqualitynest-20",
-    "pros": ["Built-in pump handles vertical drainage", "Wi-Fi enabled with smart home integration", "Handles very large spaces", "Auto restart after power outage"],
-    "cons": ["Premium price", "Large footprint", "App can be glitchy"],
+    "amazonLink": "https://amazon.com/dp/B0FNQ2J6Q3?tag=airqualitynest-20",
+    "pros": ["Trusted GE brand reliability", "Empty bucket alarm", "Clean filter alert", "Good for bedrooms and garages", "Auto restart after power outage"],
+    "cons": ["No built-in pump", "Smaller 25-pint capacity", "No Wi-Fi or smart features"],
     "rating": 4.4,
     "badge": "Best for Basements"
   },
@@ -385,20 +385,20 @@
     "badge": "Best Dual-Intake"
   },
   "homelabs-4500": {
-    "name": "hOmeLabs 4,500 Sq. Ft. Dehumidifier",
+    "name": "hOmeLabs 7,000 Sq. Ft. Wi-Fi Dehumidifier",
     "brand": "hOmeLabs",
     "category": "Dehumidifiers",
-    "price": "$259.97",
+    "price": "$212.49",
     "image": "/images/products/homelabs-4500.webp",
     "specs": {
-      "coverage": "4,500 sq. ft.",
-      "capacity": "50 pints/day",
+      "coverage": "7,000 sq. ft.",
+      "capacity": "50 pints/day (120 pint max)",
       "tankSize": "1.6 gallons",
       "noiseLevel": "48 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B073VBWKJZ?tag=airqualitynest-20",
-    "pros": ["Best-selling dehumidifier on Amazon", "Turbo mode for rapid moisture removal", "Continuous drain via gravity hose", "Auto-shutoff and auto-restart", "Budget-friendly for 50-pint capacity"],
-    "cons": ["No built-in pump (gravity drain only)", "Bucket is small for 50-pint capacity", "Plastic build feels less durable", "No Wi-Fi or smart features"],
+    "amazonLink": "https://amazon.com/dp/B0D1H9DXJZ?tag=airqualitynest-20",
+    "pros": ["Best-selling dehumidifier on Amazon", "Wi-Fi enabled with smart controls", "7,000 sq. ft. coverage", "Auto-shutoff and auto-restart", "Continuous drain via gravity hose"],
+    "cons": ["No built-in pump (gravity drain only)", "Bucket is small for 50-pint capacity", "Plastic build feels less durable"],
     "rating": 4.3,
     "badge": "Amazon Best Seller"
   },
@@ -864,20 +864,20 @@
     "badge": "Best Portable"
   },
   "tosot-50-pint": {
-    "name": "Tosot 50-Pint Dehumidifier with Internal Pump",
-    "brand": "Tosot",
+    "name": "hOmeLabs 6,000 Sq. Ft. Dehumidifier with Pump",
+    "brand": "hOmeLabs",
     "category": "Dehumidifiers",
-    "price": "$229.99",
+    "price": "$329.99",
     "image": "/images/products/tosot-50-pint.webp",
     "specs": {
-      "coverage": "4,500 sq. ft.",
-      "capacity": "50 pints/day",
-      "tankSize": "7.6 pints",
+      "coverage": "6,000 sq. ft.",
+      "capacity": "40 pints/day (104 pint max)",
+      "tankSize": "Built-in pump",
       "noiseLevel": "48 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B07WY9YNMF?tag=airqualitynest-20",
-    "pros": ["Built-in pump drains upward to sinks or windows", "Energy Star certified", "Auto defrost for cold basements", "Continuous drain option included", "Competitive price for pump model"],
-    "cons": ["Pump can be audible when running", "No Wi-Fi or app control", "Bucket is small for 50-pint capacity", "Basic digital controls"],
+    "amazonLink": "https://amazon.com/dp/B08MWQSGQ5?tag=airqualitynest-20",
+    "pros": ["Built-in pump for hands-free drainage", "6,000 sq. ft. coverage", "Auto-shutoff and auto-restart", "Humidity control with quiet operation", "Continuous drain option included"],
+    "cons": ["Premium price at $330", "No Wi-Fi or app control", "40-pint capacity lower than 50-pint models"],
     "rating": 4.4,
     "badge": "Best Pump Value"
   },
@@ -885,7 +885,7 @@
     "name": "AEOCKY 80-Pint Smart Dehumidifier",
     "brand": "AEOCKY",
     "category": "Dehumidifiers",
-    "price": "$239.99",
+    "price": "$239.97",
     "image": "/images/products/lg-puricare-dehumidifier.webp",
     "specs": {
       "coverage": "4,500 sq. ft.",
@@ -900,46 +900,46 @@
     "badge": "Best High-Capacity"
   },
   "keystone-kstad50b": {
-    "name": "Keystone 50-Pint Dehumidifier",
+    "name": "Keystone 50-Pint Dehumidifier with Pump",
     "brand": "Keystone",
     "category": "Dehumidifiers",
-    "price": "$219.99",
+    "price": "$299.99",
     "image": "/images/products/keystone-kstad50b.webp",
     "specs": {
-      "coverage": "3,000 sq. ft.",
+      "coverage": "4,500 sq. ft.",
       "capacity": "50 pints/day",
       "tankSize": "8.8 pints",
       "noiseLevel": "50 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B00XUNP6M6?tag=airqualitynest-20",
-    "pros": ["Built-in pump for vertical drainage", "LED display with electronic controls", "Auto restart after power outage", "Continuous drain option", "Affordable for pump model"],
-    "cons": ["Louder at 50 dB", "Older design aesthetic", "No smart features or Wi-Fi", "Heavier than competitors"],
+    "amazonLink": "https://amazon.com/dp/B0GVLCQS4S?tag=airqualitynest-20",
+    "pros": ["Built-in pump for vertical drainage", "4,500 sq. ft. coverage", "Energy efficient for large spaces", "Auto restart after power outage", "Continuous drain option"],
+    "cons": ["Louder at 50 dB", "Premium price at $300", "No smart features or Wi-Fi", "Heavier than competitors"],
     "rating": 4.3,
     "badge": "Best LED Display"
   },
   "vremi-50-pint": {
-    "name": "Vremi 50-Pint Dehumidifier",
-    "brand": "Vremi",
+    "name": "AEOCKY 80-Pint Smart Dehumidifier",
+    "brand": "AEOCKY",
     "category": "Dehumidifiers",
-    "price": "$249.99",
+    "price": "$239.97",
     "image": "/images/products/vremi-50-pint.webp",
     "specs": {
       "coverage": "4,500 sq. ft.",
-      "capacity": "50 pints/day",
-      "tankSize": "8 pints",
+      "capacity": "80 pints/day",
+      "tankSize": "Continuous drain hose",
       "noiseLevel": "48 dB"
     },
-    "amazonLink": "https://amazon.com/dp/B01DC5PPWI?tag=airqualitynest-20",
-    "pros": ["Covers up to 4,500 sq. ft.", "Turbo mode for rapid dehumidification", "Auto-shutoff with full bucket indicator", "Caster wheels for portability", "Energy Star certified"],
-    "cons": ["No built-in pump", "Bucket is small relative to capacity", "No Wi-Fi or smart features", "Gravity drain only"],
-    "rating": 4.3,
+    "amazonLink": "https://amazon.com/dp/B0D1C6HWFF?tag=airqualitynest-20",
+    "pros": ["ENERGY STAR Most Efficient 2025 certified", "80 pint/day capacity for extreme moisture", "4,500 sq. ft. coverage", "Intelligent humidistat with smart controls", "Includes drain hose for continuous operation"],
+    "cons": ["No built-in pump", "Newer brand with less track record", "Larger footprint than 50-pint models"],
+    "rating": 4.5,
     "badge": "Best Value Large Capacity"
   },
   "hisense-70-pint": {
     "name": "Hisense 50-Pint Dehumidifier with Built-In Pump",
     "brand": "Hisense",
     "category": "Dehumidifiers",
-    "price": "$259.99",
+    "price": "$309.00",
     "image": "/images/products/hisense-70-pint.webp",
     "specs": {
       "coverage": "4,500 sq. ft.",
