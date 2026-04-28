@@ -8,6 +8,17 @@ export const metadata: Metadata = {
   title: "Best Picks - Top Air Quality Products",
   description:
     "Our expert-tested roundups of the best air purifiers, monitors, humidifiers, and dehumidifiers for every budget and room size.",
+  openGraph: {
+    title: "Best Picks - Top Air Quality Products",
+    description: "Our expert-tested roundups of the best air purifiers, monitors, humidifiers, and dehumidifiers for every budget and room size.",
+    url: "https://airqualitynest.com/best-picks",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Picks - Top Air Quality Products",
+    description: "Our expert-tested roundups of the best air purifiers, monitors, humidifiers, and dehumidifiers for every budget and room size.",
+  },
   alternates: { canonical: "https://airqualitynest.com/best-picks" },
 };
 

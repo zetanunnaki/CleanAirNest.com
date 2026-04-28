@@ -6,6 +6,17 @@ export const metadata: Metadata = {
   title: "Air Quality Guides - Learn About Indoor Air Quality",
   description:
     "Science-backed guides on indoor air quality, filtration technology, testing methods, and practical tips for healthier air at home.",
+  openGraph: {
+    title: "Air Quality Guides - Learn About Indoor Air Quality",
+    description: "Science-backed guides on indoor air quality, filtration technology, testing methods, and practical tips for healthier air at home.",
+    url: "https://airqualitynest.com/guides",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Air Quality Guides - Learn About Indoor Air Quality",
+    description: "Science-backed guides on indoor air quality, filtration technology, testing methods, and practical tips for healthier air at home.",
+  },
   alternates: { canonical: "https://airqualitynest.com/guides" },
 };
 

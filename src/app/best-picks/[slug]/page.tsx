@@ -31,13 +31,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: article.frontmatter.title,
       description: article.frontmatter.description,
       type: "article",
+      url: `https://airqualitynest.com/best-picks/${slug}`,
       publishedTime: article.frontmatter.date,
+      modifiedTime: article.frontmatter.updatedDate || article.frontmatter.date,
       authors: [article.frontmatter.author],
+      images: [{ url: `https://airqualitynest.com/best-picks/${slug}/opengraph-image`, width: 1200, height: 630, alt: article.frontmatter.title }],
     },
     twitter: {
       card: "summary_large_image",
       title: article.frontmatter.title,
       description: article.frontmatter.description,
+      images: [`https://airqualitynest.com/best-picks/${slug}/opengraph-image`],
     },
     alternates: {
       canonical: `https://airqualitynest.com/best-picks/${slug}`,

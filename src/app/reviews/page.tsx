@@ -8,6 +8,17 @@ export const metadata: Metadata = {
   title: "Product Reviews - In-Depth Air Quality Product Reviews",
   description:
     "Detailed reviews of air purifiers, air quality monitors, humidifiers, and dehumidifiers based on real customer feedback and expert analysis.",
+  openGraph: {
+    title: "Product Reviews - In-Depth Air Quality Product Reviews",
+    description: "Detailed reviews of air purifiers, air quality monitors, humidifiers, and dehumidifiers based on real customer feedback and expert analysis.",
+    url: "https://airqualitynest.com/reviews",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Product Reviews - In-Depth Air Quality Product Reviews",
+    description: "Detailed reviews of air purifiers, air quality monitors, humidifiers, and dehumidifiers based on real customer feedback and expert analysis.",
+  },
   alternates: { canonical: "https://airqualitynest.com/reviews" },
 };
 
