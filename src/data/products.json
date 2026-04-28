@@ -250,6 +250,24 @@
     "rating": 4.5,
     "badge": "Longest Runtime"
   },
+  "dreo-3l-bedroom": {
+    "name": "Dreo 3L Cool Mist Humidifier",
+    "brand": "Dreo",
+    "category": "Humidifiers",
+    "price": "$29.94",
+    "image": "/images/products/dreo-3l-bedroom.webp",
+    "specs": {
+      "coverage": "Large room",
+      "tankSize": "3 liters",
+      "runtime": "Up to 30 hours",
+      "mistType": "Cool Mist (Ultrasonic)"
+    },
+    "amazonLink": "https://amazon.com/dp/B0FXGK76DF?tag=airqualitynest-20",
+    "pros": ["Under $30 — excellent value", "Ultra-quiet at 26 dB", "Top-fill design for easy refills", "Built-in humidity sensor", "Night light for nurseries"],
+    "cons": ["Cool mist only — no warm mist", "No Wi-Fi or app control", "May produce white dust without distilled water"],
+    "rating": 4.6,
+    "badge": "Best Budget Bedroom"
+  },
   "frigidaire-ffad5033w1": {
     "name": "Frigidaire 50-Pint Wi-Fi Dehumidifier",
     "brand": "Frigidaire",
@@ -769,6 +787,24 @@
     "rating": 4.7,
     "badge": "Best CO2 Monitor"
   },
+  "breathe-airmonitor-plus": {
+    "name": "BREATHE Airmonitor Plus Indoor Air Quality Monitor",
+    "brand": "BREATHE",
+    "category": "Air Quality Monitors",
+    "price": "$119.99",
+    "image": "/images/products/breathe-airmonitor-plus.webp",
+    "specs": {
+      "coverage": "Single room",
+      "sensors": "CO2, PM1, PM2.5, PM10, VOC, Formaldehyde, Temp, Humidity",
+      "battery": "N/A (USB-C powered)",
+      "connectivity": "Wi-Fi (App)"
+    },
+    "amazonLink": "https://amazon.com/dp/B0CLYRBRSB?tag=airqualitynest-20",
+    "pros": ["Professional-grade 8-sensor monitoring", "CO2, PM, VOC, and formaldehyde in one device", "Smart app with historical data", "Affordable for sensor count", "Compact design"],
+    "cons": ["No battery — requires power outlet", "Newer brand with less track record", "No radon detection", "App ecosystem still maturing"],
+    "rating": 4.4,
+    "badge": "Best Multi-Sensor Value"
+  },
   "dyson-ph04": {
     "name": "Dyson Purifier Humidify+Cool PH03",
     "brand": "Dyson",
@@ -952,5 +988,23 @@
     "cons": ["50-pint capacity vs larger 70-pint models", "No Wi-Fi or smart app control", "Heavier than compact models", "Pump drainage setup requires routing hose"],
     "rating": 4.5,
     "badge": "Best Heavy Duty"
+  },
+  "aeocky-74-pint": {
+    "name": "AEOCKY 74-Pint Energy Star 6.0 Dehumidifier",
+    "brand": "AEOCKY",
+    "category": "Dehumidifiers",
+    "price": "$199.95",
+    "image": "/images/products/aeocky-74-pint.webp",
+    "specs": {
+      "coverage": "4,500 sq. ft.",
+      "capacity": "74 pints/day",
+      "tankSize": "Continuous drain hose",
+      "noiseLevel": "48 dB"
+    },
+    "amazonLink": "https://amazon.com/dp/B0F28MMKJF?tag=airqualitynest-20",
+    "pros": ["Energy Star Version 6.0 certified", "74 pint/day high capacity", "4,500 sq. ft. coverage", "Smart compressor with intelligent humidistat", "Includes drain hose for continuous operation"],
+    "cons": ["No built-in pump", "Newer brand with less track record", "Can be louder at 48 dB on high"],
+    "rating": 4.5,
+    "badge": "Best Energy Star Value"
   }
 }
