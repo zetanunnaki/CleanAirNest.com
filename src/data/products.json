@@ -144,7 +144,7 @@
     "name": "Airthings View Plus",
     "brand": "Airthings",
     "category": "Air Quality Monitors",
-    "price": "$299.00",
+    "price": "$329.99",
     "image": "/images/products/airthings-view-plus.webp",
     "specs": {
       "coverage": "Whole home",
@@ -152,7 +152,7 @@
       "battery": "2+ years",
       "connectivity": "Wi-Fi + Bluetooth"
     },
-    "amazonLink": "https://amazon.com/dp/B09QFYB7HX?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B097YW5Q72?tag=airqualitynest-20",
     "pros": ["Measures radon, PM2.5, CO2, VOCs, humidity, temp", "Beautiful e-ink display", "Battery lasts 2+ years", "IFTTT and smart home integration"],
     "cons": ["Expensive for a monitor", "Radon readings take 30+ days to stabilize"],
     "rating": 4.7,
@@ -162,7 +162,7 @@
     "name": "Amazon Smart Air Quality Monitor",
     "brand": "Amazon",
     "category": "Air Quality Monitors",
-    "price": "$69.99",
+    "price": "$49.99",
     "image": "/images/products/amazon-air-quality-monitor.webp",
     "specs": {
       "coverage": "Single room",
@@ -177,28 +177,28 @@
     "badge": "Best Budget Monitor"
   },
   "awair-element": {
-    "name": "Awair Element Indoor Air Quality Monitor",
-    "brand": "Awair",
+    "name": "SAF Aranet4 Home Air Quality Monitor",
+    "brand": "Aranet",
     "category": "Air Quality Monitors",
     "price": "$189.00",
     "image": "/images/products/awair-element.webp",
     "specs": {
       "coverage": "Single room",
-      "sensors": "PM2.5, CO2, VOCs, Humidity, Temp",
-      "battery": "N/A (USB-C powered)",
-      "connectivity": "Wi-Fi + Bluetooth"
+      "sensors": "CO2, Temp, Humidity, Air Pressure",
+      "battery": "2+ years (AA batteries)",
+      "connectivity": "Bluetooth"
     },
-    "amazonLink": "https://amazon.com/dp/B082ZF4H44?tag=airqualitynest-20",
-    "pros": ["Beautiful LED display with air score", "Excellent companion app with trends", "HomeKit, Alexa, Google Home support", "Developer API available"],
-    "cons": ["No radon detection", "No battery — wall power only", "Pricier than Amazon alternative"],
-    "rating": 4.5,
+    "amazonLink": "https://amazon.com/dp/B07YY7BH2W?tag=airqualitynest-20",
+    "pros": ["NDIR sensor is gold standard for CO2 accuracy", "E-ink display visible from across room", "Portable and battery-powered", "App for configuration and data history"],
+    "cons": ["CO2 only — no PM2.5 or VOC sensors", "Bluetooth only, no Wi-Fi", "No real-time air quality score", "App is basic"],
+    "rating": 4.7,
     "badge": "Best Display"
   },
   "levoit-lv600s": {
     "name": "Levoit LV600S Smart Humidifier",
     "brand": "Levoit",
     "category": "Humidifiers",
-    "price": "$89.99",
+    "price": "$109.99",
     "image": "/images/products/levoit-lv600s.webp",
     "specs": {
       "coverage": "753 sq. ft.",
@@ -206,25 +206,25 @@
       "runtime": "Up to 50 hours",
       "mistType": "Warm & Cool"
     },
-    "amazonLink": "https://amazon.com/dp/B09V3KLHJ9?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B095KGXPW5?tag=airqualitynest-20",
     "pros": ["Massive tank lasts days", "Warm and cool mist options", "Smart app with auto mode", "Very quiet operation"],
     "cons": ["Large and heavy when full", "Needs regular cleaning"],
     "rating": 4.6,
     "badge": "Best Humidifier"
   },
   "honeywell-hev685w": {
-    "name": "Honeywell HEV685W Top Fill Humidifier",
+    "name": "Honeywell Top Fill Tower Humidifier",
     "brand": "Honeywell",
     "category": "Humidifiers",
-    "price": "$84.99",
+    "price": "$104.99",
     "image": "/images/products/honeywell-hev685w.webp",
     "specs": {
       "coverage": "500 sq. ft.",
       "tankSize": "1.5 gallons",
       "runtime": "Up to 24 hours",
-      "mistType": "Evaporative (no white dust)"
+      "mistType": "Cool Mist (Evaporative)"
     },
-    "amazonLink": "https://amazon.com/dp/B07Y1BNWGX?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B077H19VJ6?tag=airqualitynest-20",
     "filterReplacementLink": "https://amazon.com/dp/B002QAYJPO?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 1-2 months",
     "pros": ["Top-fill design makes refilling easy", "Evaporative technology prevents white dust", "Auto shut-off when empty", "Quiet operation on low"],
@@ -236,17 +236,17 @@
     "name": "Dreo 6L Smart Humidifier",
     "brand": "Dreo",
     "category": "Humidifiers",
-    "price": "$79.99",
+    "price": "$89.99",
     "image": "/images/products/dreo-oversized-6l.webp",
     "specs": {
       "coverage": "560 sq. ft.",
       "tankSize": "1.6 gallons",
       "runtime": "Up to 60 hours",
-      "mistType": "Cool Mist (Ultrasonic)"
+      "mistType": "Warm & Cool Mist"
     },
-    "amazonLink": "https://amazon.com/dp/B0BVKJLKFM?tag=airqualitynest-20",
-    "pros": ["60-hour runtime is class-leading", "Top-fill with wide opening", "App control with scheduling", "Very quiet at 28 dB"],
-    "cons": ["Cool mist only", "May produce white dust without distilled water"],
+    "amazonLink": "https://amazon.com/dp/B0CB4CK3ZS?tag=airqualitynest-20",
+    "pros": ["60-hour runtime is class-leading", "Warm and cool mist options", "Google and Alexa voice control", "App control with scheduling", "Very quiet at 28 dB"],
+    "cons": ["May produce white dust without distilled water", "Larger footprint than basic humidifiers"],
     "rating": 4.5,
     "badge": "Longest Runtime"
   },
@@ -403,10 +403,10 @@
     "badge": "Amazon Best Seller"
   },
   "canopy-humidifier": {
-    "name": "Canopy Humidifier",
+    "name": "Canopy Bedside Humidifier 2.0",
     "brand": "Canopy",
     "category": "Humidifiers",
-    "price": "$149.99",
+    "price": "$120.00",
     "image": "/images/products/canopy-humidifier.webp",
     "specs": {
       "coverage": "500 sq. ft.",
@@ -414,7 +414,7 @@
       "runtime": "Up to 36 hours",
       "mistType": "Evaporative (no mist visible)"
     },
-    "amazonLink": "https://amazon.com/dp/B08M3QDHZ9?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B0DLLK5FM3?tag=airqualitynest-20",
     "filterReplacementLink": "https://amazon.com/dp/B097BCMKN3?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 45 days",
     "pros": ["No white dust — evaporative technology", "Dishwasher-safe components for easy cleaning", "UV light kills 99.9% of bacteria in water", "Beautiful design fits any decor", "Embedded aroma diffuser"],
@@ -484,28 +484,28 @@
     "badge": "Best Budget 5-in-1"
   },
   "temtop-m10": {
-    "name": "Temtop M10 Air Quality Monitor",
+    "name": "Temtop M10+ Air Quality Monitor",
     "brand": "Temtop",
     "category": "Air Quality Monitors",
-    "price": "$89.99",
+    "price": "$99.99",
     "image": "/images/products/temtop-m10.webp",
     "specs": {
       "coverage": "Single room",
-      "sensors": "PM2.5, AQI, HCHO (Formaldehyde)",
-      "battery": "6+ hours (rechargeable)",
-      "connectivity": "None (standalone)"
+      "sensors": "PM2.5, CO2, VOC, Temp, Humidity, AQI",
+      "battery": "60 days (rechargeable)",
+      "connectivity": "App via Bluetooth"
     },
-    "amazonLink": "https://amazon.com/dp/B083L41MNS?tag=airqualitynest-20",
-    "pros": ["Portable with rechargeable battery", "Real-time PM2.5 and formaldehyde readings", "Simple color-coded display", "Carry anywhere — office, car, home", "Affordable entry to air monitoring"],
-    "cons": ["No Wi-Fi or app connectivity", "No CO2 or VOC sensors", "No data logging or history", "Formaldehyde sensor less precise than lab equipment"],
-    "rating": 4.1,
+    "amazonLink": "https://amazon.com/dp/B0D1K7GNPM?tag=airqualitynest-20",
+    "pros": ["6-in-1 monitoring including CO2 and VOC", "E-ink display for quiet bedroom use", "60-day battery life on single charge", "App for data history and trends", "Portable — carry anywhere"],
+    "cons": ["No Wi-Fi connectivity", "No formaldehyde sensor (unlike M10)", "Bluetooth range limited", "No smart home integration"],
+    "rating": 4.3,
     "badge": "Best Portable"
   },
   "vornado-evdc300": {
     "name": "Vornado EVDC300 Energy Smart Evaporative Humidifier",
     "brand": "Vornado",
     "category": "Humidifiers",
-    "price": "$99.99",
+    "price": "$89.99",
     "image": "/images/products/vornado-evdc300.webp",
     "specs": {
       "coverage": "600 sq. ft.",
@@ -513,7 +513,7 @@
       "runtime": "Up to 24 hours",
       "mistType": "Evaporative (no white dust)"
     },
-    "amazonLink": "https://amazon.com/dp/B07L8T2B7S?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B071RTL328?tag=airqualitynest-20",
     "filterReplacementLink": "https://amazon.com/dp/B007LWT59Y?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 3 months",
     "pros": ["Uses 90% less energy than ultrasonic", "Vortex action circulates humidity evenly", "Simple 2-knob controls", "No white dust — evaporative system", "Compact footprint"],
@@ -701,7 +701,7 @@
     "name": "IQAir AirVisual Pro",
     "brand": "IQAir",
     "category": "Air Quality Monitors",
-    "price": "$499.00",
+    "price": "$329.99",
     "image": "/images/products/iqair-airvisual-pro.webp",
     "specs": {
       "coverage": "Whole home + outdoor",
@@ -711,7 +711,7 @@
     },
     "amazonLink": "https://amazon.com/dp/B0784TZFRW?tag=airqualitynest-20",
     "pros": ["Enterprise-grade laser PM2.5 sensor", "Integrated outdoor AQI from IQAir network", "7-inch color touchscreen display", "IFTTT and API integration for automation", "Historical data with cloud dashboard"],
-    "cons": ["Expensive at $499", "No radon or VOC sensor", "Requires wall power", "Overkill for casual users"],
+    "cons": ["Premium price at $330", "No radon or VOC sensor", "Requires wall power", "Overkill for casual users"],
     "rating": 4.6,
     "badge": "Best Professional Monitor"
   },
@@ -719,7 +719,7 @@
     "name": "Airthings 2930 Wave Plus",
     "brand": "Airthings",
     "category": "Air Quality Monitors",
-    "price": "$249.99",
+    "price": "$234.99",
     "image": "/images/products/uhoo-aura.webp",
     "specs": {
       "coverage": "Single room",
@@ -737,7 +737,7 @@
     "name": "Airthings 2960 View Plus",
     "brand": "Airthings",
     "category": "Air Quality Monitors",
-    "price": "$299.00",
+    "price": "$329.99",
     "image": "/images/products/purpleair-flex.webp",
     "specs": {
       "coverage": "Up to 3,000 sq. ft.",
@@ -755,7 +755,7 @@
     "name": "Aranet4 Home Indoor CO2 Monitor",
     "brand": "Aranet",
     "category": "Air Quality Monitors",
-    "price": "$249.00",
+    "price": "$189.00",
     "image": "/images/products/aranet4-home.webp",
     "specs": {
       "coverage": "Single room",
@@ -763,17 +763,17 @@
       "battery": "2+ years (AA batteries)",
       "connectivity": "Bluetooth"
     },
-    "amazonLink": "https://amazon.com/dp/B0BHT8DL5L?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B07YY7BH2W?tag=airqualitynest-20",
     "pros": ["NDIR sensor is gold standard for CO2 accuracy", "E-ink display visible from across room", "2+ year battery life on 2 AA batteries", "Traffic light color system for instant readability", "Widely used in schools and offices"],
-    "cons": ["CO2 only — no PM2.5 or VOC sensors", "Bluetooth only, no Wi-Fi", "High price for single-parameter monitor", "App is basic"],
+    "cons": ["CO2 only — no PM2.5 or VOC sensors", "Bluetooth only, no Wi-Fi", "Single-parameter CO2 monitor", "App is basic"],
     "rating": 4.7,
     "badge": "Best CO2 Monitor"
   },
   "dyson-ph04": {
-    "name": "Dyson Purifier Humidify+Cool PH04",
+    "name": "Dyson Purifier Humidify+Cool PH03",
     "brand": "Dyson",
     "category": "Humidifiers",
-    "price": "$819.99",
+    "price": "$949.99",
     "image": "/images/products/dyson-ph04.webp",
     "specs": {
       "coverage": "1,000 sq. ft. (purifier) / 750 sq. ft. (humidifier)",
@@ -781,11 +781,11 @@
       "runtime": "Up to 36 hours",
       "mistType": "Evaporative with UV-C sterilization"
     },
-    "amazonLink": "https://amazon.com/dp/B09LT5XBZS?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B0BRLBCT9G?tag=airqualitynest-20",
     "filterReplacementLink": "https://amazon.com/dp/B09LT5XFLT?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 12 months (HEPA), Deep clean cycle monthly",
     "pros": ["3-in-1: purifier, humidifier, and fan", "UV-C kills 99.9% of bacteria in water", "HEPA H13 sealed filtration", "Dyson Link app with full control", "Hygienic humidification — no white dust"],
-    "cons": ["Extremely expensive at $820", "Complex deep clean cycle required monthly", "Tank is small for a humidifier", "Humidifier output modest compared to dedicated units"],
+    "cons": ["Extremely expensive at $950", "Complex deep clean cycle required monthly", "Tank is small for a humidifier", "Humidifier output modest compared to dedicated units"],
     "rating": 4.3,
     "badge": "Best Combo Unit"
   },
@@ -801,17 +801,17 @@
       "runtime": "Up to 24 hours",
       "mistType": "Cool Mist (Ultrasonic)"
     },
-    "amazonLink": "https://amazon.com/dp/B07L9553WS?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B08FKYJHCF?tag=airqualitynest-20",
     "pros": ["Under $30 — best value humidifier available", "360-degree rotating nozzle", "Ultra-quiet operation", "Auto shut-off when empty", "Simple single-knob control"],
     "cons": ["No smart features", "May produce white dust without distilled water", "Small tank requires daily refills", "No humidity sensor or auto mode"],
     "rating": 4.3,
     "badge": "Best Under $30"
   },
   "aircare-ma1201": {
-    "name": "AIRCARE MA1201 Whole-House Evaporative Humidifier",
+    "name": "AIRCARE MA Whole-House Console Evaporative Humidifier",
     "brand": "AIRCARE",
     "category": "Humidifiers",
-    "price": "$189.99",
+    "price": "$139.99",
     "image": "/images/products/aircare-ma1201.webp",
     "specs": {
       "coverage": "3,600 sq. ft.",
@@ -819,7 +819,7 @@
       "runtime": "Up to 36 hours",
       "mistType": "Evaporative (no white dust)"
     },
-    "amazonLink": "https://amazon.com/dp/B002AQUJIE?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B002AQUK9S?tag=airqualitynest-20",
     "filterReplacementLink": "https://amazon.com/dp/B000H5SNMO?tag=airqualitynest-20",
     "filterReplacementCycle": "Every 1-2 months",
     "pros": ["Whole-house coverage at 3,600 sq. ft.", "3.6-gallon tank minimizes refills", "Evaporative system prevents over-humidification", "Digital humidistat for precise control", "No white dust"],
@@ -828,10 +828,10 @@
     "badge": "Best Whole-House"
   },
   "pure-enrichment-mistaire": {
-    "name": "Pure Enrichment MistAire Ultrasonic Humidifier",
+    "name": "Pure Enrichment MistAire Studio Ultrasonic Humidifier",
     "brand": "Pure Enrichment",
     "category": "Humidifiers",
-    "price": "$39.99",
+    "price": "$32.99",
     "image": "/images/products/pure-enrichment-mistaire.webp",
     "specs": {
       "coverage": "250 sq. ft.",
@@ -839,7 +839,7 @@
       "runtime": "Up to 25 hours",
       "mistType": "Cool Mist (Ultrasonic)"
     },
-    "amazonLink": "https://amazon.com/dp/B013IJPTFK?tag=airqualitynest-20",
+    "amazonLink": "https://amazon.com/dp/B01NAAH6EL?tag=airqualitynest-20",
     "pros": ["Best-selling bedroom humidifier on Amazon", "Optional night light with soft glow", "Whisper-quiet for sleep", "360-degree mist nozzle", "5-year warranty"],
     "cons": ["Small tank for large rooms", "No warm mist option", "May leave white dust residue", "No smart features or auto mode"],
     "rating": 4.3,
@@ -849,7 +849,7 @@
     "name": "Hey Dewy Portable Humidifier",
     "brand": "Hey Dewy",
     "category": "Humidifiers",
-    "price": "$39.00",
+    "price": "$59.95",
     "image": "/images/products/hey-dewy-humidifier.webp",
     "specs": {
       "coverage": "150 sq. ft.",
@@ -857,8 +857,8 @@
       "runtime": "Up to 8 hours",
       "mistType": "Cool Mist (Ultrasonic)"
     },
-    "amazonLink": "https://amazon.com/dp/B088F7KKG4?tag=airqualitynest-20",
-    "pros": ["Wireless and USB-C rechargeable", "Compact enough for desk, nightstand, or travel", "Subtle LED glow doubles as night light", "Celebrity-endorsed for skin hydration", "Under $40"],
+    "amazonLink": "https://amazon.com/dp/B0BKKVJ9W2?tag=airqualitynest-20",
+    "pros": ["Wireless and USB-C rechargeable", "Compact enough for desk, nightstand, or travel", "Subtle LED glow doubles as night light", "Celebrity-endorsed for skin hydration", "Self-care focused design"],
     "cons": ["Very small tank — 8 hours max", "Coverage limited to personal space", "No humidity sensor", "Not a whole-room solution"],
     "rating": 4.1,
     "badge": "Best Portable"
