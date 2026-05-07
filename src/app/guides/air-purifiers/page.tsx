@@ -142,10 +142,11 @@ export default function AirPurifierHubPage() {
               filter costs all matter.
             </p>
             <p className="text-lg text-slate-500 font-light leading-relaxed">
-              We have tested over 25 air purifiers in our 400 sq. ft. sealed
-              chamber with calibrated PM2.5 monitors. Below you will find every
-              guide, review, and buying recommendation we have published --
-              organized to help you find exactly what you need.
+              We have researched over 25 air purifiers, analyzing verified
+              customer reviews, AHAM-verified CADR ratings, and manufacturer
+              specifications. Below you will find every guide, review, and
+              buying recommendation we have published -- organized to help
+              you find exactly what you need.
             </p>
           </div>
         </div>
@@ -234,7 +235,7 @@ export default function AirPurifierHubPage() {
               In-Depth Reviews
             </h2>
             <p className="text-slate-500 font-light">
-              Hands-on testing with real performance data
+              Detailed analysis with real performance data
             </p>
           </div>
         </div>

@@ -88,7 +88,7 @@ export default function ReviewsPage() {
           <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">In-Depth</span>
         </div>
         <h1 className="text-[clamp(1.75rem,4vw,3rem)] font-serif font-bold tracking-tight text-primary mb-3 sm:mb-4">
-          Product Reviews
+          Air Quality Product Reviews
         </h1>
         <p className="text-base sm:text-lg text-slate-500 font-light leading-relaxed">
           In-depth reviews based on customer feedback and expert analysis.

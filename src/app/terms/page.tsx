@@ -60,10 +60,10 @@ export default function TermsPage() {
 
         <h2>Product Reviews and Testing</h2>
         <p>
-          Our product reviews reflect the honest opinions and testing results of
-          our team. Individual results may vary based on your specific environment,
-          usage patterns, and conditions. We purchase the majority of products we
-          review at retail price.
+          Our product reviews reflect the honest editorial opinions of our team,
+          based on extensive research of verified customer reviews and publicly
+          available specifications. Individual results may vary based on your
+          specific environment, usage patterns, and conditions.
         </p>
 
         <h2>Intellectual Property</h2>

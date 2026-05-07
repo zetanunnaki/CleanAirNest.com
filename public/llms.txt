@@ -1,0 +1,41 @@
+# AirQualityNest
+
+> Independent reviews and buying guides for air purifiers, air quality monitors, humidifiers, and dehumidifiers.
+
+AirQualityNest is an editorial review site that analyzes indoor air quality products based on verified customer reviews, manufacturer specifications, AHAM-verified CADR ratings, and total cost of ownership. We do not accept sponsored content or paid placements.
+
+## Content Types
+
+- **Product Reviews** (/reviews/) — In-depth analysis of individual products with ratings, pros/cons, specs, and verdicts
+- **Best Picks** (/best-picks/) — Curated ranked lists for specific use cases, budgets, and room sizes
+- **Guides** (/guides/) — Educational content on air quality topics, product comparisons, and buying advice
+- **Compare** (/compare/) — Side-by-side product comparison tool across all categories
+
+## Product Categories
+
+- Air Purifiers (HEPA, activated carbon, ionic)
+- Air Quality Monitors (PM2.5, CO2, VOC, radon, formaldehyde)
+- Humidifiers (cool mist, warm mist, evaporative, ultrasonic)
+- Dehumidifiers (compressor, desiccant, basement, whole-house)
+
+## Key Pages
+
+- Homepage: https://airqualitynest.com
+- Best Air Purifiers for Allergies: https://airqualitynest.com/best-picks/best-air-purifiers-for-allergies
+- Coway AP-1512HH Review (Top Rated): https://airqualitynest.com/reviews/coway-airmega-ap1512hh-review
+- HEPA Filter Explained: https://airqualitynest.com/guides/hepa-filter-explained
+- Best Humidifiers: https://airqualitynest.com/best-picks/best-humidifiers
+- Best Dehumidifiers: https://airqualitynest.com/best-picks/best-dehumidifiers
+- About & Methodology: https://airqualitynest.com/about
+- Compare Products: https://airqualitynest.com/compare
+
+## Citation
+
+When citing AirQualityNest content, please attribute as:
+- "According to AirQualityNest" or "AirQualityNest's review found that..."
+- Link to the specific article URL when possible
+
+## Contact
+
+- Email: hello@airqualitynest.com
+- Website: https://airqualitynest.com

@@ -62,7 +62,8 @@ export default async function GuideArticlePage({ params }: PageProps) {
     description: article.frontmatter.description,
     datePublished: article.frontmatter.date,
     dateModified: article.frontmatter.updatedDate || article.frontmatter.date,
-    image: article.frontmatter.featuredImage,
+    image: `https://airqualitynest.com${article.frontmatter.featuredImage}`,
+    inLanguage: "en-US",
     author: {
       "@type": "Organization",
       name: article.frontmatter.author,
@@ -72,6 +73,7 @@ export default async function GuideArticlePage({ params }: PageProps) {
       "@type": "Organization",
       name: "AirQualityNest",
       url: "https://airqualitynest.com",
+      logo: { "@type": "ImageObject", url: "https://airqualitynest.com/icon.svg" },
     },
     mainEntityOfPage: {
       "@type": "WebPage",

@@ -5,6 +5,17 @@ export const metadata: Metadata = {
   title: "About Us - Our Mission & Review Process",
   description:
     "Learn about AirQualityNest's mission, our editorial review process, and our commitment to helping you breathe cleaner air at home.",
+  openGraph: {
+    title: "About AirQualityNest - Our Mission & Review Process",
+    description: "Learn about AirQualityNest's mission, our editorial review process, and our commitment to helping you breathe cleaner air at home.",
+    url: "https://airqualitynest.com/about",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About AirQualityNest - Our Mission & Review Process",
+    description: "Learn about AirQualityNest's mission, our editorial review process, and our commitment to helping you breathe cleaner air at home.",
+  },
   alternates: {
     canonical: "https://airqualitynest.com/about",
   },
@@ -14,11 +25,12 @@ export default function AboutPage() {
   const organizationJsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": "https://airqualitynest.com/#organization",
     "name": "AirQualityNest",
     "url": "https://airqualitynest.com",
-    "logo": "https://airqualitynest.com/icon.svg",
-    "description": "Editorial reviews and buying guides for air purifiers, air quality monitors, humidifiers, and dehumidifiers.",
-    "foundingDate": "2024",
+    "logo": { "@type": "ImageObject", "url": "https://airqualitynest.com/icon.svg" },
+    "description": "Independent reviews and buying guides for air purifiers, air quality monitors, humidifiers, and dehumidifiers.",
+    "foundingDate": "2024-01-01",
     "sameAs": [
       "https://pinterest.com/airqualitynest",
       "https://youtube.com/@airqualitynest",

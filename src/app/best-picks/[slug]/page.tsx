@@ -63,7 +63,8 @@ export default async function BestPicksArticlePage({ params }: PageProps) {
     description: article.frontmatter.description,
     datePublished: article.frontmatter.date,
     dateModified: article.frontmatter.updatedDate || article.frontmatter.date,
-    image: article.frontmatter.featuredImage,
+    image: `https://airqualitynest.com${article.frontmatter.featuredImage}`,
+    inLanguage: "en-US",
     author: {
       "@type": "Organization",
       name: article.frontmatter.author,
@@ -111,7 +112,9 @@ export default async function BestPicksArticlePage({ params }: PageProps) {
             "@type": "Offer",
             priceCurrency: "USD",
             price: product.price.replace("$", "").replace(",", ""),
-            availability: "https://schema.org/InStock",
+            availability: product.availability === "temporarily-unavailable"
+              ? "https://schema.org/OutOfStock"
+              : "https://schema.org/InStock",
             url: product.amazonLink,
           },
         },

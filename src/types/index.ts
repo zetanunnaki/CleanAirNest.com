@@ -17,6 +17,7 @@ export interface Product {
   cons: string[];
   rating?: number;
   badge?: string;
+  availability?: string;
 }
 
 export interface ProductCatalog {

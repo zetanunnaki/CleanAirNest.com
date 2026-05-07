@@ -76,7 +76,8 @@ export default async function ReviewArticlePage({ params }: PageProps) {
     description: article.frontmatter.description,
     datePublished: article.frontmatter.date,
     dateModified: article.frontmatter.updatedDate || article.frontmatter.date,
-    image: article.frontmatter.featuredImage,
+    image: `https://airqualitynest.com${article.frontmatter.featuredImage}`,
+    inLanguage: "en-US",
     author: {
       "@type": "Organization",
       name: article.frontmatter.author,
@@ -86,6 +87,7 @@ export default async function ReviewArticlePage({ params }: PageProps) {
       "@type": "Organization",
       name: "AirQualityNest",
       url: "https://airqualitynest.com",
+      logo: { "@type": "ImageObject", url: "https://airqualitynest.com/icon.svg" },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
@@ -103,7 +105,7 @@ export default async function ReviewArticlePage({ params }: PageProps) {
         "@type": "Product",
         name: product.name,
         brand: { "@type": "Brand", name: product.brand },
-        image: product.image,
+        image: `https://airqualitynest.com${product.image}`,
         description: article.frontmatter.description,
         review: {
           "@type": "Review",
@@ -117,9 +119,11 @@ export default async function ReviewArticlePage({ params }: PageProps) {
         offers: {
           "@type": "AggregateOffer",
           priceCurrency: "USD",
-          lowPrice: product.price.replace("$", ""),
+          lowPrice: product.price.replace("$", "").replace(",", ""),
           offerCount: product.walmartLink ? 2 : 1,
-          availability: "https://schema.org/InStock",
+          availability: product.availability === "temporarily-unavailable"
+            ? "https://schema.org/OutOfStock"
+            : "https://schema.org/InStock",
         },
       }
     : null;

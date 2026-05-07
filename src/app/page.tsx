@@ -55,11 +55,12 @@ export default function HomePage() {
   const organizationJsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": "https://airqualitynest.com/#organization",
     "name": "AirQualityNest",
     "url": "https://airqualitynest.com",
-    "logo": "https://airqualitynest.com/icon.svg",
+    "logo": { "@type": "ImageObject", "url": "https://airqualitynest.com/icon.svg" },
     "description": "Independent reviews and buying guides for air purifiers, air quality monitors, humidifiers, and dehumidifiers.",
-    "foundingDate": "2024",
+    "foundingDate": "2024-01-01",
     "sameAs": [
       "https://pinterest.com/airqualitynest",
       "https://youtube.com/@airqualitynest",
@@ -77,16 +78,12 @@ export default function HomePage() {
       "@type": "Organization",
       "name": "AirQualityNest"
     },
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://airqualitynest.com/?q={search_term_string}",
-      "query-input": "required name=search_term_string"
-    }
+    "inLanguage": "en-US"
   };
 
   const heroProducts = [
     { id: "coway-airmega-ap1512hh", label: "Best Overall" },
-    { id: "blueair-blue-pure-211", label: "Best Large Room" },
+    { id: "coway-airmega-400", label: "Best Large Room" },
     { id: "winix-5500-2", label: "Best Value" },
   ];
 
@@ -331,7 +328,7 @@ export default function HomePage() {
         {/* Runners-up */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
           {[
-            { id: "blueair-blue-pure-211", badge: "Best Large Room", slug: "blueair-blue-pure-211-review" },
+            { id: "coway-airmega-400", badge: "Best Large Room", slug: "coway-airmega-400-review" },
             { id: "winix-5500-2", badge: "Best Value", slug: "winix-5500-2-review" },
           ].map(({ id, badge, slug }) => {
             const product = getProduct(id);

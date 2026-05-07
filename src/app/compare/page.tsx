@@ -7,6 +7,17 @@ export const metadata: Metadata = {
   title: "Compare Air Quality Products Side by Side",
   description:
     "Compare air purifiers, air quality monitors, humidifiers, and dehumidifiers side by side with specs, pricing, and expert ratings.",
+  openGraph: {
+    title: "Compare Air Quality Products Side by Side",
+    description: "Compare air purifiers, air quality monitors, humidifiers, and dehumidifiers side by side with specs, pricing, and expert ratings.",
+    url: "https://airqualitynest.com/compare",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Compare Air Quality Products Side by Side",
+    description: "Compare air purifiers, air quality monitors, humidifiers, and dehumidifiers side by side with specs, pricing, and expert ratings.",
+  },
   alternates: {
     canonical: "https://airqualitynest.com/compare",
   },
@@ -21,6 +32,22 @@ export default function ComparePage() {
     products: allProducts.filter((p) => p.category === cat),
   }));
 
+  const collectionJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Compare Air Quality Products",
+    "description": "Compare air purifiers, air quality monitors, humidifiers, and dehumidifiers side by side.",
+    "url": "https://airqualitynest.com/compare",
+    "mainEntity": {
+      "@type": "ItemList",
+      "itemListElement": allProducts.slice(0, 20).map((product, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "name": `${product.brand} ${product.name}`,
+      }))
+    }
+  };
+
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -32,6 +59,10 @@ export default function ComparePage() {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}

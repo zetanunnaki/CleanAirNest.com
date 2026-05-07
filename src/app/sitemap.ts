@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { getBestPicks, getReviews, getGuides } from "@/lib/articles";
 
+export const dynamic = "force-static";
+
 const BASE_URL = "https://airqualitynest.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
