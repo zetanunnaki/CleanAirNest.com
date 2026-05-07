@@ -48,6 +48,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date("2026-03-01"),
     },
     {
+      url: `${BASE_URL}/contact`,
+      lastModified: new Date("2026-05-07"),
+    },
+    {
+      url: `${BASE_URL}/disclosure`,
+      lastModified: new Date("2026-05-07"),
+    },
+    {
       url: `${BASE_URL}/privacy-policy`,
       lastModified: new Date("2025-01-15"),
     },

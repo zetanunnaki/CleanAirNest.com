@@ -57,7 +57,8 @@ export function Footer() {
             ]},
             { title: "Company", links: [
               { href: "/about", label: "About Us" },
-              { href: "/about#affiliate-disclosure", label: "Disclosure" },
+              { href: "/disclosure", label: "Disclosure" },
+              { href: "/contact", label: "Contact" },
             ]},
             { title: "Categories", links: [
               { href: "/best-picks/best-air-purifiers-for-allergies", label: "Air Purifiers" },
@@ -99,7 +100,7 @@ export function Footer() {
             <div className="flex items-center gap-5 text-xs font-light">
               <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy</Link>
               <Link href="/terms" className="hover:text-white transition-colors">Terms</Link>
-              <Link href="/about#affiliate-disclosure" className="hover:text-white transition-colors">Affiliate Disclosure</Link>
+              <Link href="/disclosure" className="hover:text-white transition-colors">Affiliate Disclosure</Link>
             </div>
           </div>
         </div>
